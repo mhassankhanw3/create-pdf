@@ -1,0 +1,4725 @@
+{
+  "domain": {
+    "site_url": "nordvpn.com",
+    "company_name": "NordVPN",
+    "site_description": "online vpn service that encrypts your internet traffic and hides your ip with physical",
+    "location_company" : "location. upgrade your privacy and security now.",
+    "global_rank": {
+      "rank": 5219
+    },
+    "country_rank": {
+      "rank": 3455,
+      "country": "United States"
+    },
+    "category_rank": {
+      "rank": 110,
+      "category": "computers_electronics_and_technology/computers_electronics_and_technology"
+    },
+    "headquarters": {
+      "country": "United Kingdom",
+      "state": null,
+      "city": "London"
+    },
+    "revenue": {
+      "revenue_min": 15000000,
+      "revenue_max": 25000000
+    },
+    "employees": {
+      "employees_min": 51,
+      "employees_max": 200
+    },
+    "audience": {
+      "visits": 14883973,
+      "time_on_site_avg": "00:01:46",
+      "page_views_avg": 2.062002364076052,
+      "bounce_rate": 57.07,
+      "top_categories": [
+        {
+          "title": "Other Computers Electronics and Technology",
+          "category_id": "computers_electronics_and_technology/computers_electronics_and_technology"
+        },
+        {
+          "title": "Video Games Consoles and Accessories",
+          "category_id": "games/video_games_consoles_and_accessories"
+        },
+        {
+          "title": "Adult",
+          "category_id": "adult"
+        },
+        {
+          "title": "Programming and Developer Software",
+          "category_id": "computers_electronics_and_technology/programming_and_developer_software"
+        },
+        {
+          "title": "TV Movies and Streaming",
+          "category_id": "arts_and_entertainment/tv_movies_and_streaming"
+        }
+      ],
+      "other_visited_websites": [
+        "my.nordaccount.com",
+        "expressvpn.com",
+        "nordaccount.com",
+        "surfshark.com",
+        "nordcheckout.com"
+      ],
+      "top_topics": ["news", "software", "shopping", "games", "online"]
+    },
+    "traffic": {
+      "value": 14883973,
+      "percent": 100,
+      "countries": [
+        {
+          "country": "other",
+          "value": 7174074,
+          "percent": 48.2
+        },
+        {
+          "country": "United States",
+          "value": 4450696,
+          "percent": 29.9
+        },
+        {
+          "country": "United Kingdom",
+          "value": 1043675,
+          "percent": 7.01
+        },
+        {
+          "country": "Germany",
+          "value": 811585,
+          "percent": 5.45
+        },
+        {
+          "country": "Canada",
+          "value": 717523,
+          "percent": 4.82
+        },
+        {
+          "country": "France",
+          "value": 687178,
+          "percent": 4.62
+        }
+      ],
+      "sources": {
+        "direct": {
+          "value": 5678082,
+          "percent": 38.15
+        },
+        "search_organic": {
+          "value": 5658394,
+          "percent": 38.02,
+          "top_keywords": [
+            {
+              "keyword": "nordvpn",
+              "value": 0,
+              "percent": 0
+            },
+            {
+              "keyword": "nord vpn",
+              "value": 0,
+              "percent": 0
+            },
+            {
+              "keyword": "vpn",
+              "value": 0,
+              "percent": 0
+            },
+            {
+              "keyword": "nordvpn download",
+              "value": 0,
+              "percent": 0
+            },
+            {
+              "keyword": "ip",
+              "value": 0,
+              "percent": 0
+            }
+          ]
+        },
+        "search_ad": {
+          "value": 776753,
+          "percent": 5.22,
+          "top_keywords": null
+        },
+        "referring": {
+          "value": 479397,
+          "percent": 3.22,
+          "top_referring": [
+            {
+              "site": "",
+              "value": 91564,
+              "percent": 19.1,
+              "percentage_change": 0
+            },
+            {
+              "site": "",
+              "value": 59708,
+              "percent": 12.45,
+              "percentage_change": 0
+            },
+            {
+              "site": "",
+              "value": 40214,
+              "percent": 8.39,
+              "percentage_change": 0
+            },
+            {
+              "site": "ustvgo.tv",
+              "value": 30335,
+              "percent": 6.33,
+              "percentage_change": 0
+            },
+            {
+              "site": "utorrent.com",
+              "value": 20715,
+              "percent": 4.32,
+              "percentage_change": 0
+            },
+            {
+              "site": "burning-series.io",
+              "value": 19164,
+              "percent": 4,
+              "percentage_change": 0
+            }
+          ]
+        },
+        "referral_destination": {
+          "top_destinations": null
+        },
+        "social": {
+          "value": 552795,
+          "percent": 3.71,
+          "top_socials": [
+            {
+              "site": "Youtube",
+              "value": 485456,
+              "percent": 87.82
+            },
+            {
+              "site": "Reddit",
+              "value": 29723,
+              "percent": 5.38
+            },
+            {
+              "site": "Facebook",
+              "value": 14801,
+              "percent": 2.68
+            },
+            {
+              "site": "Twitter",
+              "value": 10358,
+              "percent": 1.87
+            },
+            {
+              "site": "WhatsApp Webapp",
+              "value": 3869,
+              "percent": 0.7
+            }
+          ]
+        },
+        "display_ad": {
+          "value": 1692193,
+          "percent": 11.37,
+          "top_publishers": null,
+          "top_ad_networks": [
+            {
+              "site": "",
+              "value": 370556,
+              "percent": 21.9
+            },
+            {
+              "site": "",
+              "value": 202778,
+              "percent": 11.98
+            },
+            {
+              "site": "bestsevenreviews.com",
+              "value": 101913,
+              "percent": 6.02
+            },
+            {
+              "site": "jumpjumpsugar.com",
+              "value": 101686,
+              "percent": 6.01
+            },
+            {
+              "site": "guru99.com",
+              "value": 95874,
+              "percent": 5.67
+            }
+          ]
+        },
+        "mobile_apps": {
+          "google_play_store": null,
+          "app_store": null
+        },
+        "mail": {
+          "value": 46355,
+          "percent": 0.31
+        }
+      },
+      "estimated": [
+        {
+          "date": "2022-08-01",
+          "value": 13491899
+        },
+        {
+          "date": "2022-09-01",
+          "value": 14100947
+        },
+        {
+          "date": "2022-10-01",
+          "value": 14883973
+        }
+      ]
+    },
+    "sites": {
+      "similar_sites": [
+        {
+          "site": "nordaccount.com",
+          "rank": 157
+        },
+        {
+          "site": "expressvpn.com",
+          "rank": 221
+        },
+        {
+          "site": "whatismyipaddress.com",
+          "rank": 311
+        },
+        {
+          "site": "protonvpn.com",
+          "rank": 358
+        },
+        {
+          "site": "surfshark.com",
+          "rank": 387
+        },
+        {
+          "site": "cyberghostvpn.com",
+          "rank": 654
+        },
+        {
+          "site": "nordcheckout.com",
+          "rank": 799
+        },
+        {
+          "site": "privateinternetaccess.com",
+          "rank": 985
+        },
+        {
+          "site": "vpnmentor.com",
+          "rank": 1006
+        },
+        {
+          "site": "top10vpn.com",
+          "rank": 2113
+        }
+      ],
+      "similar_sites_by_rank": null
+    },
+    "date": "2022-10-01",
+    "keywords_count": 505
+  },
+  "keywords": [
+    {
+      "_id": "63897e32b50235aeb15bc6f8",
+      "keyword": "best vpn",
+      "competition": "MEDIUM",
+      "competition_index": 64,
+      "high_top_of_page_bid": 16,
+      "low_top_of_page_bid": 5.43
+    },
+    {
+      "_id": "63897e32b50235aeb15bc6f9",
+      "keyword": "best free vpn",
+      "competition": "MEDIUM",
+      "competition_index": 38,
+      "high_top_of_page_bid": 4.59,
+      "low_top_of_page_bid": 0.85
+    },
+    {
+      "_id": "63897e32b50235aeb15bc6fa",
+      "keyword": "best vpn for android",
+      "competition": "MEDIUM",
+      "competition_index": 40,
+      "high_top_of_page_bid": 9.3,
+      "low_top_of_page_bid": 1.72
+    },
+    {
+      "_id": "63897e32b50235aeb15bc6fb",
+      "keyword": "best vpn 2021",
+      "competition": "LOW",
+      "competition_index": 7,
+      "high_top_of_page_bid": 8.98,
+      "low_top_of_page_bid": 2.29
+    },
+    {
+      "_id": "63897e32b50235aeb15bc6fc",
+      "keyword": "best free vpn for android",
+      "competition": "LOW",
+      "competition_index": 31,
+      "high_top_of_page_bid": 3.06,
+      "low_top_of_page_bid": 0.61
+    },
+    {
+      "_id": "63897e32b50235aeb15bc6fe",
+      "keyword": "free vpns",
+      "competition": "MEDIUM",
+      "competition_index": 47,
+      "high_top_of_page_bid": 6.45,
+      "low_top_of_page_bid": 1.34
+    },
+    {
+      "_id": "63897e32b50235aeb15bc708",
+      "keyword": "best vpn 2020",
+      "competition": "LOW",
+      "competition_index": 19,
+      "high_top_of_page_bid": 12.84,
+      "low_top_of_page_bid": 4.89
+    },
+    {
+      "_id": "63897e32b50235aeb15bc70b",
+      "keyword": "best vpn app",
+      "competition": "MEDIUM",
+      "competition_index": 37,
+      "high_top_of_page_bid": 7.95,
+      "low_top_of_page_bid": 1.8
+    },
+    {
+      "_id": "63897e33b50235aeb15bc70c",
+      "keyword": "best vpn service",
+      "competition": "HIGH",
+      "competition_index": 69,
+      "high_top_of_page_bid": 16.91,
+      "low_top_of_page_bid": 6.84
+    },
+    {
+      "_id": "63897e33b50235aeb15bc71b",
+      "keyword": "best vpn service of 2021",
+      "competition": "LOW",
+      "competition_index": 1,
+      "high_top_of_page_bid": 12.27,
+      "low_top_of_page_bid": 2.4
+    },
+    {
+      "_id": "63897e33b50235aeb15bc71d",
+      "keyword": "good vpn",
+      "competition": "MEDIUM",
+      "competition_index": 47,
+      "high_top_of_page_bid": 15.55,
+      "low_top_of_page_bid": 3.41
+    },
+    {
+      "_id": "63897e33b50235aeb15bc71e",
+      "keyword": "good free vpn",
+      "competition": "LOW",
+      "competition_index": 32,
+      "high_top_of_page_bid": 3.23,
+      "low_top_of_page_bid": 0.77
+    },
+    {
+      "_id": "63897e33b50235aeb15bc725",
+      "keyword": "best vpn for streaming",
+      "competition": "MEDIUM",
+      "competition_index": 43,
+      "high_top_of_page_bid": 14.77,
+      "low_top_of_page_bid": 4.03
+    },
+    {
+      "_id": "63897e33b50235aeb15bc726",
+      "keyword": "free vpn service",
+      "competition": "LOW",
+      "competition_index": 31,
+      "high_top_of_page_bid": 6.17,
+      "low_top_of_page_bid": 1.36
+    },
+    {
+      "_id": "63897e33b50235aeb15bc72a",
+      "keyword": "best vpn app for android",
+      "competition": "LOW",
+      "competition_index": 26,
+      "high_top_of_page_bid": 8.05,
+      "low_top_of_page_bid": 1.31
+    },
+    {
+      "_id": "63897e33b50235aeb15bc72c",
+      "keyword": "free vpn uk",
+      "competition": "MEDIUM",
+      "competition_index": 43,
+      "high_top_of_page_bid": 7.65,
+      "low_top_of_page_bid": 1.92
+    },
+    {
+      "_id": "63897e33b50235aeb15bc735",
+      "keyword": "best free vpn app for android",
+      "competition": "LOW",
+      "competition_index": 23,
+      "high_top_of_page_bid": 3.13,
+      "low_top_of_page_bid": 0.62
+    },
+    {
+      "_id": "63897e33b50235aeb15bc738",
+      "keyword": "best paid vpn",
+      "competition": "MEDIUM",
+      "competition_index": 57,
+      "high_top_of_page_bid": 14.14,
+      "low_top_of_page_bid": 2.98
+    },
+    {
+      "_id": "63897e33b50235aeb15bc73f",
+      "keyword": "best free vpn app",
+      "competition": "LOW",
+      "competition_index": 29,
+      "high_top_of_page_bid": 2.97,
+      "low_top_of_page_bid": 0.52
+    },
+    {
+      "_id": "63897e33b50235aeb15bc740",
+      "keyword": "best free unlimited vpn for android",
+      "competition": "LOW",
+      "competition_index": 30,
+      "high_top_of_page_bid": 2.44,
+      "low_top_of_page_bid": 0.63
+    },
+    {
+      "_id": "63897e33b50235aeb15bc741",
+      "keyword": "paid vpn",
+      "competition": "MEDIUM",
+      "competition_index": 59,
+      "high_top_of_page_bid": 14.65,
+      "low_top_of_page_bid": 3.17
+    },
+    {
+      "_id": "63897e33b50235aeb15bc745",
+      "keyword": "vpn for streaming",
+      "competition": "MEDIUM",
+      "competition_index": 36,
+      "high_top_of_page_bid": 13.12,
+      "low_top_of_page_bid": 3.28
+    },
+    {
+      "_id": "63897e33b50235aeb15bc747",
+      "keyword": "safest vpn",
+      "competition": "HIGH",
+      "competition_index": 88,
+      "high_top_of_page_bid": 14.08,
+      "low_top_of_page_bid": 3.1
+    },
+    {
+      "_id": "63897e33b50235aeb15bc749",
+      "keyword": "best vpn to use",
+      "competition": "MEDIUM",
+      "competition_index": 45,
+      "high_top_of_page_bid": 15,
+      "low_top_of_page_bid": 4.19
+    },
+    {
+      "_id": "63897e33b50235aeb15bc74b",
+      "keyword": "best free vpn 2021",
+      "competition": "LOW",
+      "competition_index": 10,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63897e33b50235aeb15bc74d",
+      "keyword": "the best vpn for android",
+      "competition": "MEDIUM",
+      "competition_index": 38,
+      "high_top_of_page_bid": 6.25,
+      "low_top_of_page_bid": 0.82
+    },
+    {
+      "_id": "63897e33b50235aeb15bc752",
+      "keyword": "free vpn app for android",
+      "competition": "MEDIUM",
+      "competition_index": 36,
+      "high_top_of_page_bid": 3.58,
+      "low_top_of_page_bid": 0.67
+    },
+    {
+      "_id": "63897e33b50235aeb15bc758",
+      "keyword": "best free vpn for android 2020",
+      "competition": "LOW",
+      "competition_index": 0,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63897e33b50235aeb15bc75a",
+      "keyword": "best vpn providers",
+      "competition": "MEDIUM",
+      "competition_index": 46,
+      "high_top_of_page_bid": 15,
+      "low_top_of_page_bid": 5.64
+    },
+    {
+      "_id": "63897e33b50235aeb15bc75c",
+      "keyword": "best vpn server",
+      "competition": "MEDIUM",
+      "competition_index": 63,
+      "high_top_of_page_bid": 12.83,
+      "low_top_of_page_bid": 2.52
+    },
+    {
+      "_id": "63897e33b50235aeb15bc75d",
+      "keyword": "nordvpn best server",
+      "competition": "LOW",
+      "competition_index": 3,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63897e33b50235aeb15bc769",
+      "keyword": "nordvpn good",
+      "competition": "LOW",
+      "competition_index": 24,
+      "high_top_of_page_bid": 3.2,
+      "low_top_of_page_bid": 1.81
+    },
+    {
+      "_id": "63897e33b50235aeb15bc76c",
+      "keyword": "best vpn browser",
+      "competition": "LOW",
+      "competition_index": 20,
+      "high_top_of_page_bid": 7.13,
+      "low_top_of_page_bid": 1.39
+    },
+    {
+      "_id": "63897e33b50235aeb15bc772",
+      "keyword": "good vpn for android",
+      "competition": "MEDIUM",
+      "competition_index": 34,
+      "high_top_of_page_bid": 9.3,
+      "low_top_of_page_bid": 1.46
+    },
+    {
+      "_id": "63897e33b50235aeb15bc77a",
+      "keyword": "best vpn service 2021",
+      "competition": "LOW",
+      "competition_index": 0,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63897e33b50235aeb15bc77b",
+      "keyword": "best free vpn for computer",
+      "competition": "MEDIUM",
+      "competition_index": 47,
+      "high_top_of_page_bid": 3.53,
+      "low_top_of_page_bid": 0.7
+    },
+    {
+      "_id": "63897e33b50235aeb15bc781",
+      "keyword": "free vpn 2021",
+      "competition": "LOW",
+      "competition_index": 6,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63897e33b50235aeb15bc786",
+      "keyword": "the best free vpn for android",
+      "competition": "LOW",
+      "competition_index": 32,
+      "high_top_of_page_bid": 2.15,
+      "low_top_of_page_bid": 0.49
+    },
+    {
+      "_id": "63897e33b50235aeb15bc78d",
+      "keyword": "best vpn for privacy",
+      "competition": "MEDIUM",
+      "competition_index": 45,
+      "high_top_of_page_bid": 13.78,
+      "low_top_of_page_bid": 3.66
+    },
+    {
+      "_id": "63897e33b50235aeb15bc792",
+      "keyword": "get free vpn",
+      "competition": "MEDIUM",
+      "competition_index": 47,
+      "high_top_of_page_bid": 12.97,
+      "low_top_of_page_bid": 2.54
+    },
+    {
+      "_id": "63897e33b50235aeb15bc793",
+      "keyword": "best phone vpn",
+      "competition": "MEDIUM",
+      "competition_index": 42,
+      "high_top_of_page_bid": 14.58,
+      "low_top_of_page_bid": 3.93
+    },
+    {
+      "_id": "63897e33b50235aeb15bc798",
+      "keyword": "2021 vpn",
+      "competition": "LOW",
+      "competition_index": 27,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63897e33b50235aeb15bc79c",
+      "keyword": "best free unlimited vpn",
+      "competition": "LOW",
+      "competition_index": 10,
+      "high_top_of_page_bid": 3.1,
+      "low_top_of_page_bid": 0.9
+    },
+    {
+      "_id": "63897e33b50235aeb15bc79d",
+      "keyword": "best free vpn for free",
+      "competition": "MEDIUM",
+      "competition_index": 43,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63897e33b50235aeb15bc7a0",
+      "keyword": "best secure vpn",
+      "competition": "MEDIUM",
+      "competition_index": 61,
+      "high_top_of_page_bid": 13.86,
+      "low_top_of_page_bid": 3.11
+    },
+    {
+      "_id": "63897e33b50235aeb15bc7ab",
+      "keyword": "best paid vpn for android",
+      "competition": "MEDIUM",
+      "competition_index": 43,
+      "high_top_of_page_bid": 8.07,
+      "low_top_of_page_bid": 1.98
+    },
+    {
+      "_id": "63897e33b50235aeb15bc7ac",
+      "keyword": "free vpn for streaming",
+      "competition": "MEDIUM",
+      "competition_index": 42,
+      "high_top_of_page_bid": 7.62,
+      "low_top_of_page_bid": 1.49
+    },
+    {
+      "_id": "63897e33b50235aeb15bc7bd",
+      "keyword": "best free vpn service",
+      "competition": "LOW",
+      "competition_index": 18,
+      "high_top_of_page_bid": 7.86,
+      "low_top_of_page_bid": 1.4
+    },
+    {
+      "_id": "63897e33b50235aeb15bc7bf",
+      "keyword": "best vpn browser for android",
+      "competition": "MEDIUM",
+      "competition_index": 41,
+      "high_top_of_page_bid": 4.37,
+      "low_top_of_page_bid": 1.07
+    },
+    {
+      "_id": "63897e33b50235aeb15bc7c0",
+      "keyword": "the best vpn service",
+      "competition": "HIGH",
+      "competition_index": 87,
+      "high_top_of_page_bid": 17.64,
+      "low_top_of_page_bid": 5.33
+    },
+    {
+      "_id": "63897e33b50235aeb15bc7c1",
+      "keyword": "best private vpn",
+      "competition": "MEDIUM",
+      "competition_index": 53,
+      "high_top_of_page_bid": 14.27,
+      "low_top_of_page_bid": 4.44
+    },
+    {
+      "_id": "63897e33b50235aeb15bc7c6",
+      "keyword": "best free vpn uk",
+      "competition": "LOW",
+      "competition_index": 30,
+      "high_top_of_page_bid": 7.69,
+      "low_top_of_page_bid": 1.6
+    },
+    {
+      "_id": "63897e33b50235aeb15bc7cc",
+      "keyword": "free vpns that work",
+      "competition": "MEDIUM",
+      "competition_index": 37,
+      "high_top_of_page_bid": 4.2,
+      "low_top_of_page_bid": 1.03
+    },
+    {
+      "_id": "63897e33b50235aeb15bc7cd",
+      "keyword": "best rated vpn",
+      "competition": "HIGH",
+      "competition_index": 72,
+      "high_top_of_page_bid": 13.31,
+      "low_top_of_page_bid": 4.3
+    },
+    {
+      "_id": "63897e33b50235aeb15bc7ce",
+      "keyword": "nordvpn recommended server",
+      "competition": "LOW",
+      "competition_index": 0,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63897e33b50235aeb15bc7d2",
+      "keyword": "the best vpn app",
+      "competition": "LOW",
+      "competition_index": 25,
+      "high_top_of_page_bid": 8.89,
+      "low_top_of_page_bid": 1.15
+    },
+    {
+      "_id": "63897e33b50235aeb15bc7db",
+      "keyword": "best online vpn",
+      "competition": "MEDIUM",
+      "competition_index": 50,
+      "high_top_of_page_bid": 15.27,
+      "low_top_of_page_bid": 3.84
+    },
+    {
+      "_id": "63897e33b50235aeb15bc7e0",
+      "keyword": "best home vpn",
+      "competition": "HIGH",
+      "competition_index": 95,
+      "high_top_of_page_bid": 14.35,
+      "low_top_of_page_bid": 3.83
+    },
+    {
+      "_id": "63897e33b50235aeb15bc7e3",
+      "keyword": "best vpn for android 2021",
+      "competition": "LOW",
+      "competition_index": 0,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63897e33b50235aeb15bc7e6",
+      "keyword": "vpn service of 2021",
+      "competition": "LOW",
+      "competition_index": 0,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63897e33b50235aeb15bc7eb",
+      "keyword": "best free vpn 2020",
+      "competition": "LOW",
+      "competition_index": 0,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63897e33b50235aeb15bc7ec",
+      "keyword": "best fast vpn",
+      "competition": "MEDIUM",
+      "competition_index": 39,
+      "high_top_of_page_bid": 13.56,
+      "low_top_of_page_bid": 0.95
+    },
+    {
+      "_id": "63897e33b50235aeb15bc7f0",
+      "keyword": "best personal vpn",
+      "competition": "MEDIUM",
+      "competition_index": 63,
+      "high_top_of_page_bid": 12.9,
+      "low_top_of_page_bid": 4.09
+    },
+    {
+      "_id": "63897e33b50235aeb15bc7f2",
+      "keyword": "best premium vpn",
+      "competition": "MEDIUM",
+      "competition_index": 64,
+      "high_top_of_page_bid": 11.19,
+      "low_top_of_page_bid": 2.31
+    },
+    {
+      "_id": "63897e33b50235aeb15bc7fd",
+      "keyword": "best vpn sites",
+      "competition": "MEDIUM",
+      "competition_index": 49,
+      "high_top_of_page_bid": 14.77,
+      "low_top_of_page_bid": 3.75
+    },
+    {
+      "_id": "63897e33b50235aeb15bc80c",
+      "keyword": "best vpn service 2020",
+      "competition": "LOW",
+      "competition_index": 12,
+      "high_top_of_page_bid": 16,
+      "low_top_of_page_bid": 7.57
+    },
+    {
+      "_id": "63897e33b50235aeb15bc80e",
+      "keyword": "vpn best 2021",
+      "competition": "LOW",
+      "competition_index": 0,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63897e33b50235aeb15bc825",
+      "keyword": "free vpn provider",
+      "competition": "LOW",
+      "competition_index": 23,
+      "high_top_of_page_bid": 6.21,
+      "low_top_of_page_bid": 1.56
+    },
+    {
+      "_id": "63897e33b50235aeb15bc828",
+      "keyword": "good free vpn for android",
+      "competition": "MEDIUM",
+      "competition_index": 38,
+      "high_top_of_page_bid": 3.5,
+      "low_top_of_page_bid": 0.57
+    },
+    {
+      "_id": "63897e33b50235aeb15bc82a",
+      "keyword": "best free vpn for streaming",
+      "competition": "MEDIUM",
+      "competition_index": 44,
+      "high_top_of_page_bid": 6.87,
+      "low_top_of_page_bid": 1.05
+    },
+    {
+      "_id": "63897e33b50235aeb15bc82d",
+      "keyword": "best vpn for computer",
+      "competition": "HIGH",
+      "competition_index": 94,
+      "high_top_of_page_bid": 15,
+      "low_top_of_page_bid": 2.98
+    },
+    {
+      "_id": "63897e33b50235aeb15bc834",
+      "keyword": "best no log vpn",
+      "competition": "MEDIUM",
+      "competition_index": 35,
+      "high_top_of_page_bid": 11.69,
+      "low_top_of_page_bid": 3.64
+    },
+    {
+      "_id": "63897e33b50235aeb15bc838",
+      "keyword": "free vpn unlimited data",
+      "competition": "LOW",
+      "competition_index": 23,
+      "high_top_of_page_bid": 3.04,
+      "low_top_of_page_bid": 0.86
+    },
+    {
+      "_id": "63897e33b50235aeb15bc8a4",
+      "keyword": "best vpn for",
+      "competition": "MEDIUM",
+      "competition_index": 41,
+      "high_top_of_page_bid": 15,
+      "low_top_of_page_bid": 2.98
+    },
+    {
+      "_id": "63897e33b50235aeb15bc8b6",
+      "keyword": "best vpn server address",
+      "competition": "LOW",
+      "competition_index": 32,
+      "high_top_of_page_bid": 3.47,
+      "low_top_of_page_bid": 0.98
+    },
+    {
+      "_id": "63898160b50235aeb15bdc4a",
+      "keyword": "best free vpn for android 2021",
+      "competition": "LOW",
+      "competition_index": 32,
+      "high_top_of_page_bid": 2.38,
+      "low_top_of_page_bid": 0.88
+    },
+    {
+      "_id": "63898160b50235aeb15bdc4e",
+      "keyword": "good vpn apps",
+      "competition": "LOW",
+      "competition_index": 24,
+      "high_top_of_page_bid": 5.1,
+      "low_top_of_page_bid": 1.03
+    },
+    {
+      "_id": "63898160b50235aeb15bdc4f",
+      "keyword": "vpn apps 2021",
+      "competition": "LOW",
+      "competition_index": 29,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898160b50235aeb15bdc51",
+      "keyword": "vpn recommendation",
+      "competition": "MEDIUM",
+      "competition_index": 45,
+      "high_top_of_page_bid": 14,
+      "low_top_of_page_bid": 4.48
+    },
+    {
+      "_id": "638985a9b50235aeb15bf133",
+      "keyword": "vpn",
+      "competition": "MEDIUM",
+      "competition_index": 54,
+      "high_top_of_page_bid": 13.41,
+      "low_top_of_page_bid": 1.51
+    },
+    {
+      "_id": "638985a9b50235aeb15bf134",
+      "keyword": "nordvpn",
+      "competition": "LOW",
+      "competition_index": 28,
+      "high_top_of_page_bid": 4.57,
+      "low_top_of_page_bid": 1.48
+    },
+    {
+      "_id": "638985a9b50235aeb15bf145",
+      "keyword": "vpn app",
+      "competition": "LOW",
+      "competition_index": 31,
+      "high_top_of_page_bid": 6.36,
+      "low_top_of_page_bid": 0.97
+    },
+    {
+      "_id": "638985a9b50235aeb15bf15d",
+      "keyword": "secure vpn",
+      "competition": "LOW",
+      "competition_index": 32,
+      "high_top_of_page_bid": 8.06,
+      "low_top_of_page_bid": 0.91
+    },
+    {
+      "_id": "638985a9b50235aeb15bf161",
+      "keyword": "browser vpn",
+      "competition": "LOW",
+      "competition_index": 28,
+      "high_top_of_page_bid": 2.8,
+      "low_top_of_page_bid": 0.93
+    },
+    {
+      "_id": "638985a9b50235aeb15bf174",
+      "keyword": "fast vpn",
+      "competition": "LOW",
+      "competition_index": 20,
+      "high_top_of_page_bid": 7.37,
+      "low_top_of_page_bid": 0.82
+    },
+    {
+      "_id": "638985a9b50235aeb15bf17b",
+      "keyword": "vpn unlimited",
+      "competition": "LOW",
+      "competition_index": 27,
+      "high_top_of_page_bid": 6.3,
+      "low_top_of_page_bid": 0.45
+    },
+    {
+      "_id": "638985a9b50235aeb15bf17c",
+      "keyword": "vpn free online",
+      "competition": "MEDIUM",
+      "competition_index": 34,
+      "high_top_of_page_bid": 3.6,
+      "low_top_of_page_bid": 0.99
+    },
+    {
+      "_id": "638985a9b50235aeb15bf181",
+      "keyword": "google vpn",
+      "competition": "LOW",
+      "competition_index": 26,
+      "high_top_of_page_bid": 9.33,
+      "low_top_of_page_bid": 1.61
+    },
+    {
+      "_id": "638985a9b50235aeb15bf184",
+      "keyword": "free vpn for android",
+      "competition": "MEDIUM",
+      "competition_index": 36,
+      "high_top_of_page_bid": 4.29,
+      "low_top_of_page_bid": 0.75
+    },
+    {
+      "_id": "638985a9b50235aeb15bf196",
+      "keyword": "vpn service",
+      "competition": "HIGH",
+      "competition_index": 68,
+      "high_top_of_page_bid": 20.45,
+      "low_top_of_page_bid": 5.79
+    },
+    {
+      "_id": "638985a9b50235aeb15bf19c",
+      "keyword": "private vpn",
+      "competition": "LOW",
+      "competition_index": 21,
+      "high_top_of_page_bid": 6.16,
+      "low_top_of_page_bid": 0.9
+    },
+    {
+      "_id": "638985a9b50235aeb15bf1aa",
+      "keyword": "virtual private network",
+      "competition": "MEDIUM",
+      "competition_index": 34,
+      "high_top_of_page_bid": 11.62,
+      "low_top_of_page_bid": 2.57
+    },
+    {
+      "_id": "638985a9b50235aeb15bf1ab",
+      "keyword": "vpn server",
+      "competition": "MEDIUM",
+      "competition_index": 65,
+      "high_top_of_page_bid": 11.78,
+      "low_top_of_page_bid": 1.49
+    },
+    {
+      "_id": "638985a9b50235aeb15bf1b9",
+      "keyword": "vpn web",
+      "competition": "LOW",
+      "competition_index": 17,
+      "high_top_of_page_bid": 4.56,
+      "low_top_of_page_bid": 0.97
+    },
+    {
+      "_id": "638985a9b50235aeb15bf1bc",
+      "keyword": "vpn nord",
+      "competition": "LOW",
+      "competition_index": 33,
+      "high_top_of_page_bid": 5,
+      "low_top_of_page_bid": 1.72
+    },
+    {
+      "_id": "638985a9b50235aeb15bf1c4",
+      "keyword": "ssl vpn",
+      "competition": "LOW",
+      "competition_index": 9,
+      "high_top_of_page_bid": 16.87,
+      "low_top_of_page_bid": 3.73
+    },
+    {
+      "_id": "638985a9b50235aeb15bf1c8",
+      "keyword": "vpn android",
+      "competition": "MEDIUM",
+      "competition_index": 41,
+      "high_top_of_page_bid": 4.66,
+      "low_top_of_page_bid": 0.78
+    },
+    {
+      "_id": "638985a9b50235aeb15bf1d2",
+      "keyword": "vpn pro",
+      "competition": "LOW",
+      "competition_index": 15,
+      "high_top_of_page_bid": 4.47,
+      "low_top_of_page_bid": 0.87
+    },
+    {
+      "_id": "638985a9b50235aeb15bf1d8",
+      "keyword": "nord vpn free",
+      "competition": "MEDIUM",
+      "competition_index": 37,
+      "high_top_of_page_bid": 3.63,
+      "low_top_of_page_bid": 0.66
+    },
+    {
+      "_id": "638985a9b50235aeb15bf1ff",
+      "keyword": "nordvpn price",
+      "competition": "MEDIUM",
+      "competition_index": 51,
+      "high_top_of_page_bid": 2.37,
+      "low_top_of_page_bid": 0.71
+    },
+    {
+      "_id": "638985a9b50235aeb15bf201",
+      "keyword": "india vpn",
+      "competition": "MEDIUM",
+      "competition_index": 42,
+      "high_top_of_page_bid": 9.9,
+      "low_top_of_page_bid": 2.17
+    },
+    {
+      "_id": "638985a9b50235aeb15bf202",
+      "keyword": "private internet access vpn",
+      "competition": "LOW",
+      "competition_index": 31,
+      "high_top_of_page_bid": 6.74,
+      "low_top_of_page_bid": 1.78
+    },
+    {
+      "_id": "638985a9b50235aeb15bf20d",
+      "keyword": "site to site vpn",
+      "competition": "LOW",
+      "competition_index": 24,
+      "high_top_of_page_bid": 15.75,
+      "low_top_of_page_bid": 3.32
+    },
+    {
+      "_id": "638985a9b50235aeb15bf20e",
+      "keyword": "vpn connection",
+      "competition": "LOW",
+      "competition_index": 25,
+      "high_top_of_page_bid": 5.36,
+      "low_top_of_page_bid": 1.01
+    },
+    {
+      "_id": "638985a9b50235aeb15bf215",
+      "keyword": "nordvpn free",
+      "competition": "LOW",
+      "competition_index": 16,
+      "high_top_of_page_bid": 3.44,
+      "low_top_of_page_bid": 0.7
+    },
+    {
+      "_id": "638985aab50235aeb15bf227",
+      "keyword": "online vpn connect",
+      "competition": "MEDIUM",
+      "competition_index": 46,
+      "high_top_of_page_bid": 4.55,
+      "low_top_of_page_bid": 1.01
+    },
+    {
+      "_id": "638985aab50235aeb15bf239",
+      "keyword": "free vpn app",
+      "competition": "MEDIUM",
+      "competition_index": 35,
+      "high_top_of_page_bid": 3.36,
+      "low_top_of_page_bid": 0.76
+    },
+    {
+      "_id": "638985aab50235aeb15bf242",
+      "keyword": "nordvpn account",
+      "competition": "LOW",
+      "competition_index": 10,
+      "high_top_of_page_bid": 2.53,
+      "low_top_of_page_bid": 0.73
+    },
+    {
+      "_id": "638985aab50235aeb15bf245",
+      "keyword": "vpn server address",
+      "competition": "LOW",
+      "competition_index": 16,
+      "high_top_of_page_bid": 4.36,
+      "low_top_of_page_bid": 0.91
+    },
+    {
+      "_id": "638985aab50235aeb15bf249",
+      "keyword": "vpn site",
+      "competition": "MEDIUM",
+      "competition_index": 38,
+      "high_top_of_page_bid": 7.04,
+      "low_top_of_page_bid": 1.2
+    },
+    {
+      "_id": "638985aab50235aeb15bf24e",
+      "keyword": "my vpn",
+      "competition": "LOW",
+      "competition_index": 18,
+      "high_top_of_page_bid": 7.65,
+      "low_top_of_page_bid": 1.23
+    },
+    {
+      "_id": "638985aab50235aeb15bf250",
+      "keyword": "vpn free pro",
+      "competition": "LOW",
+      "competition_index": 7,
+      "high_top_of_page_bid": 3.14,
+      "low_top_of_page_bid": 0.77
+    },
+    {
+      "_id": "638985aab50235aeb15bf251",
+      "keyword": "vpn network",
+      "competition": "MEDIUM",
+      "competition_index": 34,
+      "high_top_of_page_bid": 11.43,
+      "low_top_of_page_bid": 2.12
+    },
+    {
+      "_id": "638985aab50235aeb15bf25e",
+      "keyword": "google one vpn",
+      "competition": "LOW",
+      "competition_index": 7,
+      "high_top_of_page_bid": 12.93,
+      "low_top_of_page_bid": 1.47
+    },
+    {
+      "_id": "638985aab50235aeb15bf263",
+      "keyword": "1 click vpn",
+      "competition": "LOW",
+      "competition_index": 6,
+      "high_top_of_page_bid": 3.17,
+      "low_top_of_page_bid": 1.27
+    },
+    {
+      "_id": "638985aab50235aeb15bf274",
+      "keyword": "vpn browser online",
+      "competition": "LOW",
+      "competition_index": 30,
+      "high_top_of_page_bid": 2.06,
+      "low_top_of_page_bid": 0.89
+    },
+    {
+      "_id": "638985aab50235aeb15bf27d",
+      "keyword": "vpn 2021",
+      "competition": "LOW",
+      "competition_index": 28,
+      "high_top_of_page_bid": 4.01,
+      "low_top_of_page_bid": 0.79
+    },
+    {
+      "_id": "638985aab50235aeb15bf294",
+      "keyword": "youtube vpn",
+      "competition": "LOW",
+      "competition_index": 22,
+      "high_top_of_page_bid": 6.05,
+      "low_top_of_page_bid": 1.21
+    },
+    {
+      "_id": "638985aab50235aeb15bf2a0",
+      "keyword": "free unlimited vpn",
+      "competition": "LOW",
+      "competition_index": 29,
+      "high_top_of_page_bid": 2.61,
+      "low_top_of_page_bid": 0.81
+    },
+    {
+      "_id": "638985aab50235aeb15bf2b6",
+      "keyword": "open vpn connect",
+      "competition": "LOW",
+      "competition_index": 3,
+      "high_top_of_page_bid": 5,
+      "low_top_of_page_bid": 1
+    },
+    {
+      "_id": "638985aab50235aeb15bf2bb",
+      "keyword": "vpn russia",
+      "competition": "LOW",
+      "competition_index": 20,
+      "high_top_of_page_bid": 5.54,
+      "low_top_of_page_bid": 0.87
+    },
+    {
+      "_id": "638985aab50235aeb15bf2c3",
+      "keyword": "nordvpn free account",
+      "competition": "LOW",
+      "competition_index": 3,
+      "high_top_of_page_bid": 3.53,
+      "low_top_of_page_bid": 1.22
+    },
+    {
+      "_id": "638985aab50235aeb15bf2d8",
+      "keyword": "cloud vpn",
+      "competition": "MEDIUM",
+      "competition_index": 34,
+      "high_top_of_page_bid": 70,
+      "low_top_of_page_bid": 3.01
+    },
+    {
+      "_id": "638985aab50235aeb15bf2e4",
+      "keyword": "vpn cost",
+      "competition": "HIGH",
+      "competition_index": 75,
+      "high_top_of_page_bid": 6.16,
+      "low_top_of_page_bid": 1.91
+    },
+    {
+      "_id": "638985aab50235aeb15bf2e5",
+      "keyword": "vpn get",
+      "competition": "LOW",
+      "competition_index": 20,
+      "high_top_of_page_bid": 9.18,
+      "low_top_of_page_bid": 0.95
+    },
+    {
+      "_id": "638985aab50235aeb15bf2f7",
+      "keyword": "vpn premium",
+      "competition": "MEDIUM",
+      "competition_index": 56,
+      "high_top_of_page_bid": 10.73,
+      "low_top_of_page_bid": 1.5
+    },
+    {
+      "_id": "638985aab50235aeb15bf300",
+      "keyword": "one vpn",
+      "competition": "LOW",
+      "competition_index": 13,
+      "high_top_of_page_bid": 4.37,
+      "low_top_of_page_bid": 1.04
+    },
+    {
+      "_id": "638985aab50235aeb15bf304",
+      "keyword": "f secure vpn",
+      "competition": "MEDIUM",
+      "competition_index": 36,
+      "high_top_of_page_bid": 7.47,
+      "low_top_of_page_bid": 2.58
+    },
+    {
+      "_id": "638985aab50235aeb15bf306",
+      "keyword": "buy vpn",
+      "competition": "HIGH",
+      "competition_index": 100,
+      "high_top_of_page_bid": 28.67,
+      "low_top_of_page_bid": 8.02
+    },
+    {
+      "_id": "638985abb50235aeb15bf30c",
+      "keyword": "nordvpn app",
+      "competition": "LOW",
+      "competition_index": 10,
+      "high_top_of_page_bid": 2.73,
+      "low_top_of_page_bid": 0.41
+    },
+    {
+      "_id": "638985abb50235aeb15bf30e",
+      "keyword": "vpn address",
+      "competition": "LOW",
+      "competition_index": 25,
+      "high_top_of_page_bid": 5.35,
+      "low_top_of_page_bid": 1.04
+    },
+    {
+      "_id": "638985abb50235aeb15bf30f",
+      "keyword": "free vpn browser",
+      "competition": "MEDIUM",
+      "competition_index": 34,
+      "high_top_of_page_bid": 2.33,
+      "low_top_of_page_bid": 0.89
+    },
+    {
+      "_id": "638985abb50235aeb15bf318",
+      "keyword": "nordvpn cost",
+      "competition": "MEDIUM",
+      "competition_index": 34,
+      "high_top_of_page_bid": 2.31,
+      "low_top_of_page_bid": 0.68
+    },
+    {
+      "_id": "638985abb50235aeb15bf31c",
+      "keyword": "vpn thailand",
+      "competition": "LOW",
+      "competition_index": 30,
+      "high_top_of_page_bid": 9,
+      "low_top_of_page_bid": 1.5
+    },
+    {
+      "_id": "638985abb50235aeb15bf31e",
+      "keyword": "nordvpn premium account",
+      "competition": "LOW",
+      "competition_index": 4,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "638985abb50235aeb15bf328",
+      "keyword": "nord vpn price",
+      "competition": "LOW",
+      "competition_index": 28,
+      "high_top_of_page_bid": 2.53,
+      "low_top_of_page_bid": 0.79
+    },
+    {
+      "_id": "638985abb50235aeb15bf334",
+      "keyword": "vpn access",
+      "competition": "MEDIUM",
+      "competition_index": 38,
+      "high_top_of_page_bid": 11.37,
+      "low_top_of_page_bid": 2.77
+    },
+    {
+      "_id": "638985abb50235aeb15bf33b",
+      "keyword": "nvpn",
+      "competition": "MEDIUM",
+      "competition_index": 41,
+      "high_top_of_page_bid": 10.04,
+      "low_top_of_page_bid": 1.5
+    },
+    {
+      "_id": "638985abb50235aeb15bf33e",
+      "keyword": "vpn site to site",
+      "competition": "MEDIUM",
+      "competition_index": 42,
+      "high_top_of_page_bid": 20.86,
+      "low_top_of_page_bid": 3.6
+    },
+    {
+      "_id": "638985abb50235aeb15bf345",
+      "keyword": "vpn app for android",
+      "competition": "LOW",
+      "competition_index": 24,
+      "high_top_of_page_bid": 6.04,
+      "low_top_of_page_bid": 0.97
+    },
+    {
+      "_id": "638985abb50235aeb15bf346",
+      "keyword": "vpn internet",
+      "competition": "MEDIUM",
+      "competition_index": 43,
+      "high_top_of_page_bid": 9.34,
+      "low_top_of_page_bid": 1.83
+    },
+    {
+      "_id": "638985abb50235aeb15bf348",
+      "keyword": "get vpn",
+      "competition": "MEDIUM",
+      "competition_index": 44,
+      "high_top_of_page_bid": 23.77,
+      "low_top_of_page_bid": 4.54
+    },
+    {
+      "_id": "638985abb50235aeb15bf354",
+      "keyword": "free internet vpn",
+      "competition": "LOW",
+      "competition_index": 22,
+      "high_top_of_page_bid": 3.27,
+      "low_top_of_page_bid": 0.75
+    },
+    {
+      "_id": "638985abb50235aeb15bf35a",
+      "keyword": "use of vpn",
+      "competition": "LOW",
+      "competition_index": 32,
+      "high_top_of_page_bid": 6.15,
+      "low_top_of_page_bid": 0.87
+    },
+    {
+      "_id": "638985abb50235aeb15bf368",
+      "keyword": "nordvpn premium",
+      "competition": "MEDIUM",
+      "competition_index": 38,
+      "high_top_of_page_bid": 3.25,
+      "low_top_of_page_bid": 1.15
+    },
+    {
+      "_id": "638985abb50235aeb15bf377",
+      "keyword": "vpn security",
+      "competition": "LOW",
+      "competition_index": 32,
+      "high_top_of_page_bid": 9.74,
+      "low_top_of_page_bid": 2.14
+    },
+    {
+      "_id": "638985abb50235aeb15bf38f",
+      "keyword": "google vpn free",
+      "competition": "LOW",
+      "competition_index": 28,
+      "high_top_of_page_bid": 4.83,
+      "low_top_of_page_bid": 0.96
+    },
+    {
+      "_id": "638985abb50235aeb15bf3ad",
+      "keyword": "remote access vpn",
+      "competition": "MEDIUM",
+      "competition_index": 34,
+      "high_top_of_page_bid": 21.72,
+      "low_top_of_page_bid": 5.71
+    },
+    {
+      "_id": "638985abb50235aeb15bf3c0",
+      "keyword": "vpn for computer",
+      "competition": "MEDIUM",
+      "competition_index": 49,
+      "high_top_of_page_bid": 8.6,
+      "low_top_of_page_bid": 1.47
+    },
+    {
+      "_id": "638985abb50235aeb15bf3c2",
+      "keyword": "youtube premium vpn",
+      "competition": "LOW",
+      "competition_index": 2,
+      "high_top_of_page_bid": 10.16,
+      "low_top_of_page_bid": 2.83
+    },
+    {
+      "_id": "638985abb50235aeb15bf3c3",
+      "keyword": "one click vpn",
+      "competition": "LOW",
+      "competition_index": 9,
+      "high_top_of_page_bid": 3.78,
+      "low_top_of_page_bid": 0.95
+    },
+    {
+      "_id": "638985abb50235aeb15bf3c7",
+      "keyword": "safe vpn",
+      "competition": "LOW",
+      "competition_index": 30,
+      "high_top_of_page_bid": 66.41,
+      "low_top_of_page_bid": 1.9
+    },
+    {
+      "_id": "638985abb50235aeb15bf3ca",
+      "keyword": "vpn web browser",
+      "competition": "LOW",
+      "competition_index": 31,
+      "high_top_of_page_bid": 2.78,
+      "low_top_of_page_bid": 0.95
+    },
+    {
+      "_id": "638985abb50235aeb15bf3d1",
+      "keyword": "vpn for phone",
+      "competition": "MEDIUM",
+      "competition_index": 42,
+      "high_top_of_page_bid": 11.43,
+      "low_top_of_page_bid": 3.23
+    },
+    {
+      "_id": "638985abb50235aeb15bf3d7",
+      "keyword": "free open vpn",
+      "competition": "LOW",
+      "competition_index": 13,
+      "high_top_of_page_bid": 4.34,
+      "low_top_of_page_bid": 1.19
+    },
+    {
+      "_id": "638985acb50235aeb15bf3f9",
+      "keyword": "vpn account",
+      "competition": "MEDIUM",
+      "competition_index": 36,
+      "high_top_of_page_bid": 9.87,
+      "low_top_of_page_bid": 1.59
+    },
+    {
+      "_id": "638985acb50235aeb15bf412",
+      "keyword": "use vpn",
+      "competition": "MEDIUM",
+      "competition_index": 33,
+      "high_top_of_page_bid": 6.72,
+      "low_top_of_page_bid": 1.34
+    },
+    {
+      "_id": "638985acb50235aeb15bf425",
+      "keyword": "vpn 2020",
+      "competition": "LOW",
+      "competition_index": 17,
+      "high_top_of_page_bid": 3.77,
+      "low_top_of_page_bid": 0.87
+    },
+    {
+      "_id": "638985acb50235aeb15bf42c",
+      "keyword": "free vpn website",
+      "competition": "LOW",
+      "competition_index": 22,
+      "high_top_of_page_bid": 2.93,
+      "low_top_of_page_bid": 0.88
+    },
+    {
+      "_id": "638985acb50235aeb15bf433",
+      "keyword": "nordvpn teams",
+      "competition": "LOW",
+      "competition_index": 14,
+      "high_top_of_page_bid": 10,
+      "low_top_of_page_bid": 5.3
+    },
+    {
+      "_id": "638985acb50235aeb15bf43c",
+      "keyword": "personal vpn",
+      "competition": "HIGH",
+      "competition_index": 70,
+      "high_top_of_page_bid": 12.18,
+      "low_top_of_page_bid": 3.08
+    },
+    {
+      "_id": "638985acb50235aeb15bf443",
+      "keyword": "free vpn access",
+      "competition": "LOW",
+      "competition_index": 12,
+      "high_top_of_page_bid": 6.06,
+      "low_top_of_page_bid": 1.46
+    },
+    {
+      "_id": "638985acb50235aeb15bf445",
+      "keyword": "private internet",
+      "competition": "LOW",
+      "competition_index": 30,
+      "high_top_of_page_bid": 6.58,
+      "low_top_of_page_bid": 1.29
+    },
+    {
+      "_id": "638985acb50235aeb15bf449",
+      "keyword": "nordvpn android",
+      "competition": "LOW",
+      "competition_index": 3,
+      "high_top_of_page_bid": 4.54,
+      "low_top_of_page_bid": 1.14
+    },
+    {
+      "_id": "638985acb50235aeb15bf44a",
+      "keyword": "free vpn india",
+      "competition": "MEDIUM",
+      "competition_index": 47,
+      "high_top_of_page_bid": 5.55,
+      "low_top_of_page_bid": 1.26
+    },
+    {
+      "_id": "638985acb50235aeb15bf45d",
+      "keyword": "go vpn",
+      "competition": "LOW",
+      "competition_index": 5,
+      "high_top_of_page_bid": 2.05,
+      "low_top_of_page_bid": 0.67
+    },
+    {
+      "_id": "638985acb50235aeb15bf460",
+      "keyword": "nord vpn app",
+      "competition": "LOW",
+      "competition_index": 7,
+      "high_top_of_page_bid": 3.37,
+      "low_top_of_page_bid": 0.48
+    },
+    {
+      "_id": "638985acb50235aeb15bf463",
+      "keyword": "vpn protection",
+      "competition": "MEDIUM",
+      "competition_index": 39,
+      "high_top_of_page_bid": 13.86,
+      "low_top_of_page_bid": 2.9
+    },
+    {
+      "_id": "638985acb50235aeb15bf467",
+      "keyword": "free vpn account",
+      "competition": "LOW",
+      "competition_index": 19,
+      "high_top_of_page_bid": 4.53,
+      "low_top_of_page_bid": 1.08
+    },
+    {
+      "_id": "638985acb50235aeb15bf469",
+      "keyword": "new vpn",
+      "competition": "MEDIUM",
+      "competition_index": 41,
+      "high_top_of_page_bid": 5.57,
+      "low_top_of_page_bid": 0.74
+    },
+    {
+      "_id": "638985acb50235aeb15bf46b",
+      "keyword": "nord vpn cost",
+      "competition": "LOW",
+      "competition_index": 28,
+      "high_top_of_page_bid": 2.07,
+      "low_top_of_page_bid": 0.72
+    },
+    {
+      "_id": "638985acb50235aeb15bf473",
+      "keyword": "vpn link",
+      "competition": "LOW",
+      "competition_index": 22,
+      "high_top_of_page_bid": 3.22,
+      "low_top_of_page_bid": 0.79
+    },
+    {
+      "_id": "638985acb50235aeb15bf47a",
+      "keyword": "vpn server address free",
+      "competition": "LOW",
+      "competition_index": 21,
+      "high_top_of_page_bid": 2.71,
+      "low_top_of_page_bid": 0.83
+    },
+    {
+      "_id": "638985acb50235aeb15bf47e",
+      "keyword": "we vpn",
+      "competition": "LOW",
+      "competition_index": 28,
+      "high_top_of_page_bid": 5.71,
+      "low_top_of_page_bid": 2.32
+    },
+    {
+      "_id": "638985acb50235aeb15bf487",
+      "keyword": "google cloud vpn",
+      "competition": "LOW",
+      "competition_index": 15,
+      "high_top_of_page_bid": 14.21,
+      "low_top_of_page_bid": 2.89
+    },
+    {
+      "_id": "638985acb50235aeb15bf491",
+      "keyword": "nordvpn account free",
+      "competition": "LOW",
+      "competition_index": 2,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "638985acb50235aeb15bf49b",
+      "keyword": "vpn online connect",
+      "competition": "MEDIUM",
+      "competition_index": 43,
+      "high_top_of_page_bid": 3.4,
+      "low_top_of_page_bid": 0.98
+    },
+    {
+      "_id": "638985acb50235aeb15bf4a2",
+      "keyword": "open vpn server",
+      "competition": "LOW",
+      "competition_index": 15,
+      "high_top_of_page_bid": 3.89,
+      "low_top_of_page_bid": 0.91
+    },
+    {
+      "_id": "638985acb50235aeb15bf4aa",
+      "keyword": "home vpn",
+      "competition": "HIGH",
+      "competition_index": 93,
+      "high_top_of_page_bid": 9,
+      "low_top_of_page_bid": 2.28
+    },
+    {
+      "_id": "638985acb50235aeb15bf4b2",
+      "keyword": "free nord vpn",
+      "competition": "LOW",
+      "competition_index": 26,
+      "high_top_of_page_bid": 3.39,
+      "low_top_of_page_bid": 0.65
+    },
+    {
+      "_id": "638985acb50235aeb15bf4b9",
+      "keyword": "vpn for android phone",
+      "competition": "MEDIUM",
+      "competition_index": 38,
+      "high_top_of_page_bid": 8.87,
+      "low_top_of_page_bid": 2.18
+    },
+    {
+      "_id": "638985acb50235aeb15bf4bd",
+      "keyword": "vpn by google one",
+      "competition": "LOW",
+      "competition_index": 7,
+      "high_top_of_page_bid": 7.96,
+      "low_top_of_page_bid": 1.68
+    },
+    {
+      "_id": "638985adb50235aeb15bf4d0",
+      "keyword": "vpn online web",
+      "competition": "LOW",
+      "competition_index": 32,
+      "high_top_of_page_bid": 2,
+      "low_top_of_page_bid": 0.79
+    },
+    {
+      "_id": "638985adb50235aeb15bf4d1",
+      "keyword": "online vpn connect free",
+      "competition": "LOW",
+      "competition_index": 22,
+      "high_top_of_page_bid": 3.65,
+      "low_top_of_page_bid": 0.76
+    },
+    {
+      "_id": "638985adb50235aeb15bf4dc",
+      "keyword": "free web vpn",
+      "competition": "LOW",
+      "competition_index": 25,
+      "high_top_of_page_bid": 3.39,
+      "low_top_of_page_bid": 0.96
+    },
+    {
+      "_id": "638985adb50235aeb15bf4e6",
+      "keyword": "secure vpn free",
+      "competition": "LOW",
+      "competition_index": 33,
+      "high_top_of_page_bid": 4.77,
+      "low_top_of_page_bid": 0.97
+    },
+    {
+      "_id": "638985adb50235aeb15bf4eb",
+      "keyword": "virtual vpn",
+      "competition": "MEDIUM",
+      "competition_index": 49,
+      "high_top_of_page_bid": 16.28,
+      "low_top_of_page_bid": 3.98
+    },
+    {
+      "_id": "638985adb50235aeb15bf4f2",
+      "keyword": "vpn application",
+      "competition": "LOW",
+      "competition_index": 25,
+      "high_top_of_page_bid": 9.13,
+      "low_top_of_page_bid": 1.19
+    },
+    {
+      "_id": "638985adb50235aeb15bf504",
+      "keyword": "vip vpn",
+      "competition": "LOW",
+      "competition_index": 16,
+      "high_top_of_page_bid": 3.95,
+      "low_top_of_page_bid": 0.83
+    },
+    {
+      "_id": "638985adb50235aeb15bf55e",
+      "keyword": "combo vpn",
+      "competition": "LOW",
+      "competition_index": 3,
+      "high_top_of_page_bid": 1.43,
+      "low_top_of_page_bid": 0.75
+    },
+    {
+      "_id": "638985adb50235aeb15bf562",
+      "keyword": "private vpn free",
+      "competition": "MEDIUM",
+      "competition_index": 37,
+      "high_top_of_page_bid": 4.99,
+      "low_top_of_page_bid": 1.11
+    },
+    {
+      "_id": "638985adb50235aeb15bf566",
+      "keyword": "nord vpn free account",
+      "competition": "LOW",
+      "competition_index": 6,
+      "high_top_of_page_bid": 4.87,
+      "low_top_of_page_bid": 0.44
+    },
+    {
+      "_id": "638985adb50235aeb15bf56c",
+      "keyword": "vpn device",
+      "competition": "HIGH",
+      "competition_index": 100,
+      "high_top_of_page_bid": 8.1,
+      "low_top_of_page_bid": 1.14
+    },
+    {
+      "_id": "638985adb50235aeb15bf56e",
+      "keyword": "free vpn server address android",
+      "competition": "LOW",
+      "competition_index": 12,
+      "high_top_of_page_bid": 2.92,
+      "low_top_of_page_bid": 1
+    },
+    {
+      "_id": "638985adb50235aeb15bf576",
+      "keyword": "link vpn",
+      "competition": "LOW",
+      "competition_index": 12,
+      "high_top_of_page_bid": 4.01,
+      "low_top_of_page_bid": 0.9
+    },
+    {
+      "_id": "638985adb50235aeb15bf57a",
+      "keyword": "free vpn site",
+      "competition": "LOW",
+      "competition_index": 29,
+      "high_top_of_page_bid": 4.35,
+      "low_top_of_page_bid": 1.02
+    },
+    {
+      "_id": "638985aeb50235aeb15bf58f",
+      "keyword": "secure web vpn",
+      "competition": "LOW",
+      "competition_index": 14,
+      "high_top_of_page_bid": 1.99,
+      "low_top_of_page_bid": 0.63
+    },
+    {
+      "_id": "638985aeb50235aeb15bf599",
+      "keyword": "business vpn",
+      "competition": "MEDIUM",
+      "competition_index": 45,
+      "high_top_of_page_bid": 80,
+      "low_top_of_page_bid": 12.4
+    },
+    {
+      "_id": "638985aeb50235aeb15bf5a2",
+      "keyword": "secure vpn app",
+      "competition": "LOW",
+      "competition_index": 27,
+      "high_top_of_page_bid": 5.55,
+      "low_top_of_page_bid": 1.19
+    },
+    {
+      "_id": "638985aeb50235aeb15bf5c1",
+      "keyword": "nord vpn premium",
+      "competition": "LOW",
+      "competition_index": 19,
+      "high_top_of_page_bid": 3.46,
+      "low_top_of_page_bid": 0.94
+    },
+    {
+      "_id": "638985aeb50235aeb15bf5c5",
+      "keyword": "create vpn",
+      "competition": "LOW",
+      "competition_index": 28,
+      "high_top_of_page_bid": 8.47,
+      "low_top_of_page_bid": 1.72
+    },
+    {
+      "_id": "638985aeb50235aeb15bf5ce",
+      "keyword": "fast vpn secure",
+      "competition": "LOW",
+      "competition_index": 31,
+      "high_top_of_page_bid": 1.25,
+      "low_top_of_page_bid": 0.77
+    },
+    {
+      "_id": "638985aeb50235aeb15bf5df",
+      "keyword": "vpn url",
+      "competition": "LOW",
+      "competition_index": 29,
+      "high_top_of_page_bid": 2.83,
+      "low_top_of_page_bid": 0.79
+    },
+    {
+      "_id": "638985aeb50235aeb15bf5f5",
+      "keyword": "free safe vpn",
+      "competition": "LOW",
+      "competition_index": 31,
+      "high_top_of_page_bid": 4.7,
+      "low_top_of_page_bid": 1.04
+    },
+    {
+      "_id": "638985aeb50235aeb15bf5f7",
+      "keyword": "new vpn us",
+      "competition": null,
+      "competition_index": null,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "638985aeb50235aeb15bf5fd",
+      "keyword": "vpn play store",
+      "competition": "LOW",
+      "competition_index": 21,
+      "high_top_of_page_bid": 5.43,
+      "low_top_of_page_bid": 1.26
+    },
+    {
+      "_id": "638985aeb50235aeb15bf604",
+      "keyword": "fast vpn app",
+      "competition": "LOW",
+      "competition_index": 24,
+      "high_top_of_page_bid": 4.74,
+      "low_top_of_page_bid": 0.9
+    },
+    {
+      "_id": "638985aeb50235aeb15bf60a",
+      "keyword": "my vpn address",
+      "competition": "LOW",
+      "competition_index": 3,
+      "high_top_of_page_bid": 6.89,
+      "low_top_of_page_bid": 1.05
+    },
+    {
+      "_id": "638985aeb50235aeb15bf610",
+      "keyword": "vpn google play",
+      "competition": "LOW",
+      "competition_index": 22,
+      "high_top_of_page_bid": 4.66,
+      "low_top_of_page_bid": 1.1
+    },
+    {
+      "_id": "638985aeb50235aeb15bf629",
+      "keyword": "vpn service providers",
+      "competition": "HIGH",
+      "competition_index": 83,
+      "high_top_of_page_bid": 20.58,
+      "low_top_of_page_bid": 4.96
+    },
+    {
+      "_id": "638985aeb50235aeb15bf62e",
+      "keyword": "all vpn",
+      "competition": "LOW",
+      "competition_index": 27,
+      "high_top_of_page_bid": 7,
+      "low_top_of_page_bid": 1.08
+    },
+    {
+      "_id": "638985aeb50235aeb15bf631",
+      "keyword": "italia vpn",
+      "competition": "LOW",
+      "competition_index": 24,
+      "high_top_of_page_bid": 8.39,
+      "low_top_of_page_bid": 2.11
+    },
+    {
+      "_id": "638985afb50235aeb15bf64c",
+      "keyword": "vpn google one",
+      "competition": "LOW",
+      "competition_index": 10,
+      "high_top_of_page_bid": 10.58,
+      "low_top_of_page_bid": 2.26
+    },
+    {
+      "_id": "638985afb50235aeb15bf659",
+      "keyword": "open vpn servers",
+      "competition": "LOW",
+      "competition_index": 11,
+      "high_top_of_page_bid": 4.37,
+      "low_top_of_page_bid": 1.07
+    },
+    {
+      "_id": "638985afb50235aeb15bf67a",
+      "keyword": "online vpn site",
+      "competition": "LOW",
+      "competition_index": 25,
+      "high_top_of_page_bid": 4.9,
+      "low_top_of_page_bid": 0.94
+    },
+    {
+      "_id": "638985afb50235aeb15bf688",
+      "keyword": "von vpn",
+      "competition": "LOW",
+      "competition_index": 20,
+      "high_top_of_page_bid": 2.68,
+      "low_top_of_page_bid": 0.96
+    },
+    {
+      "_id": "638985afb50235aeb15bf68d",
+      "keyword": "line vpn",
+      "competition": "LOW",
+      "competition_index": 16,
+      "high_top_of_page_bid": 5.45,
+      "low_top_of_page_bid": 1.4
+    },
+    {
+      "_id": "638985afb50235aeb15bf69a",
+      "keyword": "free vpn for computer",
+      "competition": "MEDIUM",
+      "competition_index": 40,
+      "high_top_of_page_bid": 3.49,
+      "low_top_of_page_bid": 0.98
+    },
+    {
+      "_id": "638985afb50235aeb15bf69e",
+      "keyword": "vpn virtual private network",
+      "competition": "LOW",
+      "competition_index": 14,
+      "high_top_of_page_bid": 13,
+      "low_top_of_page_bid": 2.66
+    },
+    {
+      "_id": "638985afb50235aeb15bf6a2",
+      "keyword": "1 vpn",
+      "competition": "LOW",
+      "competition_index": 31,
+      "high_top_of_page_bid": 7.27,
+      "low_top_of_page_bid": 2.15
+    },
+    {
+      "_id": "638985afb50235aeb15bf6a4",
+      "keyword": "https vpn",
+      "competition": "LOW",
+      "competition_index": 16,
+      "high_top_of_page_bid": 3.47,
+      "low_top_of_page_bid": 0.88
+    },
+    {
+      "_id": "638985afb50235aeb15bf6b7",
+      "keyword": "create vpn server",
+      "competition": "LOW",
+      "competition_index": 29,
+      "high_top_of_page_bid": 13.06,
+      "low_top_of_page_bid": 1.87
+    },
+    {
+      "_id": "638985afb50235aeb15bf6c4",
+      "keyword": "create vpn account",
+      "competition": "MEDIUM",
+      "competition_index": 34,
+      "high_top_of_page_bid": 4.68,
+      "low_top_of_page_bid": 0.88
+    },
+    {
+      "_id": "638985afb50235aeb15bf6d9",
+      "keyword": "vpn india server",
+      "competition": "MEDIUM",
+      "competition_index": 51,
+      "high_top_of_page_bid": 10,
+      "low_top_of_page_bid": 2.1
+    },
+    {
+      "_id": "638985afb50235aeb15bf6e0",
+      "keyword": "free vpn address",
+      "competition": "LOW",
+      "competition_index": 16,
+      "high_top_of_page_bid": 3.28,
+      "low_top_of_page_bid": 1.17
+    },
+    {
+      "_id": "638985afb50235aeb15bf709",
+      "keyword": "vpn for",
+      "competition": "LOW",
+      "competition_index": 21,
+      "high_top_of_page_bid": 6.68,
+      "low_top_of_page_bid": 1.11
+    },
+    {
+      "_id": "6389879eb50235aeb15c0d33",
+      "keyword": "best vpn uk",
+      "competition": "LOW",
+      "competition_index": 23,
+      "high_top_of_page_bid": 16.86,
+      "low_top_of_page_bid": 5.79
+    },
+    {
+      "_id": "6389879eb50235aeb15c0d36",
+      "keyword": "vpn software",
+      "competition": "HIGH",
+      "competition_index": 98,
+      "high_top_of_page_bid": 13.51,
+      "low_top_of_page_bid": 2.88
+    },
+    {
+      "_id": "6389879eb50235aeb15c0d37",
+      "keyword": "uk vpn",
+      "competition": "MEDIUM",
+      "competition_index": 36,
+      "high_top_of_page_bid": 13.35,
+      "low_top_of_page_bid": 3.38
+    },
+    {
+      "_id": "6389879eb50235aeb15c0d3a",
+      "keyword": "best vpn software",
+      "competition": "HIGH",
+      "competition_index": 85,
+      "high_top_of_page_bid": 15,
+      "low_top_of_page_bid": 3.73
+    },
+    {
+      "_id": "6389879eb50235aeb15c0d3c",
+      "keyword": "best vpn canada",
+      "competition": "MEDIUM",
+      "competition_index": 40,
+      "high_top_of_page_bid": 14.09,
+      "low_top_of_page_bid": 5.36
+    },
+    {
+      "_id": "6389879eb50235aeb15c0d3d",
+      "keyword": "best vpn in india",
+      "competition": "MEDIUM",
+      "competition_index": 50,
+      "high_top_of_page_bid": 11.96,
+      "low_top_of_page_bid": 3.2
+    },
+    {
+      "_id": "6389879eb50235aeb15c0d3e",
+      "keyword": "best vpn download",
+      "competition": "MEDIUM",
+      "competition_index": 37,
+      "high_top_of_page_bid": 10.49,
+      "low_top_of_page_bid": 0.92
+    },
+    {
+      "_id": "6389879eb50235aeb15c0d3f",
+      "keyword": "vpn login",
+      "competition": "LOW",
+      "competition_index": 25,
+      "high_top_of_page_bid": 5.22,
+      "low_top_of_page_bid": 1.18
+    },
+    {
+      "_id": "6389879eb50235aeb15c0d40",
+      "keyword": "free vpn australia",
+      "competition": "MEDIUM",
+      "competition_index": 36,
+      "high_top_of_page_bid": 7.27,
+      "low_top_of_page_bid": 1.53
+    },
+    {
+      "_id": "6389879eb50235aeb15c0d41",
+      "keyword": "best vpn australia",
+      "competition": "LOW",
+      "competition_index": 20,
+      "high_top_of_page_bid": 15.31,
+      "low_top_of_page_bid": 4.01
+    },
+    {
+      "_id": "6389879eb50235aeb15c0d49",
+      "keyword": "free vpn software",
+      "competition": "LOW",
+      "competition_index": 28,
+      "high_top_of_page_bid": 6.31,
+      "low_top_of_page_bid": 1.29
+    },
+    {
+      "_id": "6389879eb50235aeb15c0d4f",
+      "keyword": "buy vpn online",
+      "competition": "HIGH",
+      "competition_index": 95,
+      "high_top_of_page_bid": 22.93,
+      "low_top_of_page_bid": 9.89
+    },
+    {
+      "_id": "6389879eb50235aeb15c0d5c",
+      "keyword": "vpn subscription",
+      "competition": "HIGH",
+      "competition_index": 100,
+      "high_top_of_page_bid": 16.33,
+      "low_top_of_page_bid": 6.01
+    },
+    {
+      "_id": "6389879eb50235aeb15c0d5d",
+      "keyword": "best vpn for android free download",
+      "competition": "LOW",
+      "competition_index": 28,
+      "high_top_of_page_bid": 2,
+      "low_top_of_page_bid": 0.41
+    },
+    {
+      "_id": "6389879eb50235aeb15c0d5e",
+      "keyword": "best vpn review",
+      "competition": "MEDIUM",
+      "competition_index": 44,
+      "high_top_of_page_bid": 11.39,
+      "low_top_of_page_bid": 2.95
+    },
+    {
+      "_id": "6389879eb50235aeb15c0d5f",
+      "keyword": "best free vpn for india",
+      "competition": "MEDIUM",
+      "competition_index": 35,
+      "high_top_of_page_bid": 4.56,
+      "low_top_of_page_bid": 1.11
+    },
+    {
+      "_id": "6389879fb50235aeb15c0d61",
+      "keyword": "vpn reviews 2021",
+      "competition": "LOW",
+      "competition_index": 10,
+      "high_top_of_page_bid": 5.64,
+      "low_top_of_page_bid": 1.9
+    },
+    {
+      "_id": "6389879fb50235aeb15c0d63",
+      "keyword": "vpn purchase",
+      "competition": "HIGH",
+      "competition_index": 100,
+      "high_top_of_page_bid": 28.32,
+      "low_top_of_page_bid": 9.96
+    },
+    {
+      "_id": "6389879fb50235aeb15c0d69",
+      "keyword": "best free vpn download",
+      "competition": "LOW",
+      "competition_index": 25,
+      "high_top_of_page_bid": 3.04,
+      "low_top_of_page_bid": 0.6
+    },
+    {
+      "_id": "6389879fb50235aeb15c0d6b",
+      "keyword": "do free vpns work",
+      "competition": "LOW",
+      "competition_index": 31,
+      "high_top_of_page_bid": 4.89,
+      "low_top_of_page_bid": 0.83
+    },
+    {
+      "_id": "6389879fb50235aeb15c0d6c",
+      "keyword": "best free vpn for android in india",
+      "competition": null,
+      "competition_index": null,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "6389879fb50235aeb15c0d6f",
+      "keyword": "do vpns work",
+      "competition": "LOW",
+      "competition_index": 33,
+      "high_top_of_page_bid": 6.22,
+      "low_top_of_page_bid": 1.44
+    },
+    {
+      "_id": "6389879fb50235aeb15c0d72",
+      "keyword": "buy vpn service",
+      "competition": "HIGH",
+      "competition_index": 93,
+      "high_top_of_page_bid": 24.03,
+      "low_top_of_page_bid": 8.56
+    },
+    {
+      "_id": "6389879fb50235aeb15c0d76",
+      "keyword": "best vpn for india server",
+      "competition": "MEDIUM",
+      "competition_index": 57,
+      "high_top_of_page_bid": 10.52,
+      "low_top_of_page_bid": 2.67
+    },
+    {
+      "_id": "6389879fb50235aeb15c0d7a",
+      "keyword": "best vpn country",
+      "competition": "LOW",
+      "competition_index": 10,
+      "high_top_of_page_bid": 5.27,
+      "low_top_of_page_bid": 1.17
+    },
+    {
+      "_id": "6389879fb50235aeb15c0d80",
+      "keyword": "best vpn for android free in india",
+      "competition": null,
+      "competition_index": null,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "6389879fb50235aeb15c0d84",
+      "keyword": "best free vpn australia",
+      "competition": "LOW",
+      "competition_index": 33,
+      "high_top_of_page_bid": 5.34,
+      "low_top_of_page_bid": 1.13
+    },
+    {
+      "_id": "6389879fb50235aeb15c0d85",
+      "keyword": "buy vpn uk",
+      "competition": "LOW",
+      "competition_index": 18,
+      "high_top_of_page_bid": 23.36,
+      "low_top_of_page_bid": 9.48
+    },
+    {
+      "_id": "6389879fb50235aeb15c0d88",
+      "keyword": "vpn as a service",
+      "competition": "LOW",
+      "competition_index": 26,
+      "high_top_of_page_bid": 21.98,
+      "low_top_of_page_bid": 3.34
+    },
+    {
+      "_id": "6389879fb50235aeb15c0d8a",
+      "keyword": "best vpn location",
+      "competition": "LOW",
+      "competition_index": 23,
+      "high_top_of_page_bid": 8.79,
+      "low_top_of_page_bid": 1.52
+    },
+    {
+      "_id": "6389879fb50235aeb15c0d92",
+      "keyword": "vpn company",
+      "competition": "MEDIUM",
+      "competition_index": 53,
+      "high_top_of_page_bid": 19.28,
+      "low_top_of_page_bid": 2.77
+    },
+    {
+      "_id": "6389879fb50235aeb15c0db1",
+      "keyword": "secure vpn service",
+      "competition": "MEDIUM",
+      "competition_index": 33,
+      "high_top_of_page_bid": 14.78,
+      "low_top_of_page_bid": 7.83
+    },
+    {
+      "_id": "63898a32b50235aeb15c1441",
+      "keyword": "online vpn",
+      "competition": "MEDIUM",
+      "competition_index": 35,
+      "high_top_of_page_bid": 4.38,
+      "low_top_of_page_bid": 0.97
+    },
+    {
+      "_id": "63898a32b50235aeb15c1442",
+      "keyword": "nordvpn login",
+      "competition": "LOW",
+      "competition_index": 9,
+      "high_top_of_page_bid": 1.2,
+      "low_top_of_page_bid": 0.34
+    },
+    {
+      "_id": "63898a32b50235aeb15c1443",
+      "keyword": "nordvpn canada",
+      "competition": "MEDIUM",
+      "competition_index": 35,
+      "high_top_of_page_bid": 4.79,
+      "low_top_of_page_bid": 1.59
+    },
+    {
+      "_id": "63898a32b50235aeb15c1444",
+      "keyword": "nordvpn uk",
+      "competition": "LOW",
+      "competition_index": 27,
+      "high_top_of_page_bid": 5.27,
+      "low_top_of_page_bid": 1.52
+    },
+    {
+      "_id": "63898a32b50235aeb15c1445",
+      "keyword": "nordvpn download",
+      "competition": "LOW",
+      "competition_index": 10,
+      "high_top_of_page_bid": 3.95,
+      "low_top_of_page_bid": 0.4
+    },
+    {
+      "_id": "63898a32b50235aeb15c1446",
+      "keyword": "nord vpn download",
+      "competition": "LOW",
+      "competition_index": 8,
+      "high_top_of_page_bid": 3.51,
+      "low_top_of_page_bid": 0.27
+    },
+    {
+      "_id": "63898a32b50235aeb15c1448",
+      "keyword": "vpn provider",
+      "competition": "HIGH",
+      "competition_index": 82,
+      "high_top_of_page_bid": 21.04,
+      "low_top_of_page_bid": 4.61
+    },
+    {
+      "_id": "63898a32b50235aeb15c1449",
+      "keyword": "vpns",
+      "competition": "MEDIUM",
+      "competition_index": 54,
+      "high_top_of_page_bid": 13.41,
+      "low_top_of_page_bid": 1.51
+    },
+    {
+      "_id": "63898a32b50235aeb15c144a",
+      "keyword": "download nord vpn",
+      "competition": "LOW",
+      "competition_index": 3,
+      "high_top_of_page_bid": 2.91,
+      "low_top_of_page_bid": 0.02
+    },
+    {
+      "_id": "63898a32b50235aeb15c144b",
+      "keyword": "nordvpn sign in",
+      "competition": "LOW",
+      "competition_index": 4,
+      "high_top_of_page_bid": 1.36,
+      "low_top_of_page_bid": 0.22
+    },
+    {
+      "_id": "63898a32b50235aeb15c144c",
+      "keyword": "vpn website",
+      "competition": "LOW",
+      "competition_index": 25,
+      "high_top_of_page_bid": 3.75,
+      "low_top_of_page_bid": 0.98
+    },
+    {
+      "_id": "63898a32b50235aeb15c144d",
+      "keyword": "nordvpn server",
+      "competition": "LOW",
+      "competition_index": 1,
+      "high_top_of_page_bid": 6.62,
+      "low_top_of_page_bid": 1.7
+    },
+    {
+      "_id": "63898a32b50235aeb15c144e",
+      "keyword": "nordvpn developers",
+      "competition": "LOW",
+      "competition_index": 0,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a32b50235aeb15c144f",
+      "keyword": "secure vpn download",
+      "competition": "LOW",
+      "competition_index": 27,
+      "high_top_of_page_bid": 3.69,
+      "low_top_of_page_bid": 0.62
+    },
+    {
+      "_id": "63898a32b50235aeb15c1450",
+      "keyword": "nord account",
+      "competition": "LOW",
+      "competition_index": 6,
+      "high_top_of_page_bid": 2.08,
+      "low_top_of_page_bid": 0.65
+    },
+    {
+      "_id": "63898a32b50235aeb15c1451",
+      "keyword": "nordvpn subscription",
+      "competition": "MEDIUM",
+      "competition_index": 38,
+      "high_top_of_page_bid": 3.83,
+      "low_top_of_page_bid": 1.73
+    },
+    {
+      "_id": "63898a32b50235aeb15c1453",
+      "keyword": "node vpn",
+      "competition": "LOW",
+      "competition_index": 33,
+      "high_top_of_page_bid": 10.22,
+      "low_top_of_page_bid": 2
+    },
+    {
+      "_id": "63898a32b50235aeb15c1454",
+      "keyword": "nordvpn not connecting",
+      "competition": "LOW",
+      "competition_index": 0,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a32b50235aeb15c1455",
+      "keyword": "any connect",
+      "competition": "LOW",
+      "competition_index": 9,
+      "high_top_of_page_bid": 4.37,
+      "low_top_of_page_bid": 0.85
+    },
+    {
+      "_id": "63898a32b50235aeb15c1456",
+      "keyword": "vpn is used to access",
+      "competition": "LOW",
+      "competition_index": 0,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a32b50235aeb15c1457",
+      "keyword": "nordvpn vpn",
+      "competition": "LOW",
+      "competition_index": 29,
+      "high_top_of_page_bid": 6.5,
+      "low_top_of_page_bid": 2.48
+    },
+    {
+      "_id": "63898a32b50235aeb15c1458",
+      "keyword": "nord login",
+      "competition": "LOW",
+      "competition_index": 1,
+      "high_top_of_page_bid": 2.09,
+      "low_top_of_page_bid": 0.47
+    },
+    {
+      "_id": "63898a32b50235aeb15c145c",
+      "keyword": "login nordvpn",
+      "competition": "LOW",
+      "competition_index": 7,
+      "high_top_of_page_bid": 0.98,
+      "low_top_of_page_bid": 0.27
+    },
+    {
+      "_id": "63898a32b50235aeb15c145d",
+      "keyword": "nordvpn support",
+      "competition": "LOW",
+      "competition_index": 1,
+      "high_top_of_page_bid": 4.55,
+      "low_top_of_page_bid": 1.06
+    },
+    {
+      "_id": "63898a32b50235aeb15c145e",
+      "keyword": "nordvpn location",
+      "competition": "LOW",
+      "competition_index": 4,
+      "high_top_of_page_bid": 6.77,
+      "low_top_of_page_bid": 1.77
+    },
+    {
+      "_id": "63898a32b50235aeb15c1460",
+      "keyword": "vpn download",
+      "competition": "MEDIUM",
+      "competition_index": 52,
+      "high_top_of_page_bid": 7.02,
+      "low_top_of_page_bid": 0.92
+    },
+    {
+      "_id": "63898a32b50235aeb15c1461",
+      "keyword": "vpn free download",
+      "competition": "MEDIUM",
+      "competition_index": 46,
+      "high_top_of_page_bid": 3.58,
+      "low_top_of_page_bid": 0.88
+    },
+    {
+      "_id": "63898a32b50235aeb15c1462",
+      "keyword": "open vpn",
+      "competition": "LOW",
+      "competition_index": 4,
+      "high_top_of_page_bid": 5.15,
+      "low_top_of_page_bid": 1.09
+    },
+    {
+      "_id": "63898a32b50235aeb15c1463",
+      "keyword": "nordvpn logo",
+      "competition": "LOW",
+      "competition_index": 0,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a32b50235aeb15c1464",
+      "keyword": "nordvpn australia",
+      "competition": "LOW",
+      "competition_index": 25,
+      "high_top_of_page_bid": 4.99,
+      "low_top_of_page_bid": 1.51
+    },
+    {
+      "_id": "63898a32b50235aeb15c1465",
+      "keyword": "nordvpn free download",
+      "competition": "LOW",
+      "competition_index": 12,
+      "high_top_of_page_bid": 3.62,
+      "low_top_of_page_bid": 0.76
+    },
+    {
+      "_id": "63898a32b50235aeb15c1466",
+      "keyword": "nord vpn servers",
+      "competition": "LOW",
+      "competition_index": 1,
+      "high_top_of_page_bid": 5.16,
+      "low_top_of_page_bid": 1.48
+    },
+    {
+      "_id": "63898a32b50235aeb15c1467",
+      "keyword": "vpn is used to access which cloud",
+      "competition": "LOW",
+      "competition_index": 0,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a32b50235aeb15c1468",
+      "keyword": "open vpn download",
+      "competition": "LOW",
+      "competition_index": 2,
+      "high_top_of_page_bid": 4.64,
+      "low_top_of_page_bid": 0.36
+    },
+    {
+      "_id": "63898a32b50235aeb15c1469",
+      "keyword": "vpn app download",
+      "competition": "LOW",
+      "competition_index": 27,
+      "high_top_of_page_bid": 3.62,
+      "low_top_of_page_bid": 0.74
+    },
+    {
+      "_id": "63898a32b50235aeb15c146a",
+      "keyword": "nordvpn not working",
+      "competition": "LOW",
+      "competition_index": 0,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a32b50235aeb15c146b",
+      "keyword": "nordvpn security",
+      "competition": "LOW",
+      "competition_index": 1,
+      "high_top_of_page_bid": 5.29,
+      "low_top_of_page_bid": 1.19
+    },
+    {
+      "_id": "63898a32b50235aeb15c146c",
+      "keyword": "online vpn connect without download",
+      "competition": "MEDIUM",
+      "competition_index": 50,
+      "high_top_of_page_bid": 2.85,
+      "low_top_of_page_bid": 0.95
+    },
+    {
+      "_id": "63898a32b50235aeb15c146d",
+      "keyword": "nordvpn platform",
+      "competition": "LOW",
+      "competition_index": 10,
+      "high_top_of_page_bid": 4.7,
+      "low_top_of_page_bid": 0.84
+    },
+    {
+      "_id": "63898a32b50235aeb15c146f",
+      "keyword": "usa vpn",
+      "competition": "LOW",
+      "competition_index": 25,
+      "high_top_of_page_bid": 11.2,
+      "low_top_of_page_bid": 1.09
+    },
+    {
+      "_id": "63898a32b50235aeb15c1470",
+      "keyword": "nordvpn 3 year plan",
+      "competition": "MEDIUM",
+      "competition_index": 42,
+      "high_top_of_page_bid": 3.25,
+      "low_top_of_page_bid": 1.58
+    },
+    {
+      "_id": "63898a32b50235aeb15c1472",
+      "keyword": "nordvpn plans",
+      "competition": "LOW",
+      "competition_index": 29,
+      "high_top_of_page_bid": 2.7,
+      "low_top_of_page_bid": 0.97
+    },
+    {
+      "_id": "63898a32b50235aeb15c1473",
+      "keyword": "vpn app free download",
+      "competition": "LOW",
+      "competition_index": 24,
+      "high_top_of_page_bid": 2.48,
+      "low_top_of_page_bid": 0.58
+    },
+    {
+      "_id": "63898a32b50235aeb15c1474",
+      "keyword": "no vpn",
+      "competition": "LOW",
+      "competition_index": 19,
+      "high_top_of_page_bid": 5.3,
+      "low_top_of_page_bid": 1.07
+    },
+    {
+      "_id": "63898a32b50235aeb15c1476",
+      "keyword": "nordvpn india",
+      "competition": "LOW",
+      "competition_index": 9,
+      "high_top_of_page_bid": 3.2,
+      "low_top_of_page_bid": 0.89
+    },
+    {
+      "_id": "63898a32b50235aeb15c1477",
+      "keyword": "vpn canada",
+      "competition": "MEDIUM",
+      "competition_index": 36,
+      "high_top_of_page_bid": 12.73,
+      "low_top_of_page_bid": 3.05
+    },
+    {
+      "_id": "63898a32b50235aeb15c1478",
+      "keyword": "nord vpn not connecting",
+      "competition": "LOW",
+      "competition_index": 0,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a33b50235aeb15c1479",
+      "keyword": "nord vpn sign in",
+      "competition": "LOW",
+      "competition_index": 3,
+      "high_top_of_page_bid": 1.5,
+      "low_top_of_page_bid": 0.09
+    },
+    {
+      "_id": "63898a33b50235aeb15c147a",
+      "keyword": "nord vpn support",
+      "competition": "LOW",
+      "competition_index": 2,
+      "high_top_of_page_bid": 4.51,
+      "low_top_of_page_bid": 0.07
+    },
+    {
+      "_id": "63898a33b50235aeb15c147b",
+      "keyword": "vpn australia",
+      "competition": "LOW",
+      "competition_index": 31,
+      "high_top_of_page_bid": 10.59,
+      "low_top_of_page_bid": 1.45
+    },
+    {
+      "_id": "63898a33b50235aeb15c147c",
+      "keyword": "nord vpn uk",
+      "competition": "LOW",
+      "competition_index": 26,
+      "high_top_of_page_bid": 7.45,
+      "low_top_of_page_bid": 1.5
+    },
+    {
+      "_id": "63898a33b50235aeb15c147e",
+      "keyword": "nord vpn logo",
+      "competition": "LOW",
+      "competition_index": 0,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a33b50235aeb15c147f",
+      "keyword": "vpn north",
+      "competition": "MEDIUM",
+      "competition_index": 55,
+      "high_top_of_page_bid": 8.28,
+      "low_top_of_page_bid": 2.38
+    },
+    {
+      "_id": "63898a33b50235aeb15c1480",
+      "keyword": "download open vpn",
+      "competition": "LOW",
+      "competition_index": 5,
+      "high_top_of_page_bid": 1.27,
+      "low_top_of_page_bid": 0.05
+    },
+    {
+      "_id": "63898a33b50235aeb15c1481",
+      "keyword": "download vpn for android",
+      "competition": "LOW",
+      "competition_index": 32,
+      "high_top_of_page_bid": 1.36,
+      "low_top_of_page_bid": 0.52
+    },
+    {
+      "_id": "63898a33b50235aeb15c1482",
+      "keyword": "vpn france",
+      "competition": "LOW",
+      "competition_index": 31,
+      "high_top_of_page_bid": 8.87,
+      "low_top_of_page_bid": 2.05
+    },
+    {
+      "_id": "63898a33b50235aeb15c1483",
+      "keyword": "vpn reviews",
+      "competition": "MEDIUM",
+      "competition_index": 40,
+      "high_top_of_page_bid": 11.55,
+      "low_top_of_page_bid": 3.6
+    },
+    {
+      "_id": "63898a33b50235aeb15c1484",
+      "keyword": "vpn like",
+      "competition": "LOW",
+      "competition_index": 4,
+      "high_top_of_page_bid": 1.64,
+      "low_top_of_page_bid": 0.05
+    },
+    {
+      "_id": "63898a33b50235aeb15c1485",
+      "keyword": "nordvpn accounts 2021",
+      "competition": null,
+      "competition_index": null,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a33b50235aeb15c1486",
+      "keyword": "nord vpn teams",
+      "competition": "LOW",
+      "competition_index": 16,
+      "high_top_of_page_bid": 10,
+      "low_top_of_page_bid": 7.03
+    },
+    {
+      "_id": "63898a33b50235aeb15c1487",
+      "keyword": "vpn free download for android",
+      "competition": "LOW",
+      "competition_index": 31,
+      "high_top_of_page_bid": 2.23,
+      "low_top_of_page_bid": 0.41
+    },
+    {
+      "_id": "63898a33b50235aeb15c1488",
+      "keyword": "nordvpn website",
+      "competition": "LOW",
+      "competition_index": 23,
+      "high_top_of_page_bid": 2.86,
+      "low_top_of_page_bid": 0.82
+    },
+    {
+      "_id": "63898a33b50235aeb15c1489",
+      "keyword": "working vpn",
+      "competition": "LOW",
+      "competition_index": 14,
+      "high_top_of_page_bid": 4.1,
+      "low_top_of_page_bid": 0.94
+    },
+    {
+      "_id": "63898a33b50235aeb15c148c",
+      "keyword": "free nord vpn accounts",
+      "competition": "LOW",
+      "competition_index": 4,
+      "high_top_of_page_bid": 1.57,
+      "low_top_of_page_bid": 1.01
+    },
+    {
+      "_id": "63898a33b50235aeb15c148d",
+      "keyword": "vpn italia",
+      "competition": "LOW",
+      "competition_index": 25,
+      "high_top_of_page_bid": 10.86,
+      "low_top_of_page_bid": 2.16
+    },
+    {
+      "_id": "63898a33b50235aeb15c148e",
+      "keyword": "private vpn download",
+      "competition": "MEDIUM",
+      "competition_index": 35,
+      "high_top_of_page_bid": 4.11,
+      "low_top_of_page_bid": 0.52
+    },
+    {
+      "_id": "63898a33b50235aeb15c148f",
+      "keyword": "my vpn location",
+      "competition": "LOW",
+      "competition_index": 5,
+      "high_top_of_page_bid": 6.19,
+      "low_top_of_page_bid": 1.32
+    },
+    {
+      "_id": "63898a33b50235aeb15c1490",
+      "keyword": "online vpn website",
+      "competition": "LOW",
+      "competition_index": 23,
+      "high_top_of_page_bid": 3.35,
+      "low_top_of_page_bid": 0.95
+    },
+    {
+      "_id": "63898a33b50235aeb15c1491",
+      "keyword": "nordvpn russia",
+      "competition": "LOW",
+      "competition_index": 0,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a33b50235aeb15c1492",
+      "keyword": "vpn location",
+      "competition": "LOW",
+      "competition_index": 26,
+      "high_top_of_page_bid": 9.01,
+      "low_top_of_page_bid": 1.94
+    },
+    {
+      "_id": "63898a33b50235aeb15c1493",
+      "keyword": "vpn usa free",
+      "competition": "LOW",
+      "competition_index": 32,
+      "high_top_of_page_bid": 6.25,
+      "low_top_of_page_bid": 1.29
+    },
+    {
+      "_id": "63898a33b50235aeb15c1494",
+      "keyword": "nord vpn india",
+      "competition": "LOW",
+      "competition_index": 8,
+      "high_top_of_page_bid": 4.9,
+      "low_top_of_page_bid": 1.36
+    },
+    {
+      "_id": "63898a33b50235aeb15c1495",
+      "keyword": "private internet access review",
+      "competition": "LOW",
+      "competition_index": 27,
+      "high_top_of_page_bid": 4.02,
+      "low_top_of_page_bid": 1.42
+    },
+    {
+      "_id": "63898a33b50235aeb15c1496",
+      "keyword": "vpn not working",
+      "competition": "LOW",
+      "competition_index": 5,
+      "high_top_of_page_bid": 5.37,
+      "low_top_of_page_bid": 1.19
+    },
+    {
+      "_id": "63898a33b50235aeb15c1497",
+      "keyword": "vpn unlimited download",
+      "competition": "LOW",
+      "competition_index": 21,
+      "high_top_of_page_bid": 4.76,
+      "low_top_of_page_bid": 0.44
+    },
+    {
+      "_id": "63898a33b50235aeb15c1499",
+      "keyword": "nordvpn monthly",
+      "competition": "MEDIUM",
+      "competition_index": 39,
+      "high_top_of_page_bid": 5.42,
+      "low_top_of_page_bid": 2.4
+    },
+    {
+      "_id": "63898a33b50235aeb15c149a",
+      "keyword": "remote vpn",
+      "competition": "MEDIUM",
+      "competition_index": 38,
+      "high_top_of_page_bid": 13.48,
+      "low_top_of_page_bid": 4.73
+    },
+    {
+      "_id": "63898a33b50235aeb15c149b",
+      "keyword": "vpn search",
+      "competition": "LOW",
+      "competition_index": 32,
+      "high_top_of_page_bid": 4,
+      "low_top_of_page_bid": 0.97
+    },
+    {
+      "_id": "63898a33b50235aeb15c149c",
+      "keyword": "nordvpn remote",
+      "competition": "LOW",
+      "competition_index": 14,
+      "high_top_of_page_bid": 4.9,
+      "low_top_of_page_bid": 0.92
+    },
+    {
+      "_id": "63898a33b50235aeb15c149d",
+      "keyword": "nordvpn not opening",
+      "competition": "LOW",
+      "competition_index": 0,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a33b50235aeb15c149e",
+      "keyword": "nord vpn free download",
+      "competition": "LOW",
+      "competition_index": 14,
+      "high_top_of_page_bid": 2.82,
+      "low_top_of_page_bid": 0.85
+    },
+    {
+      "_id": "63898a33b50235aeb15c149f",
+      "keyword": "nordvpn safe",
+      "competition": "LOW",
+      "competition_index": 1,
+      "high_top_of_page_bid": 5.45,
+      "low_top_of_page_bid": 1.5
+    },
+    {
+      "_id": "63898a33b50235aeb15c14a0",
+      "keyword": "usa vpn free",
+      "competition": "LOW",
+      "competition_index": 25,
+      "high_top_of_page_bid": 5.29,
+      "low_top_of_page_bid": 0.91
+    },
+    {
+      "_id": "63898a33b50235aeb15c14a1",
+      "keyword": "nordvpn sign up",
+      "competition": "LOW",
+      "competition_index": 32,
+      "high_top_of_page_bid": 6.5,
+      "low_top_of_page_bid": 1.59
+    },
+    {
+      "_id": "63898a33b50235aeb15c14a2",
+      "keyword": "free vpn canada",
+      "competition": "MEDIUM",
+      "competition_index": 39,
+      "high_top_of_page_bid": 7.37,
+      "low_top_of_page_bid": 1.61
+    },
+    {
+      "_id": "63898a33b50235aeb15c14a3",
+      "keyword": "vpn not connecting",
+      "competition": "LOW",
+      "competition_index": 2,
+      "high_top_of_page_bid": 4.77,
+      "low_top_of_page_bid": 0.97
+    },
+    {
+      "_id": "63898a33b50235aeb15c14a4",
+      "keyword": "vpn us",
+      "competition": "LOW",
+      "competition_index": 26,
+      "high_top_of_page_bid": 10.66,
+      "low_top_of_page_bid": 1.6
+    },
+    {
+      "_id": "63898a33b50235aeb15c14a5",
+      "keyword": "philippines vpn",
+      "competition": "MEDIUM",
+      "competition_index": 41,
+      "high_top_of_page_bid": 10.42,
+      "low_top_of_page_bid": 2.42
+    },
+    {
+      "_id": "63898a33b50235aeb15c14a6",
+      "keyword": "fast vpn free download",
+      "competition": "LOW",
+      "competition_index": 21,
+      "high_top_of_page_bid": 2.29,
+      "low_top_of_page_bid": 0.44
+    },
+    {
+      "_id": "63898a33b50235aeb15c14a7",
+      "keyword": "nord download",
+      "competition": "LOW",
+      "competition_index": 2,
+      "high_top_of_page_bid": 3.77,
+      "low_top_of_page_bid": 0.63
+    },
+    {
+      "_id": "63898a33b50235aeb15c14a8",
+      "keyword": "nordvpn countries",
+      "competition": "LOW",
+      "competition_index": 6,
+      "high_top_of_page_bid": 5.24,
+      "low_top_of_page_bid": 1.54
+    },
+    {
+      "_id": "63898a33b50235aeb15c14a9",
+      "keyword": "youtube vpn online",
+      "competition": "LOW",
+      "competition_index": 20,
+      "high_top_of_page_bid": 2.4,
+      "low_top_of_page_bid": 1.04
+    },
+    {
+      "_id": "63898a33b50235aeb15c14aa",
+      "keyword": "nordvpn offer",
+      "competition": "LOW",
+      "competition_index": 3,
+      "high_top_of_page_bid": 6.44,
+      "low_top_of_page_bid": 1.42
+    },
+    {
+      "_id": "63898a33b50235aeb15c14ab",
+      "keyword": "nord v",
+      "competition": "LOW",
+      "competition_index": 25,
+      "high_top_of_page_bid": 4.82,
+      "low_top_of_page_bid": 1.83
+    },
+    {
+      "_id": "63898a33b50235aeb15c14ac",
+      "keyword": "secure vpn free download",
+      "competition": "LOW",
+      "competition_index": 24,
+      "high_top_of_page_bid": 2.71,
+      "low_top_of_page_bid": 0.52
+    },
+    {
+      "_id": "63898a33b50235aeb15c14ae",
+      "keyword": "p vpn",
+      "competition": "LOW",
+      "competition_index": 9,
+      "high_top_of_page_bid": 5.35,
+      "low_top_of_page_bid": 1.22
+    },
+    {
+      "_id": "63898a33b50235aeb15c14af",
+      "keyword": "free usa vpn",
+      "competition": "MEDIUM",
+      "competition_index": 36,
+      "high_top_of_page_bid": 5.86,
+      "low_top_of_page_bid": 1.12
+    },
+    {
+      "_id": "63898a33b50235aeb15c14b0",
+      "keyword": "nord vpn plans",
+      "competition": "LOW",
+      "competition_index": 33,
+      "high_top_of_page_bid": 2.7,
+      "low_top_of_page_bid": 1.03
+    },
+    {
+      "_id": "63898a33b50235aeb15c14b1",
+      "keyword": "vpn logo",
+      "competition": "LOW",
+      "competition_index": 1,
+      "high_top_of_page_bid": 12.36,
+      "low_top_of_page_bid": 2.81
+    },
+    {
+      "_id": "63898a33b50235aeb15c14b2",
+      "keyword": "vpn unlimited review",
+      "competition": "LOW",
+      "competition_index": 13,
+      "high_top_of_page_bid": 4.6,
+      "low_top_of_page_bid": 1.32
+    },
+    {
+      "_id": "63898a33b50235aeb15c14b3",
+      "keyword": "no log vpn",
+      "competition": "LOW",
+      "competition_index": 23,
+      "high_top_of_page_bid": 10.29,
+      "low_top_of_page_bid": 2.84
+    },
+    {
+      "_id": "63898a33b50235aeb15c14b4",
+      "keyword": "nordvpn premium account 2021",
+      "competition": null,
+      "competition_index": null,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a33b50235aeb15c14b5",
+      "keyword": "nordvpn free account 2021",
+      "competition": "LOW",
+      "competition_index": 0,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a33b50235aeb15c14b6",
+      "keyword": "nordvpn philippines",
+      "competition": "LOW",
+      "competition_index": 17,
+      "high_top_of_page_bid": 2.96,
+      "low_top_of_page_bid": 0.8
+    },
+    {
+      "_id": "63898a33b50235aeb15c14b7",
+      "keyword": "vpn saudi arabia",
+      "competition": "MEDIUM",
+      "competition_index": 38,
+      "high_top_of_page_bid": 8.59,
+      "low_top_of_page_bid": 1.97
+    },
+    {
+      "_id": "63898a33b50235aeb15c14b8",
+      "keyword": "nordvpn browser",
+      "competition": "LOW",
+      "competition_index": 2,
+      "high_top_of_page_bid": 2.9,
+      "low_top_of_page_bid": 1.12
+    },
+    {
+      "_id": "63898a33b50235aeb15c14b9",
+      "keyword": "not vpn",
+      "competition": "LOW",
+      "competition_index": 18,
+      "high_top_of_page_bid": 2.89,
+      "low_top_of_page_bid": 0.78
+    },
+    {
+      "_id": "63898a33b50235aeb15c14ba",
+      "keyword": "private internet access login",
+      "competition": "LOW",
+      "competition_index": 10,
+      "high_top_of_page_bid": 2.01,
+      "low_top_of_page_bid": 0.36
+    },
+    {
+      "_id": "63898a33b50235aeb15c14bb",
+      "keyword": "download vpn pro",
+      "competition": "LOW",
+      "competition_index": 13,
+      "high_top_of_page_bid": 3.37,
+      "low_top_of_page_bid": 0.99
+    },
+    {
+      "_id": "63898a33b50235aeb15c14bc",
+      "keyword": "nordvpn account login",
+      "competition": "LOW",
+      "competition_index": 7,
+      "high_top_of_page_bid": 1.82,
+      "low_top_of_page_bid": 0.47
+    },
+    {
+      "_id": "63898a33b50235aeb15c14bd",
+      "keyword": "nordstrom vpn",
+      "competition": "MEDIUM",
+      "competition_index": 35,
+      "high_top_of_page_bid": 9.57,
+      "low_top_of_page_bid": 3.3
+    },
+    {
+      "_id": "63898a33b50235aeb15c14be",
+      "keyword": "buy nordvpn",
+      "competition": "HIGH",
+      "competition_index": 100,
+      "high_top_of_page_bid": 7.33,
+      "low_top_of_page_bid": 2.52
+    },
+    {
+      "_id": "63898a33b50235aeb15c14bf",
+      "keyword": "fast vpn download",
+      "competition": "LOW",
+      "competition_index": 23,
+      "high_top_of_page_bid": 2.96,
+      "low_top_of_page_bid": 0.74
+    },
+    {
+      "_id": "63898a33b50235aeb15c14c2",
+      "keyword": "nordvpn business",
+      "competition": "MEDIUM",
+      "competition_index": 34,
+      "high_top_of_page_bid": 16.26,
+      "low_top_of_page_bid": 5.53
+    },
+    {
+      "_id": "63898a33b50235aeb15c14c3",
+      "keyword": "use vpn online",
+      "competition": "MEDIUM",
+      "competition_index": 37,
+      "high_top_of_page_bid": 7.96,
+      "low_top_of_page_bid": 1.49
+    },
+    {
+      "_id": "63898a33b50235aeb15c14c4",
+      "keyword": "free nordvpn accounts 2021",
+      "competition": null,
+      "competition_index": null,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a33b50235aeb15c14c5",
+      "keyword": "nordvpn 2 year plan",
+      "competition": "HIGH",
+      "competition_index": 69,
+      "high_top_of_page_bid": 3.84,
+      "low_top_of_page_bid": 1.13
+    },
+    {
+      "_id": "63898a33b50235aeb15c14c6",
+      "keyword": "vpn data",
+      "competition": "LOW",
+      "competition_index": 22,
+      "high_top_of_page_bid": 4.61,
+      "low_top_of_page_bid": 0.96
+    },
+    {
+      "_id": "63898a33b50235aeb15c14c7",
+      "keyword": "nordvpn help",
+      "competition": "LOW",
+      "competition_index": 1,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a33b50235aeb15c14c9",
+      "keyword": "nordvpn price uk",
+      "competition": "LOW",
+      "competition_index": 18,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a33b50235aeb15c14ca",
+      "keyword": "secure vpn app download",
+      "competition": "MEDIUM",
+      "competition_index": 34,
+      "high_top_of_page_bid": 2,
+      "low_top_of_page_bid": 0.47
+    },
+    {
+      "_id": "63898a33b50235aeb15c14cb",
+      "keyword": "nord vpn canada",
+      "competition": "MEDIUM",
+      "competition_index": 44,
+      "high_top_of_page_bid": 4.18,
+      "low_top_of_page_bid": 1.77
+    },
+    {
+      "_id": "63898a33b50235aeb15c14cc",
+      "keyword": "nord vpn premium account",
+      "competition": "LOW",
+      "competition_index": 5,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a33b50235aeb15c14cd",
+      "keyword": "nord app",
+      "competition": "LOW",
+      "competition_index": 8,
+      "high_top_of_page_bid": 3.16,
+      "low_top_of_page_bid": 0.62
+    },
+    {
+      "_id": "63898a33b50235aeb15c14ce",
+      "keyword": "vpn nord login",
+      "competition": "LOW",
+      "competition_index": 15,
+      "high_top_of_page_bid": 3.33,
+      "low_top_of_page_bid": 0.94
+    },
+    {
+      "_id": "63898a33b50235aeb15c14cf",
+      "keyword": "safe vpn for android",
+      "competition": "LOW",
+      "competition_index": 30,
+      "high_top_of_page_bid": 7.48,
+      "low_top_of_page_bid": 1.7
+    },
+    {
+      "_id": "63898a33b50235aeb15c14d0",
+      "keyword": "nordvpn no internet",
+      "competition": "LOW",
+      "competition_index": 0,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a33b50235aeb15c14d1",
+      "keyword": "account nordvpn",
+      "competition": "LOW",
+      "competition_index": 12,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a33b50235aeb15c14d2",
+      "keyword": "nordvpn online",
+      "competition": "LOW",
+      "competition_index": 13,
+      "high_top_of_page_bid": 5.05,
+      "low_top_of_page_bid": 1.17
+    },
+    {
+      "_id": "63898a34b50235aeb15c14d4",
+      "keyword": "free vpn russia",
+      "competition": "MEDIUM",
+      "competition_index": 41,
+      "high_top_of_page_bid": 3.51,
+      "low_top_of_page_bid": 1.01
+    },
+    {
+      "_id": "63898a34b50235aeb15c14d5",
+      "keyword": "nord vpn premium accounts",
+      "competition": "LOW",
+      "competition_index": 4,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a34b50235aeb15c14d6",
+      "keyword": "sl nord products",
+      "competition": "LOW",
+      "competition_index": 13,
+      "high_top_of_page_bid": 7.07,
+      "low_top_of_page_bid": 1.04
+    },
+    {
+      "_id": "63898a34b50235aeb15c14d7",
+      "keyword": "free online vpn browser",
+      "competition": "LOW",
+      "competition_index": 28,
+      "high_top_of_page_bid": 2.04,
+      "low_top_of_page_bid": 0.88
+    },
+    {
+      "_id": "63898a34b50235aeb15c14d8",
+      "keyword": "nord vpn download free",
+      "competition": "LOW",
+      "competition_index": 13,
+      "high_top_of_page_bid": 2.44,
+      "low_top_of_page_bid": 1.26
+    },
+    {
+      "_id": "63898a34b50235aeb15c14d9",
+      "keyword": "vpn secure connection",
+      "competition": "MEDIUM",
+      "competition_index": 54,
+      "high_top_of_page_bid": 6.51,
+      "low_top_of_page_bid": 1.96
+    },
+    {
+      "_id": "63898a34b50235aeb15c14da",
+      "keyword": "nordvpn streaming",
+      "competition": "LOW",
+      "competition_index": 20,
+      "high_top_of_page_bid": 5.02,
+      "low_top_of_page_bid": 1.38
+    },
+    {
+      "_id": "63898a34b50235aeb15c14db",
+      "keyword": "nordvpn features",
+      "competition": "LOW",
+      "competition_index": 6,
+      "high_top_of_page_bid": 3.27,
+      "low_top_of_page_bid": 0.91
+    },
+    {
+      "_id": "63898a34b50235aeb15c14dd",
+      "keyword": "nord vpn help",
+      "competition": "LOW",
+      "competition_index": 2,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a34b50235aeb15c14de",
+      "keyword": "mord vpn",
+      "competition": "MEDIUM",
+      "competition_index": 34,
+      "high_top_of_page_bid": 6.5,
+      "low_top_of_page_bid": 1.99
+    },
+    {
+      "_id": "63898a34b50235aeb15c14df",
+      "keyword": "nordvpn server locations",
+      "competition": "LOW",
+      "competition_index": 3,
+      "high_top_of_page_bid": 8.38,
+      "low_top_of_page_bid": 1.83
+    },
+    {
+      "_id": "63898a34b50235aeb15c14e0",
+      "keyword": "login nord vpn",
+      "competition": "LOW",
+      "competition_index": 4,
+      "high_top_of_page_bid": 2.1,
+      "low_top_of_page_bid": 0.35
+    },
+    {
+      "_id": "63898a34b50235aeb15c14e1",
+      "keyword": "nord vpn pro",
+      "competition": "MEDIUM",
+      "competition_index": 36,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a34b50235aeb15c14e2",
+      "keyword": "nordvpn premium account free",
+      "competition": "LOW",
+      "competition_index": 3,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a34b50235aeb15c14e3",
+      "keyword": "nord vpn android",
+      "competition": "LOW",
+      "competition_index": 13,
+      "high_top_of_page_bid": 4.15,
+      "low_top_of_page_bid": 1.2
+    },
+    {
+      "_id": "63898a34b50235aeb15c14e4",
+      "keyword": "nordvpn english",
+      "competition": "LOW",
+      "competition_index": 24,
+      "high_top_of_page_bid": 7.92,
+      "low_top_of_page_bid": 1.45
+    },
+    {
+      "_id": "63898a34b50235aeb15c14e6",
+      "keyword": "nordvpn not logging in",
+      "competition": "LOW",
+      "competition_index": 0,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a34b50235aeb15c14e7",
+      "keyword": "vps vpn",
+      "competition": "LOW",
+      "competition_index": 24,
+      "high_top_of_page_bid": 10.44,
+      "low_top_of_page_bid": 2.39
+    },
+    {
+      "_id": "63898a34b50235aeb15c14e9",
+      "keyword": "uk vpn online",
+      "competition": "LOW",
+      "competition_index": 30,
+      "high_top_of_page_bid": 9.74,
+      "low_top_of_page_bid": 2.01
+    },
+    {
+      "_id": "63898a34b50235aeb15c14ea",
+      "keyword": "norrd",
+      "competition": "LOW",
+      "competition_index": 3,
+      "high_top_of_page_bid": 4.82,
+      "low_top_of_page_bid": 1.22
+    },
+    {
+      "_id": "63898a34b50235aeb15c14eb",
+      "keyword": "buy nordvpn account",
+      "competition": "LOW",
+      "competition_index": 33,
+      "high_top_of_page_bid": 3.23,
+      "low_top_of_page_bid": 1.13
+    },
+    {
+      "_id": "63898a34b50235aeb15c14ec",
+      "keyword": "a vpn",
+      "competition": "LOW",
+      "competition_index": 15,
+      "high_top_of_page_bid": 3.34,
+      "low_top_of_page_bid": 0.51
+    },
+    {
+      "_id": "63898a34b50235aeb15c14ed",
+      "keyword": "private internet access vpn review",
+      "competition": "LOW",
+      "competition_index": 21,
+      "high_top_of_page_bid": 5.33,
+      "low_top_of_page_bid": 1.44
+    },
+    {
+      "_id": "63898a34b50235aeb15c14ee",
+      "keyword": "vpn server software",
+      "competition": "MEDIUM",
+      "competition_index": 42,
+      "high_top_of_page_bid": 6.92,
+      "low_top_of_page_bid": 1.84
+    },
+    {
+      "_id": "63898a34b50235aeb15c14ef",
+      "keyword": "ssl vpn download",
+      "competition": "LOW",
+      "competition_index": 20,
+      "high_top_of_page_bid": 6.45,
+      "low_top_of_page_bid": 2.24
+    },
+    {
+      "_id": "63898a34b50235aeb15c14f0",
+      "keyword": "free vpn pro",
+      "competition": "LOW",
+      "competition_index": 13,
+      "high_top_of_page_bid": 2.5,
+      "low_top_of_page_bid": 0.54
+    },
+    {
+      "_id": "63898a34b50235aeb15c14f2",
+      "keyword": "nordvpn teams download",
+      "competition": "LOW",
+      "competition_index": 5,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a34b50235aeb15c14f3",
+      "keyword": "nordvpn privacy",
+      "competition": "LOW",
+      "competition_index": 5,
+      "high_top_of_page_bid": 2.42,
+      "low_top_of_page_bid": 1.26
+    },
+    {
+      "_id": "63898a34b50235aeb15c14f4",
+      "keyword": "nord products",
+      "competition": "HIGH",
+      "competition_index": 71,
+      "high_top_of_page_bid": 2.19,
+      "low_top_of_page_bid": 0.71
+    },
+    {
+      "_id": "63898a34b50235aeb15c14f6",
+      "keyword": "free vpn online connect",
+      "competition": "LOW",
+      "competition_index": 14,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a34b50235aeb15c14f7",
+      "keyword": "youtube premium india vpn",
+      "competition": "LOW",
+      "competition_index": 17,
+      "high_top_of_page_bid": 9.99,
+      "low_top_of_page_bid": 2.53
+    },
+    {
+      "_id": "63898a34b50235aeb15c14f8",
+      "keyword": "free account nordvpn",
+      "competition": "LOW",
+      "competition_index": 5,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a34b50235aeb15c14f9",
+      "keyword": "google vpn service",
+      "competition": "LOW",
+      "competition_index": 27,
+      "high_top_of_page_bid": 11.26,
+      "low_top_of_page_bid": 2.83
+    },
+    {
+      "_id": "63898a34b50235aeb15c14fa",
+      "keyword": "nordvpn youtube",
+      "competition": "LOW",
+      "competition_index": 9,
+      "high_top_of_page_bid": 3.2,
+      "low_top_of_page_bid": 1.7
+    },
+    {
+      "_id": "63898a34b50235aeb15c14fb",
+      "keyword": "buy nord vpn",
+      "competition": "MEDIUM",
+      "competition_index": 58,
+      "high_top_of_page_bid": 7.91,
+      "low_top_of_page_bid": 2.54
+    },
+    {
+      "_id": "63898a34b50235aeb15c14fc",
+      "keyword": "vpn privacy",
+      "competition": "MEDIUM",
+      "competition_index": 34,
+      "high_top_of_page_bid": 10.4,
+      "low_top_of_page_bid": 2.6
+    },
+    {
+      "_id": "63898a34b50235aeb15c14fd",
+      "keyword": "free data vpn",
+      "competition": "LOW",
+      "competition_index": 20,
+      "high_top_of_page_bid": 2.71,
+      "low_top_of_page_bid": 0.62
+    },
+    {
+      "_id": "63898a34b50235aeb15c14fe",
+      "keyword": "bpn apps",
+      "competition": "LOW",
+      "competition_index": 24,
+      "high_top_of_page_bid": 5.67,
+      "low_top_of_page_bid": 1.1
+    },
+    {
+      "_id": "63898a34b50235aeb15c14ff",
+      "keyword": "nordvpn app download",
+      "competition": "LOW",
+      "competition_index": 7,
+      "high_top_of_page_bid": 2.99,
+      "low_top_of_page_bid": 0.25
+    },
+    {
+      "_id": "63898a34b50235aeb15c1501",
+      "keyword": "vpn c",
+      "competition": "LOW",
+      "competition_index": 23,
+      "high_top_of_page_bid": 5.06,
+      "low_top_of_page_bid": 1.54
+    },
+    {
+      "_id": "63898a34b50235aeb15c1502",
+      "keyword": "site vpn",
+      "competition": "MEDIUM",
+      "competition_index": 35,
+      "high_top_of_page_bid": 7.55,
+      "low_top_of_page_bid": 0.98
+    },
+    {
+      "_id": "63898a34b50235aeb15c1503",
+      "keyword": "nordvpn connected but no internet",
+      "competition": "LOW",
+      "competition_index": 0,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a34b50235aeb15c1504",
+      "keyword": "vpn usa online",
+      "competition": "MEDIUM",
+      "competition_index": 37,
+      "high_top_of_page_bid": 4.31,
+      "low_top_of_page_bid": 1.22
+    },
+    {
+      "_id": "63898a34b50235aeb15c1505",
+      "keyword": "nord vpn logs",
+      "competition": "LOW",
+      "competition_index": 2,
+      "high_top_of_page_bid": 4.16,
+      "low_top_of_page_bid": 1.06
+    },
+    {
+      "_id": "63898a34b50235aeb15c1506",
+      "keyword": "free phone vpn",
+      "competition": "MEDIUM",
+      "competition_index": 39,
+      "high_top_of_page_bid": 6.7,
+      "low_top_of_page_bid": 1.38
+    },
+    {
+      "_id": "63898a34b50235aeb15c1507",
+      "keyword": "free premium vpn",
+      "competition": "LOW",
+      "competition_index": 30,
+      "high_top_of_page_bid": 4.53,
+      "low_top_of_page_bid": 1.22
+    },
+    {
+      "_id": "63898a34b50235aeb15c1508",
+      "keyword": "nordvpn price india",
+      "competition": "LOW",
+      "competition_index": 21,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a34b50235aeb15c1509",
+      "keyword": "browser based vpn",
+      "competition": "LOW",
+      "competition_index": 16,
+      "high_top_of_page_bid": 6.32,
+      "low_top_of_page_bid": 1.14
+    },
+    {
+      "_id": "63898a34b50235aeb15c150a",
+      "keyword": "private access vpn",
+      "competition": "LOW",
+      "competition_index": 33,
+      "high_top_of_page_bid": 9.23,
+      "low_top_of_page_bid": 1.88
+    },
+    {
+      "_id": "63898a34b50235aeb15c150b",
+      "keyword": "usa vpn free online",
+      "competition": null,
+      "competition_index": null,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a34b50235aeb15c150c",
+      "keyword": "vpn no download",
+      "competition": "LOW",
+      "competition_index": 30,
+      "high_top_of_page_bid": 1.99,
+      "low_top_of_page_bid": 0.84
+    },
+    {
+      "_id": "63898a34b50235aeb15c150d",
+      "keyword": "web store vpn",
+      "competition": "LOW",
+      "competition_index": 6,
+      "high_top_of_page_bid": 1.57,
+      "low_top_of_page_bid": 0.87
+    },
+    {
+      "_id": "63898a34b50235aeb15c150e",
+      "keyword": "start vpn",
+      "competition": "LOW",
+      "competition_index": 12,
+      "high_top_of_page_bid": 4.07,
+      "low_top_of_page_bid": 0.75
+    },
+    {
+      "_id": "63898a34b50235aeb15c150f",
+      "keyword": "vpn ratings",
+      "competition": "MEDIUM",
+      "competition_index": 48,
+      "high_top_of_page_bid": 11.57,
+      "low_top_of_page_bid": 3.02
+    },
+    {
+      "_id": "63898a34b50235aeb15c1510",
+      "keyword": "server address for vpn android",
+      "competition": "LOW",
+      "competition_index": 18,
+      "high_top_of_page_bid": 3.19,
+      "low_top_of_page_bid": 0.98
+    },
+    {
+      "_id": "63898a34b50235aeb15c1514",
+      "keyword": "free vpn no download",
+      "competition": "LOW",
+      "competition_index": 32,
+      "high_top_of_page_bid": 1.75,
+      "low_top_of_page_bid": 0.87
+    },
+    {
+      "_id": "63898a34b50235aeb15c1515",
+      "keyword": "nordvpn france",
+      "competition": "MEDIUM",
+      "competition_index": 39,
+      "high_top_of_page_bid": 5.28,
+      "low_top_of_page_bid": 2.21
+    },
+    {
+      "_id": "63898a34b50235aeb15c1516",
+      "keyword": "vpn nordic",
+      "competition": "MEDIUM",
+      "competition_index": 46,
+      "high_top_of_page_bid": 12.94,
+      "low_top_of_page_bid": 3.05
+    },
+    {
+      "_id": "63898a34b50235aeb15c1517",
+      "keyword": "secure vpn pro",
+      "competition": "LOW",
+      "competition_index": 5,
+      "high_top_of_page_bid": 6.3,
+      "low_top_of_page_bid": 1.55
+    },
+    {
+      "_id": "63898a34b50235aeb15c1518",
+      "keyword": "vpn app store",
+      "competition": "LOW",
+      "competition_index": 22,
+      "high_top_of_page_bid": 3.84,
+      "low_top_of_page_bid": 0.93
+    },
+    {
+      "_id": "63898a34b50235aeb15c1519",
+      "keyword": "download vpn premium",
+      "competition": "LOW",
+      "competition_index": 26,
+      "high_top_of_page_bid": 2.2,
+      "low_top_of_page_bid": 0.98
+    },
+    {
+      "_id": "63898a34b50235aeb15c151a",
+      "keyword": "europe vpn",
+      "competition": "LOW",
+      "competition_index": 25,
+      "high_top_of_page_bid": 11.97,
+      "low_top_of_page_bid": 3.66
+    },
+    {
+      "_id": "63898a34b50235aeb15c151b",
+      "keyword": "nordvpn dashboard",
+      "competition": "LOW",
+      "competition_index": 2,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a34b50235aeb15c151c",
+      "keyword": "vpn philippines server",
+      "competition": "MEDIUM",
+      "competition_index": 47,
+      "high_top_of_page_bid": 12.27,
+      "low_top_of_page_bid": 3.13
+    },
+    {
+      "_id": "63898a34b50235aeb15c151d",
+      "keyword": "vpn tool",
+      "competition": "MEDIUM",
+      "competition_index": 34,
+      "high_top_of_page_bid": 6.57,
+      "low_top_of_page_bid": 0.98
+    },
+    {
+      "_id": "63898a34b50235aeb15c151e",
+      "keyword": "nord account login",
+      "competition": "LOW",
+      "competition_index": 2,
+      "high_top_of_page_bid": 3.54,
+      "low_top_of_page_bid": 0.6
+    },
+    {
+      "_id": "63898a34b50235aeb15c151f",
+      "keyword": "india vpn download",
+      "competition": "MEDIUM",
+      "competition_index": 40,
+      "high_top_of_page_bid": 3.88,
+      "low_top_of_page_bid": 0.79
+    },
+    {
+      "_id": "63898a34b50235aeb15c1521",
+      "keyword": "sweden vpn",
+      "competition": "LOW",
+      "competition_index": 23,
+      "high_top_of_page_bid": 9.17,
+      "low_top_of_page_bid": 1.45
+    },
+    {
+      "_id": "63898a34b50235aeb15c1523",
+      "keyword": "try vpn",
+      "competition": "MEDIUM",
+      "competition_index": 33,
+      "high_top_of_page_bid": 11.34,
+      "low_top_of_page_bid": 0.95
+    },
+    {
+      "_id": "63898a34b50235aeb15c1524",
+      "keyword": "nordvpn connecting",
+      "competition": "LOW",
+      "competition_index": 5,
+      "high_top_of_page_bid": 5.02,
+      "low_top_of_page_bid": 0.99
+    },
+    {
+      "_id": "63898a34b50235aeb15c1526",
+      "keyword": "any connect vpn",
+      "competition": "LOW",
+      "competition_index": 20,
+      "high_top_of_page_bid": 4.83,
+      "low_top_of_page_bid": 0.89
+    },
+    {
+      "_id": "63898a34b50235aeb15c1527",
+      "keyword": "vpn pl",
+      "competition": "MEDIUM",
+      "competition_index": 48,
+      "high_top_of_page_bid": 4.98,
+      "low_top_of_page_bid": 1.35
+    },
+    {
+      "_id": "63898a34b50235aeb15c1528",
+      "keyword": "vpn nord free",
+      "competition": "MEDIUM",
+      "competition_index": 43,
+      "high_top_of_page_bid": 4.2,
+      "low_top_of_page_bid": 0.88
+    },
+    {
+      "_id": "63898a34b50235aeb15c1529",
+      "keyword": "nordvpn account premium",
+      "competition": "LOW",
+      "competition_index": 0,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a34b50235aeb15c152a",
+      "keyword": "usa vpn online",
+      "competition": "LOW",
+      "competition_index": 32,
+      "high_top_of_page_bid": 3.98,
+      "low_top_of_page_bid": 1.04
+    },
+    {
+      "_id": "63898a34b50235aeb15c152b",
+      "keyword": "home vpn server",
+      "competition": "HIGH",
+      "competition_index": 100,
+      "high_top_of_page_bid": 6.24,
+      "low_top_of_page_bid": 1.28
+    },
+    {
+      "_id": "63898a34b50235aeb15c152d",
+      "keyword": "n vpn",
+      "competition": "LOW",
+      "competition_index": 26,
+      "high_top_of_page_bid": 10.4,
+      "low_top_of_page_bid": 1.34
+    },
+    {
+      "_id": "63898a34b50235aeb15c152e",
+      "keyword": "click vpn",
+      "competition": "LOW",
+      "competition_index": 13,
+      "high_top_of_page_bid": 2.85,
+      "low_top_of_page_bid": 0.94
+    },
+    {
+      "_id": "63898a34b50235aeb15c152f",
+      "keyword": "protection of vpn",
+      "competition": null,
+      "competition_index": null,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a34b50235aeb15c1530",
+      "keyword": "vpn to home network",
+      "competition": "HIGH",
+      "competition_index": 69,
+      "high_top_of_page_bid": 6.64,
+      "low_top_of_page_bid": 1.67
+    },
+    {
+      "_id": "63898a34b50235aeb15c1531",
+      "keyword": "free vpn us",
+      "competition": "LOW",
+      "competition_index": 20,
+      "high_top_of_page_bid": 4.16,
+      "low_top_of_page_bid": 0.82
+    },
+    {
+      "_id": "63898a34b50235aeb15c1532",
+      "keyword": "vpn offers",
+      "competition": "HIGH",
+      "competition_index": 92,
+      "high_top_of_page_bid": 13.11,
+      "low_top_of_page_bid": 4.56
+    },
+    {
+      "_id": "63898a34b50235aeb15c1533",
+      "keyword": "nordvpn devices",
+      "competition": "LOW",
+      "competition_index": 27,
+      "high_top_of_page_bid": 3.2,
+      "low_top_of_page_bid": 0.83
+    },
+    {
+      "_id": "63898a34b50235aeb15c1534",
+      "keyword": "web based vpn",
+      "competition": "LOW",
+      "competition_index": 28,
+      "high_top_of_page_bid": 7.35,
+      "low_top_of_page_bid": 1.76
+    },
+    {
+      "_id": "63898a34b50235aeb15c1536",
+      "keyword": "free vpn server for android",
+      "competition": "LOW",
+      "competition_index": 16,
+      "high_top_of_page_bid": 4.12,
+      "low_top_of_page_bid": 0.82
+    },
+    {
+      "_id": "63898a34b50235aeb15c1537",
+      "keyword": "open vpn android",
+      "competition": "LOW",
+      "competition_index": 3,
+      "high_top_of_page_bid": 2,
+      "low_top_of_page_bid": 0.11
+    },
+    {
+      "_id": "63898a34b50235aeb15c1538",
+      "keyword": "vpn connected but not working",
+      "competition": "LOW",
+      "competition_index": 1,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a34b50235aeb15c1539",
+      "keyword": "nordnet vpn",
+      "competition": "MEDIUM",
+      "competition_index": 50,
+      "high_top_of_page_bid": 7.22,
+      "low_top_of_page_bid": 3.07
+    },
+    {
+      "_id": "63898a34b50235aeb15c153a",
+      "keyword": "free and safe vpn",
+      "competition": "MEDIUM",
+      "competition_index": 36,
+      "high_top_of_page_bid": 3.92,
+      "low_top_of_page_bid": 1.01
+    },
+    {
+      "_id": "63898a34b50235aeb15c153b",
+      "keyword": "free vpn philippines",
+      "competition": "MEDIUM",
+      "competition_index": 41,
+      "high_top_of_page_bid": 5.88,
+      "low_top_of_page_bid": 1.26
+    },
+    {
+      "_id": "63898a34b50235aeb15c153c",
+      "keyword": "company vpn",
+      "competition": "MEDIUM",
+      "competition_index": 43,
+      "high_top_of_page_bid": 80,
+      "low_top_of_page_bid": 8.05
+    },
+    {
+      "_id": "63898a34b50235aeb15c153d",
+      "keyword": "vpn in",
+      "competition": "LOW",
+      "competition_index": 27,
+      "high_top_of_page_bid": 6.2,
+      "low_top_of_page_bid": 0.95
+    },
+    {
+      "_id": "63898a34b50235aeb15c153e",
+      "keyword": "nord vpn account free",
+      "competition": "LOW",
+      "competition_index": 9,
+      "high_top_of_page_bid": 6.04,
+      "low_top_of_page_bid": 0.77
+    },
+    {
+      "_id": "63898a34b50235aeb15c153f",
+      "keyword": "nordvpn 3 year",
+      "competition": "LOW",
+      "competition_index": 12,
+      "high_top_of_page_bid": 3.25,
+      "low_top_of_page_bid": 0.8
+    },
+    {
+      "_id": "63898a34b50235aeb15c1540",
+      "keyword": "google store vpn",
+      "competition": "LOW",
+      "competition_index": 14,
+      "high_top_of_page_bid": 4.28,
+      "low_top_of_page_bid": 1.11
+    },
+    {
+      "_id": "63898a34b50235aeb15c1541",
+      "keyword": "vpn browser android",
+      "competition": "LOW",
+      "competition_index": 31,
+      "high_top_of_page_bid": 2.58,
+      "low_top_of_page_bid": 0.8
+    },
+    {
+      "_id": "63898a34b50235aeb15c1542",
+      "keyword": "india vpn server address",
+      "competition": "LOW",
+      "competition_index": 21,
+      "high_top_of_page_bid": 11.5,
+      "low_top_of_page_bid": 1.45
+    },
+    {
+      "_id": "63898a34b50235aeb15c1543",
+      "keyword": "free vpn connection",
+      "competition": "LOW",
+      "competition_index": 29,
+      "high_top_of_page_bid": 3.17,
+      "low_top_of_page_bid": 0.93
+    },
+    {
+      "_id": "63898a34b50235aeb15c1545",
+      "keyword": "vpn youtube premium",
+      "competition": "LOW",
+      "competition_index": 13,
+      "high_top_of_page_bid": 9.07,
+      "low_top_of_page_bid": 3.73
+    },
+    {
+      "_id": "63898a34b50235aeb15c1546",
+      "keyword": "nordvpn server address",
+      "competition": "LOW",
+      "competition_index": 1,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a34b50235aeb15c1549",
+      "keyword": "nordvpn blog",
+      "competition": "LOW",
+      "competition_index": 0,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "63898a34b50235aeb15c154a",
+      "keyword": "nord vpn locations",
+      "competition": "LOW",
+      "competition_index": 4,
+      "high_top_of_page_bid": 6.31,
+      "low_top_of_page_bid": 1.6
+    },
+    {
+      "_id": "63898a34b50235aeb15c154b",
+      "keyword": "us vpn server",
+      "competition": "LOW",
+      "competition_index": 28,
+      "high_top_of_page_bid": 9.91,
+      "low_top_of_page_bid": 2.56
+    },
+    {
+      "_id": "63898a34b50235aeb15c154c",
+      "keyword": "private vpn review",
+      "competition": "LOW",
+      "competition_index": 25,
+      "high_top_of_page_bid": 6.47,
+      "low_top_of_page_bid": 2.01
+    },
+    {
+      "_id": "63898a34b50235aeb15c154d",
+      "keyword": "open vpn account",
+      "competition": "LOW",
+      "competition_index": 13,
+      "high_top_of_page_bid": 7.15,
+      "low_top_of_page_bid": 1.05
+    },
+    {
+      "_id": "6389a099b50235aeb15c611a",
+      "keyword": "free vpn no subscription",
+      "competition": "MEDIUM",
+      "competition_index": 35,
+      "high_top_of_page_bid": 2.35,
+      "low_top_of_page_bid": 0.8
+    },
+    {
+      "_id": "6389d7c5b50235aeb15ce197",
+      "keyword": "nordvpn review",
+      "competition": "LOW",
+      "competition_index": 18,
+      "high_top_of_page_bid": 2.7,
+      "low_top_of_page_bid": 0.9
+    },
+    {
+      "_id": "6389d7c6b50235aeb15ce1a0",
+      "keyword": "private internet access download",
+      "competition": "LOW",
+      "competition_index": 12,
+      "high_top_of_page_bid": 1.57,
+      "low_top_of_page_bid": 0.32
+    },
+    {
+      "_id": "6389d921b50235aeb15ce509",
+      "keyword": "best vpn nz",
+      "competition": "LOW",
+      "competition_index": 14,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "6389d928b50235aeb15ce550",
+      "keyword": "nordvpn review 2021",
+      "competition": "LOW",
+      "competition_index": 31,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    },
+    {
+      "_id": "6389d92ab50235aeb15ce55e",
+      "keyword": "nordvpn for free",
+      "competition": "MEDIUM",
+      "competition_index": 34,
+      "high_top_of_page_bid": 3.25,
+      "low_top_of_page_bid": 0.68
+    },
+    {
+      "_id": "638de2fdb50235aeb1645bb5",
+      "keyword": "vpn price",
+      "competition": "HIGH",
+      "competition_index": 82,
+      "high_top_of_page_bid": 7.66,
+      "low_top_of_page_bid": 2.45
+    },
+    {
+      "_id": "63a13decb50235aeb1983a4b",
+      "keyword": "benefits of vpn",
+      "competition": "LOW",
+      "competition_index": 32,
+      "high_top_of_page_bid": 5.65,
+      "low_top_of_page_bid": 1.01
+    },
+    {
+      "_id": "63a28bd9b50235aeb19bf539",
+      "keyword": "best europe vpn",
+      "competition": "MEDIUM",
+      "competition_index": 38,
+      "high_top_of_page_bid": 16.41,
+      "low_top_of_page_bid": 6.22
+    },
+    {
+      "_id": "63a28bdab50235aeb19bf53a",
+      "keyword": "n ord",
+      "competition": "LOW",
+      "competition_index": 2,
+      "high_top_of_page_bid": 15.35,
+      "low_top_of_page_bid": 0.9
+    },
+    {
+      "_id": "63a28bdab50235aeb19bf53d",
+      "keyword": "vpn america",
+      "competition": "MEDIUM",
+      "competition_index": 38,
+      "high_top_of_page_bid": 10,
+      "low_top_of_page_bid": 2.46
+    },
+    {
+      "_id": "63a28bdcb50235aeb19bf546",
+      "keyword": "free fast vpn",
+      "competition": "LOW",
+      "competition_index": 23,
+      "high_top_of_page_bid": 3.22,
+      "low_top_of_page_bid": 0.6
+    },
+    {
+      "_id": "63a28bddb50235aeb19bf54b",
+      "keyword": "fast vpn 2021",
+      "competition": "LOW",
+      "competition_index": 4,
+      "high_top_of_page_bid": null,
+      "low_top_of_page_bid": null
+    }
+  ],
+  "domain_index": {
+    "_id": "639ac989b50235aeb17dc2ea",
+    "domain": "nordvpn.com",
+    "ads_android": 0,
+    "ads_desktop": 0,
+    "ads_ios": 0,
+    "ads_macos": 0,
+    "ads_mobile": 0,
+    "ads_windows": 18,
+    "countries": ["US"],
+    "createdAt": "2022-12-15T07:15:21.852Z",
+    "get_keywords": true,
+    "locations": [2840],
+    "updatedAt": "2022-12-21T04:30:17.217Z",
+    "get_contacts": true
+  },
+  "domain_ads": [
+    {
+      "_id": "639ac9672ff8518ca04cb803",
+      "keyword": "best vpn",
+      "location_code": 2840,
+      "location_country": "US",
+      "location_name": "United States",
+      "language": "en",
+      "device": "desktop",
+      "os": "windows",
+      "domain": "nordvpn.com",
+      "rank": 2,
+      "title": "Nord VPN® - Best VPN In the US - Best VPN For 30-Day VPN Trial",
+      "description": "Buy a NordVPN Plan To Experience The Real Online Protection. Get The Best VPN With 68% Off",
+      "url": "https://nordvpn.com/offer/exclusive/usa/",
+      "breadcrumb": "https://www.nordvpn.com/",
+      "__v": 0,
+      "createdAt": "2022-12-15T07:14:47.963Z",
+      "updatedAt": "2022-12-15T07:14:47.963Z"
+    },
+    {
+      "_id": "639ac9894eb391ac362694dc",
+      "keyword": "best vpn",
+      "location_code": 2840,
+      "location_country": "US",
+      "location_name": "United States",
+      "language": "en",
+      "device": "desktop",
+      "os": "windows",
+      "domain": "nordvpn.com",
+      "rank": 4,
+      "title": "Nord VPN® - Best VPN In the US - Get 68% Off Your Plan",
+      "description": "Best Time To Get Nord VPN®. Buy Now & See What Full Online Protection Really Feels Like.",
+      "url": "https://nordvpn.com/offer/exclusive/usa/",
+      "breadcrumb": "https://www.nordvpn.com/",
+      "__v": 0,
+      "createdAt": "2022-12-15T07:15:21.846Z",
+      "updatedAt": "2022-12-15T07:15:21.846Z"
+    },
+    {
+      "_id": "639afb9a80b062826166e7a7",
+      "keyword": "vpn best vpn",
+      "location_code": 2840,
+      "location_country": "US",
+      "location_name": "United States",
+      "language": "en",
+      "device": "desktop",
+      "os": "windows",
+      "domain": "nordvpn.com",
+      "rank": 3,
+      "title": "Nord VPN® - Best VPN In the US - Best VPN For 30-Day VPN Trial",
+      "description": "Buy a NordVPN Plan To Experience The Real Online Protection. Get The Best VPN With 68% Off",
+      "url": "https://nordvpn.com/offer/exclusive/usa/",
+      "breadcrumb": "https://www.nordvpn.com/",
+      "__v": 0,
+      "createdAt": "2022-12-15T10:48:58.973Z",
+      "updatedAt": "2022-12-15T10:48:58.973Z"
+    },
+    {
+      "_id": "639afbab80b062826166e8c3",
+      "keyword": "cheapest 1 month vpn",
+      "location_code": 2840,
+      "location_country": "US",
+      "location_name": "United States",
+      "language": "en",
+      "device": "desktop",
+      "os": "windows",
+      "domain": "nordvpn.com",
+      "rank": 4,
+      "title": "30-Day VPN Trial - Best VPN For The US Users",
+      "description": "Best Time To Get NordVPN®. Buy Now & See What Full Online Protection Really Feels Like.",
+      "url": "https://nordvpn.com/offer/exclusive/usa/",
+      "breadcrumb": "https://www.nordvpn.com/",
+      "__v": 0,
+      "createdAt": "2022-12-15T10:49:15.368Z",
+      "updatedAt": "2022-12-15T10:49:15.368Z"
+    },
+    {
+      "_id": "639afbb280b062826166e8ec",
+      "keyword": "best monthly vpn",
+      "location_code": 2840,
+      "location_country": "US",
+      "location_name": "United States",
+      "language": "en",
+      "device": "desktop",
+      "os": "windows",
+      "domain": "nordvpn.com",
+      "rank": 1,
+      "title": "Best VPN For 30-Day VPN Trial - Nord VPN® - Best VPN In the US",
+      "description": "Buy a NordVPN Plan To Experience The Real Online Protection. Get The Best VPN With 68% Off. Get The Best VPN. Nord VPN: The Ultimate Online Security! Get Now With 68% Off.",
+      "url": "https://nordvpn.com/offer/exclusive/usa/",
+      "breadcrumb": "https://www.nordvpn.com/",
+      "__v": 0,
+      "createdAt": "2022-12-15T10:49:22.373Z",
+      "updatedAt": "2022-12-15T10:49:22.373Z"
+    },
+    {
+      "_id": "639afbc080b062826166e9d9",
+      "keyword": "best vpn out there",
+      "location_code": 2840,
+      "location_country": "US",
+      "location_name": "United States",
+      "language": "en",
+      "device": "desktop",
+      "os": "windows",
+      "domain": "nordvpn.com",
+      "rank": 3,
+      "title": "Nord VPN® - Best VPN In the US - Best VPN For 30-Day VPN Trial",
+      "description": "Buy a NordVPN Plan To Experience The Real Online Protection. Get The Best VPN With 68% Off",
+      "url": "https://nordvpn.com/offer/exclusive/usa/",
+      "breadcrumb": "https://www.nordvpn.com/",
+      "__v": 0,
+      "createdAt": "2022-12-15T10:49:36.824Z",
+      "updatedAt": "2022-12-15T10:49:36.824Z"
+    },
+    {
+      "_id": "639afbc880b062826166ea8e",
+      "keyword": "best australian vpn",
+      "location_code": 2840,
+      "location_country": "US",
+      "location_name": "United States",
+      "language": "en",
+      "device": "desktop",
+      "os": "windows",
+      "domain": "nordvpn.com",
+      "rank": 3,
+      "title": "Nord VPN® - Best VPN In the US - Best VPN For 30-Day VPN Trial",
+      "description": "Buy a NordVPN Plan To Experience The Real Online Protection. Get The Best VPN With 68% Off",
+      "url": "https://nordvpn.com/offer/exclusive/usa/",
+      "breadcrumb": "https://www.nordvpn.com/",
+      "__v": 0,
+      "createdAt": "2022-12-15T10:49:44.262Z",
+      "updatedAt": "2022-12-15T10:49:44.262Z"
+    },
+    {
+      "_id": "639afbe180b062826166ebb0",
+      "keyword": "best vpn for geforce now",
+      "location_code": 2840,
+      "location_country": "US",
+      "location_name": "United States",
+      "language": "en",
+      "device": "desktop",
+      "os": "windows",
+      "domain": "nordvpn.com",
+      "rank": 1,
+      "title": "Nord VPN® - Best VPN In the US - Best VPN For 30-Day VPN Trial",
+      "description": "Buy a NordVPN Plan To Experience The Real Online Protection. Get The Best VPN With 68% Off",
+      "url": "https://nordvpn.com/offer/exclusive/usa/",
+      "breadcrumb": "https://www.nordvpn.com/",
+      "__v": 0,
+      "createdAt": "2022-12-15T10:50:09.648Z",
+      "updatedAt": "2022-12-15T10:50:09.648Z"
+    },
+    {
+      "_id": "639afbf580b062826166ed73",
+      "keyword": "best vpn for gta online",
+      "location_code": 2840,
+      "location_country": "US",
+      "location_name": "United States",
+      "language": "en",
+      "device": "desktop",
+      "os": "windows",
+      "domain": "nordvpn.com",
+      "rank": 2,
+      "title": "Nord VPN® - Best VPN In the US - Best VPN For 30-Day VPN Trial",
+      "description": "Buy a NordVPN Plan To Experience The Real Online Protection. Get The Best VPN With 68% Off",
+      "url": "https://nordvpn.com/offer/exclusive/usa/",
+      "breadcrumb": "https://www.nordvpn.com/",
+      "__v": 0,
+      "createdAt": "2022-12-15T10:50:29.732Z",
+      "updatedAt": "2022-12-15T10:50:29.732Z"
+    },
+    {
+      "_id": "639afc1f80b062826166f022",
+      "keyword": "best vpn worldwide",
+      "location_code": 2840,
+      "location_country": "US",
+      "location_name": "United States",
+      "language": "en",
+      "device": "desktop",
+      "os": "windows",
+      "domain": "nordvpn.com",
+      "rank": 4,
+      "title": "Nord VPN® - Best VPN In the US - Best VPN In The US",
+      "description": "Buy a NordVPN Plan To Experience The Real Online Protection. Get The Best VPN With 68% Off",
+      "url": "https://nordvpn.com/offer/exclusive/usa/",
+      "breadcrumb": "https://www.nordvpn.com/",
+      "__v": 0,
+      "createdAt": "2022-12-15T10:51:11.835Z",
+      "updatedAt": "2022-12-15T10:51:11.835Z"
+    },
+    {
+      "_id": "639afc3d80b062826166f1f9",
+      "keyword": "best cheap vpn for torrenting",
+      "location_code": 2840,
+      "location_country": "US",
+      "location_name": "United States",
+      "language": "en",
+      "device": "desktop",
+      "os": "windows",
+      "domain": "nordvpn.com",
+      "rank": 4,
+      "title": "Nord VPN® - Best VPN In the US - Best VPN For 30-Day VPN Trial",
+      "description": "Buy a NordVPN Plan To Experience The Real Online Protection. Get The Best VPN With 68% Off",
+      "url": "https://nordvpn.com/offer/exclusive/usa/",
+      "breadcrumb": "https://www.nordvpn.com/",
+      "__v": 0,
+      "createdAt": "2022-12-15T10:51:41.640Z",
+      "updatedAt": "2022-12-15T10:51:41.640Z"
+    },
+    {
+      "_id": "639afcc880b062826166f91a",
+      "keyword": "nordvpn best price",
+      "location_code": 2840,
+      "location_country": "US",
+      "location_name": "United States",
+      "language": "en",
+      "device": "desktop",
+      "os": "windows",
+      "domain": "nordvpn.com",
+      "rank": 2,
+      "title": "Get 68% Off the 2-Year Plan - Christmas 2022: 68% Off",
+      "description": "Check out this Christmas deal: 68% off the 2Y NordVPN Complete plan + 3 months free.",
+      "url": "https://nordvpn.com/country/usa/",
+      "breadcrumb": "https://www.nordvpn.com/",
+      "__v": 0,
+      "createdAt": "2022-12-15T10:54:00.352Z",
+      "updatedAt": "2022-12-15T10:54:00.352Z"
+    },
+    {
+      "_id": "639afd7280b062826166fffa",
+      "keyword": "best speed vpn for android",
+      "location_code": 2840,
+      "location_country": "US",
+      "location_name": "United States",
+      "language": "en",
+      "device": "desktop",
+      "os": "windows",
+      "domain": "nordvpn.com",
+      "rank": 4,
+      "title": "Best VPN For 30-Day VPN Trial - Simply The Best VPN",
+      "description": "Buy a NordVPN Plan To Experience The Real Online Protection. Get The Best VPN With 68% Off",
+      "url": "https://nordvpn.com/offer/exclusive/usa/",
+      "breadcrumb": "https://www.nordvpn.com/",
+      "__v": 0,
+      "createdAt": "2022-12-15T10:56:50.644Z",
+      "updatedAt": "2022-12-15T10:56:50.644Z"
+    },
+    {
+      "_id": "639afdc580b0628261670378",
+      "keyword": "best vpn for now tv",
+      "location_code": 2840,
+      "location_country": "US",
+      "location_name": "United States",
+      "language": "en",
+      "device": "desktop",
+      "os": "windows",
+      "domain": "nordvpn.com",
+      "rank": 4,
+      "title": "Nord VPN® - Best VPN In the US - Best VPN For 30-Day VPN Trial",
+      "description": "Buy a NordVPN Plan To Experience The Real Online Protection. Get The Best VPN With 68% Off",
+      "url": "https://nordvpn.com/offer/exclusive/usa/",
+      "breadcrumb": "https://www.nordvpn.com/",
+      "__v": 0,
+      "createdAt": "2022-12-15T10:58:13.426Z",
+      "updatedAt": "2022-12-15T10:58:13.426Z"
+    },
+    {
+      "_id": "639afdfa80b062826167061b",
+      "keyword": "world no 1 vpn",
+      "location_code": 2840,
+      "location_country": "US",
+      "location_name": "United States",
+      "language": "en",
+      "device": "desktop",
+      "os": "windows",
+      "domain": "nordvpn.com",
+      "rank": 2,
+      "title": "Nord VPN® - Best VPN In the US - Simply The Best VPN",
+      "description": "Buy a NordVPN Plan To Experience The Real Online Protection. Get The Best VPN With 68% Off",
+      "url": "https://nordvpn.com/offer/exclusive/usa/",
+      "breadcrumb": "https://www.nordvpn.com/",
+      "__v": 0,
+      "createdAt": "2022-12-15T10:59:06.668Z",
+      "updatedAt": "2022-12-15T10:59:06.668Z"
+    },
+    {
+      "_id": "639afe1280b06282616707cf",
+      "keyword": "best vpn for australian users",
+      "location_code": 2840,
+      "location_country": "US",
+      "location_name": "United States",
+      "language": "en",
+      "device": "desktop",
+      "os": "windows",
+      "domain": "nordvpn.com",
+      "rank": 1,
+      "title": "Nord VPN® - Best VPN In the US - Best VPN For 30-Day VPN Trial",
+      "description": "Buy a NordVPN Plan To Experience The Real Online Protection. Get The Best VPN With 68% Off",
+      "url": "https://nordvpn.com/offer/exclusive/usa/",
+      "breadcrumb": "https://www.nordvpn.com/",
+      "__v": 0,
+      "createdAt": "2022-12-15T10:59:30.422Z",
+      "updatedAt": "2022-12-15T10:59:30.422Z"
+    },
+    {
+      "_id": "639afe3180b062826167098a",
+      "keyword": "best vpn in the world for android",
+      "location_code": 2840,
+      "location_country": "US",
+      "location_name": "United States",
+      "language": "en",
+      "device": "desktop",
+      "os": "windows",
+      "domain": "nordvpn.com",
+      "rank": 3,
+      "title": "Nord VPN® - Best VPN In the US - Best VPN For 30-Day VPN Trial",
+      "description": "Buy a NordVPN Plan To Experience The Real Online Protection. Get The Best VPN With 68% Off",
+      "url": "https://nordvpn.com/offer/exclusive/usa/",
+      "breadcrumb": "https://www.nordvpn.com/",
+      "__v": 0,
+      "createdAt": "2022-12-15T11:00:01.390Z",
+      "updatedAt": "2022-12-15T11:00:01.390Z"
+    },
+    {
+      "_id": "639b13f60564036e20387f1e",
+      "keyword": "vpn",
+      "location_code": 2840,
+      "location_country": "US",
+      "location_name": "United States",
+      "language": "en",
+      "device": "desktop",
+      "os": "windows",
+      "domain": "nordvpn.com",
+      "rank": 2,
+      "title": "Nord VPN® Official Website - World's leading VPN provider",
+      "description": "Best Time To Get NordVPN®. Buy Now & See What Full Online Protection Really Feels Like.",
+      "url": "https://nordvpn.com/offer/exclusive/usa/",
+      "breadcrumb": "https://www.nordvpn.com/",
+      "__v": 0,
+      "createdAt": "2022-12-15T12:32:54.644Z",
+      "updatedAt": "2022-12-15T12:32:54.644Z"
+    }
+  ]
+}

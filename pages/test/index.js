@@ -1,42 +1,42 @@
-import React, { useState, useEffect, Fragment } from "react";
-import {
-  Page,
-  Text,
-  View,
-  Document,
-  StyleSheet,
-  Link,
-  Image,
-  usePDF,
-} from "@react-pdf/renderer";
-import { PDFViewer, PDFDownloadLink } from "@react-pdf/renderer";
-import { Button } from "antd";
-import MyDocument from "../../components/MyDocument";
-const styles = StyleSheet.create({
-    size:{
-        height: 900,
-        width:900,
-    }
-})
-export default function Home() {
+import data from "../../data.json";
+import { useState, useEffect } from "react";
+
+export default function Test() {
+  const [jsonData, setJsonData] = useState([]);
+  const [isloading, setIsLoading] = useState(false);
+  useEffect(() => {
+    mainData(data);
+
+    console.log(data);
+  }, [jsonData]);
+  const mainData = async (data) => {
+    setIsLoading(true);
+    setJsonData(data);
+    setIsLoading(false);
+  };
+  // console.log(mainData);
+
   return (
-    <div>
-        {process.browser && (
-            <PDFViewer  style={styles.size}>
-                <MyDocument />
-            </PDFViewer>
-            
-            // <PDFDownloadLink document={<MyDocument />} fileName="myPdf">
-            //   {({ loading }) =>
-            //     loading ? (
-            //       <Button>loading..</Button>
-            //     ) : (
-            //       <Button>Download Report</Button>
-            //     )
-            //   }
-            // </PDFDownloadLink>
-          )}
-        {/* {process.browser && (
+    <>
+      {isloading
+        ? "Loading"
+        : jsonData.map((i) => <div>{i.domain}</div>)}
+    </>
+  );
+}
+
+// <PDFDownloadLink document={<MyDocument />} fileName="myPdf">
+//   {({ loading }) =>
+//     loading ? (
+//       <Button>loading..</Button>
+//     ) : (
+//       <Button>Download Report</Button>
+//     )
+//   }
+// </PDFDownloadLink>
+
+{
+  /* {process.browser && (
           <PDFDownloadLink document={<MyDocument />} fileName="document">
             {({ loading }) =>
               loading ? (
@@ -46,7 +46,5 @@ export default function Home() {
               )
             }
           </PDFDownloadLink>
-        )} */}
-    </div>
-  );
+        )} */
 }
