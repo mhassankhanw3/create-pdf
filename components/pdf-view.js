@@ -19,7 +19,7 @@ export default function PDFViewerComp() {
   }, []);
 
   return (
-    <PDFViewer style={{ width: 500, height: 200 }}>
+    <PDFViewer style={{ width: 1600, height: 1200 }}>
       <MyDocument />
     </PDFViewer>
   );
