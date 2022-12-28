@@ -35,8 +35,8 @@ export default function Test() {
 //   }
 // </PDFDownloadLink>
 
-{
-  /* {process.browser && (
+
+  {process.browser && (
           <PDFDownloadLink document={<MyDocument />} fileName="document">
             {({ loading }) =>
               loading ? (
@@ -46,5 +46,5 @@ export default function Test() {
               )
             }
           </PDFDownloadLink>
-        )} */
-}
+        )} 
+

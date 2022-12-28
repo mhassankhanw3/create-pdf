@@ -18,7 +18,6 @@ export default function MyDocument({ code }) {
   const [isloading, setIsLoading] = useState(false);
   useEffect(() => {
     mainData(data);
-
     console.log(jsonData);
   }, [jsonData]);
   const mainData = async (data) => {
@@ -28,13 +27,27 @@ export default function MyDocument({ code }) {
   };
   const getccode = (country) => {
     let ccode = CountriesData.find((e) => e.location_name === country);
-
     return ccode;
   };
 
-  //   console.log(data);
+  const range = (data) => {
+    let percentage = data + "%";
+    return percentage;
+  };
+  const lastRange = (lRange) => {
+    let percentageRange = lRange + "px";
+    return percentageRange;
+  };
+  const adsData = (ads) => {
+    let totalads = ads;
+    return adsData;
+  };
   const styles = StyleSheet.create({
     page: {
+      backgroundColor: "#e5e7eb",
+      padding: 8,
+    },
+    page_keyword: {
       backgroundColor: "#e5e7eb",
       padding: 8,
     },
@@ -48,22 +61,23 @@ export default function MyDocument({ code }) {
     },
     card: {
       backgroundColor: "white",
-      padding: 12,
-      width: "19%",
-      maxWidth: "19%",
+      padding: 22,
+      width: "20%",
+      maxWidth: "26%",
       marginRight: 4,
       marginTop: 4,
     },
     text: {
-      fontWeight: "extrabold",
-      fontSize: 13,
+      fontWeight: 900,
+      fontSize: 10,
+      color: "#374151",
     },
     text_two: {
-      fontSize: 11,
-      marginTop: 4,
+      fontSize: 18,
+      marginTop: 7,
     },
     info: {
-      marginTop: 32,
+      marginTop: 20,
     },
     flex_info: {
       display: "flex",
@@ -78,11 +92,11 @@ export default function MyDocument({ code }) {
       padding: 10,
     },
     info_text: {
-      fontSize: 15,
+      fontSize: 17,
     },
     info_text_two: {
-      fontSize: 13,
-      marginLeft: 6,
+      fontSize: 12,
+      marginLeft: 8,
     },
     info_text_empl: {
       fontSize: 13,
@@ -91,7 +105,8 @@ export default function MyDocument({ code }) {
       marginBottom: 4,
     },
     rank_flex: {
-      marginTop: -178,
+      // border: '1px',
+      marginTop: 16,
       display: "flex",
       justifyContent: "space-between",
       flexDirection: "row",
@@ -99,11 +114,13 @@ export default function MyDocument({ code }) {
     },
     rank_flex_one: {
       width: "49.5%",
+      marginLeft: 3,
+      marginRight: 3,
     },
     rank_bg_white: {
       backgroundColor: "white",
       padding: 14,
-      height: "37%",
+      // height: "37%",
       //   marginLeft: 3,
       //   marginRight: 3,
       //   marginTop: 6,
@@ -167,7 +184,7 @@ export default function MyDocument({ code }) {
       width: "28%",
     },
     traffic: {
-      marginTop: 28,
+      marginTop: 20,
     },
     traffic_heading_text: {
       fontWeight: "bold",
@@ -398,7 +415,7 @@ export default function MyDocument({ code }) {
       color: "#44403c",
     },
     network: {
-      marginTop: 16,
+      marginTop: 10,
       display: "flex",
       flexDirection: "row",
       alignItems: "center",
@@ -406,11 +423,20 @@ export default function MyDocument({ code }) {
     },
     network_one: {
       width: "49.5%",
+      marginTop: 16,
+    },
+    network_one_last: {
+      marginTop: 56,
     },
     network_bg_color: {
       marginTop: 10,
       backgroundColor: "white",
       padding: 16,
+    },
+    network_bg_color_last: {
+      padding: 20,
+      backgroundColor: "white",
+      marginTop: 10,
     },
     network_text_flex: {
       marginBottom: 7,
@@ -419,6 +445,14 @@ export default function MyDocument({ code }) {
       flexDirection: "row",
       alignItems: "center",
       justifyContent: "space-between",
+    },
+    network_text_flex_last: {
+      display: "flex",
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "space-between",
+      marginBottom: 10,
+      marginTop: 10,
     },
     network_text_flex_two: {
       marginBottom: 4.8,
@@ -451,38 +485,38 @@ export default function MyDocument({ code }) {
       width: "14%",
       textAlign: "center",
     },
-    social_color_one: {
-      backgroundColor: "#2563eb",
-      width: "100%",
-      height: 84,
-      marginTop: 3,
-    },
     social_color_one_text: {
       color: "#2563eb",
       fontSize: 12,
     },
+    social_color_one: {
+      backgroundColor: "#2563eb",
+      width: "100%",
+      height: "100px",
+      marginTop: 3,
+    },
     social_color_two: {
       backgroundColor: "#2563eb",
       width: "100%",
-      height: 5,
+      height: "100px",
       marginTop: 3,
     },
     social_color_three: {
       backgroundColor: "#2563eb",
       width: "100%",
-      height: 3,
+      height: "100px",
       marginTop: 3,
     },
     social_color_four: {
       backgroundColor: "#2563eb",
       width: "100%",
-      height: 1.2,
+      height: "100px",
       marginTop: 3,
     },
     social_color_five: {
       backgroundColor: "#2563eb",
       width: "100%",
-      height: 0.8,
+      height: "100px",
       marginTop: 3,
     },
     social_border_color: {
@@ -490,7 +524,7 @@ export default function MyDocument({ code }) {
       // borderColor: '#3f3f46',
     },
     social_head_text: {
-      marginTop: 20,
+      marginTop: 130,
     },
     social_last: {
       width: "90%",
@@ -501,7 +535,7 @@ export default function MyDocument({ code }) {
       justifyContent: "space-between",
     },
     social_last_text: {
-      fontSize: 12,
+      fontSize: 9,
       width: "15%",
       textAlign: "center",
       color: "#374151",
@@ -530,15 +564,15 @@ export default function MyDocument({ code }) {
       fontSize: 12,
     },
     keyword_link: {
+      backgroundColor: "white",
       padding: 12,
       display: "flex",
       flexDirection: "row",
       alignItems: "center",
     },
     keyword_link_text_one: {
-      fontSize: 12,
+      fontSize: 14,
       width: "60%",
-      color: "#2563eb",
     },
     keyword_link_text_two: {
       fontSize: 11,
@@ -549,11 +583,354 @@ export default function MyDocument({ code }) {
       width: "20%",
     },
     border_bottom: {
-      height: 0.3,
+      height: 0.2,
       backgroundColor: "#6b7280",
       width: "100%",
     },
+    channel: {
+      marginTop: 176,
+    },
+    channel_bg: {
+      backgroundColor: "white",
+      padding: 20,
+      paddingTop: 100,
+      paddingBottom: 20,
+      marginTop: 10,
+    },
+    channel_flex: {
+      display: "flex",
+      flexDirection: "row",
+      justifyContent: "space-between",
+      alignItems: "flex-end",
+      maxWidth: "96%",
+      margin: "auto",
+    },
+    channel_block: {
+      width: "14%",
+      textAlign: "center",
+      marginLeft: 6,
+      marginRight: 6,
+    },
+    channel_Text_one: {
+      color: "#2563eb",
+      fontSize: 11,
+    },
+    channel_color_one: {
+      backgroundColor: "#2563eb",
+      width: "100%",
+      height: 100,
+    },
+    channel_Text_two: {
+      color: "#f97316",
+      fontSize: 11,
+    },
+    channel_color_two: {
+      backgroundColor: "#f97316",
+      width: "100%",
+      height: 100,
+    },
+    channel_Text_three: {
+      color: "#16a34a",
+      fontSize: 11,
+    },
+    channel_color_three: {
+      backgroundColor: "#16a34a",
+      width: "100%",
+      height: 100,
+    },
+    channel_Text_four: {
+      color: "#1d4ed8",
+      fontSize: 11,
+    },
+    channel_color_four: {
+      backgroundColor: "#1d4ed8",
+      width: "100%",
+      height: 100,
+    },
+    channel_Text_five: {
+      color: "#f97316",
+      fontSize: 11,
+    },
+    channel_color_five: {
+      backgroundColor: "#f97316",
+      width: "100%",
+      height: 100,
+    },
+    channel_Text_six: {
+      color: "black",
+      fontSize: 11,
+    },
+    channel_color_six: {
+      backgroundColor: "black",
+      width: "100%",
+      height: 100,
+    },
+    channel_Text_seven: {
+      color: "black",
+      fontSize: 11,
+    },
+    channel_color_seven: {
+      backgroundColor: "black",
+      width: "100%",
+      height: 100,
+    },
+    channel_border: {
+      border: "0.4px",
+      width: "100%",
+      margin: "auto",
+    },
+    channel_last_text: {
+      marginTop: 4,
+      fontSize: 10,
+      width: "14%",
+      textAlign: "center",
+      marginLeft: 4,
+      marginRight: 4,
+      color: "#374151",
+    },
+    channel_flex_text: {
+      display: "flex",
+      flexDirection: "row",
+      alignItems: "center",
+    },
+    other_flex: {
+      width: "100%",
+      // border: "1px",
+      marginTop: 10,
+      display: "flex",
+      flexDirection: "row",
+      alignItems: "center",
+      // justifyContent: "space-between",
+    },
+    other: {
+      marginTop: 16,
+    },
+    other_main: {
+      padding: 8,
+      marginTop: 60,
+    },
+    other_main_head: {
+      fontSize: 14,
+    },
+    other_main_head_one: {
+      fontSize: 14,
+    },
+    other_bg: {
+      marginTop: 10,
+      backgroundColor: "white",
+      padding: 20,
+    },
+    other_text: {
+      fontSize: 11,
+      color: "black",
+      marginTop: 14,
+    },
+    other_web: {
+      width: "38%",
+      marginTop: -22,
+      marginLeft: 80,
+      marginRight: 10,
+    },
+    bubble_relative_one: {
+      backgroundColor: "#f3f4f6",
+      width: "22%",
+      maxWidth: "100%",
+      height: 110,
+      borderRadius: 100,
+      position: "relative",
+      top: -10,
+      left: 40,
+    },
+    relative_text: {
+      fontSize: 9,
+    },
+    relative_text_four: {
+      fontSize: 9,
+      color: "white",
+    },
+    relative_text_five: {
+      fontSize: 8,
+    },
+    relative_one_one: {
+      padding: 10,
+      color: "white",
+      textAlign: "center",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      position: "absolute",
+      backgroundColor: "#2563eb",
+      width: "17%",
+      height: 95,
+      borderRadius: 100,
+      top: 0,
+      left: -5,
+    },
+    relative_one_two: {
+      padding: 8,
+      color: "white",
+      textAlign: "center",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      position: "absolute",
+      backgroundColor: "rgba(67, 107, 255, 1)",
+      borderRadius: 100,
+      top: 95,
+      left: 25,
+      width: "13%",
+      height: 72,
+    },
+    relative_one_three: {
+      padding: 2,
+      color: "white",
+      textAlign: "center",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      position: "absolute",
+      backgroundColor: "rgba(67, 107, 255, 0.79)",
+      borderRadius: 100,
+      top: 93,
+      left: 105,
+      width: "12%",
+      height: 68,
+    },
+    relative_one_four: {
+      padding: 12,
+      color: "black",
+      textAlign: "center",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      position: "absolute",
+      backgroundColor: "#a5b4fc",
+      borderRadius: 100,
+      top: -18,
+      left: 96,
+      width: "13%",
+      height: 72,
+    },
+    relative_one_five: {
+      padding: 12,
+      color: "black",
+      textAlign: "center",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      position: "absolute",
+      backgroundColor: "#a5b4fc",
+      borderRadius: 100,
+      top: 52,
+      left: 90,
+      width: "8%",
+      height: 45,
+    },
+    //          <<<<========================>>>>          bubble two          <<<<==============================>>>>
+
+    bubble_relative_two: {
+      backgroundColor: "#f3f4f6",
+      width: "20%",
+      maxWidth: "100%",
+      height: 110,
+      borderRadius: 100,
+      position: "relative",
+      top: -10,
+      right: 10,
+    },
+    relative_two_one: {
+      padding: 10,
+      color: "black",
+      textAlign: "center",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      position: "absolute",
+      backgroundColor: "#a5b4fc",
+      width: "16%",
+      height: 88,
+      borderRadius: 100,
+      top: 5,
+      // left: 125,
+      right: 75,
+    },
+    relative_two_two: {
+      padding: 8,
+      color: "white",
+      textAlign: "center",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      position: "absolute",
+      backgroundColor: "rgba(67, 107, 255, 1)",
+      borderRadius: 100,
+      top: 95,
+      right: 73,
+      width: "13%",
+      height: 72,
+    },
+    relative_two_three: {
+      padding: 2,
+      color: "white",
+      textAlign: "center",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      position: "absolute",
+      backgroundColor: "rgba(67, 107, 255, 0.79)",
+      borderRadius: 100,
+      right: 0,
+      top: 100,
+      width: "12%",
+      height: 68,
+    },
+    relative_two_four: {
+      padding: 12,
+      color: "black",
+      textAlign: "center",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      position: "absolute",
+      backgroundColor: "#2563eb",
+      borderRadius: 100,
+      right: 0,
+      top: -20,
+      width: "12%",
+      height: 67,
+    },
+    relative_two_five: {
+      fontSize: 8,
+      padding: 12,
+      color: "black",
+      textAlign: "center",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      position: "absolute",
+      backgroundColor: "#a5b4fc",
+      borderRadius: 100,
+      top: 50,
+      right: 28,
+      width: "9%",
+      height: 50,
+    },
+    other_second_text: {
+      fontSize: 13,
+      marginTop: -205,
+      marginLeft: 20,
+    },
+    link_text: {
+      textDecoration: "none",
+    },
   });
+  let result =
+    data.domain_index.ads_android +
+    data.domain_index.ads_macos +
+    data.domain_index.ads_ios +
+    data.domain_index.ads_windows +
+    data.domain_index.ads_desktop +
+    data.domain_index.ads_mobile;
   return (
     <>
       <Document>
@@ -565,9 +942,7 @@ export default function MyDocument({ code }) {
               <View style={styles.flex_cards}>
                 <View style={styles.card}>
                   <Text style={styles.text}>Total Ads</Text>
-                  <Text style={styles.text_two}>
-                    {data.domain_index.ads_desktop}
-                  </Text>
+                  <Text style={styles.text_two}>{result}</Text>
                 </View>
                 <View style={styles.card}>
                   <Text style={styles.text}>Android Ads</Text>
@@ -606,6 +981,7 @@ export default function MyDocument({ code }) {
                   </Text>
                 </View>
               </View>
+
               <Text style={styles.info}>Company Info:</Text>
               <View style={styles.main_info}>
                 <View style={styles.flex_info}>
@@ -749,7 +1125,15 @@ export default function MyDocument({ code }) {
                 </View>
                 {data.domain.sites.similar_sites.map((y) => (
                   <View style={styles.nord_link_view}>
-                    <Text style={styles.nord_link_text}>{y.site}</Text>
+                    <Text style={styles.nord_link_text}>
+                      <Link
+                        style={styles.link_text}
+                        href={y.site}
+                        src={`https://www.${y.site}`}
+                      >
+                        <Text>{y.site}</Text>
+                      </Link>{" "}
+                    </Text>
                     <Text style={styles.nord_no_text}># {y.rank}</Text>
                   </View>
                 ))}
@@ -757,7 +1141,7 @@ export default function MyDocument({ code }) {
             </View>
           </View>
         </Page>
-        <Page style={styles.page}>
+        <Page style={styles.page_keyword}>
           <View style={styles.nord_one}>
             <Text>Top Countries</Text>
             <View style={styles.nord_one_bg_white}>
@@ -790,62 +1174,177 @@ export default function MyDocument({ code }) {
               </View>
             </View>
           </View>
-          <View style={styles.market_main}>
-            <Text>nordvpn.com Top Marketing Channels</Text>
-            <View style={styles.market}>
-              <View style={styles.market_flex}>
-                <View style={styles.main_color_bg}>
-                  <Text style={styles.bg_blue_text}>
-                    {data.domain.traffic.sources.direct.percent}%
-                  </Text>
-                  <Text style={styles.bg_blue}></Text>
-                </View>
-                <View style={styles.main_color_bg}>
-                  <Text style={styles.bg_blue_text_two}>
-                    {data.domain.traffic.sources.search_organic.percent}%
-                  </Text>
-                  <Text style={styles.bg_blue_two}></Text>
-                </View>
-                <View style={styles.main_color_bg}>
-                  <Text style={styles.bg_blue_text_three}>
-                    {data.domain.traffic.sources.search_ad.percent}%
-                  </Text>
-                  <Text style={styles.bg_blue_three}></Text>
-                </View>
-                <View style={styles.main_color_bg}>
-                  <Text style={styles.bg_blue_text_four}>
-                    {data.domain.traffic.sources.referring.percent}%
-                  </Text>
-                  <Text style={styles.bg_blue_four}></Text>
-                </View>
-                <View style={styles.main_color_bg}>
-                  <Text style={styles.bg_blue_text_five}>
-                    {data.domain.traffic.sources.social.percent}%
-                  </Text>
-                  <Text style={styles.bg_blue_five}></Text>
-                </View>
-                <View style={styles.main_color_bg}>
-                  <Text style={styles.bg_blue_text_six}>
-                    {data.domain.traffic.sources.display_ad.percent}%
-                  </Text>
-                  <Text style={styles.bg_blue_six}></Text>
-                </View>
-                <View style={styles.main_color_bg}>
-                  <Text style={styles.bg_blue_text_seven}>
-                    {data.domain.traffic.sources.mail.percent}%
-                  </Text>
-                  <Text style={styles.bg_blue_seven}></Text>
+          <View style={styles.other_main}>
+            <Text style={styles.other_main_head_one}>Top Categories</Text>
+            <View style={styles.other_flex}>
+              <View style={styles.bubble_relative_one}></View>
+              <View style={styles.relative_one_one}>
+                <Text style={styles.relative_text}>
+                  Other Computers Electronics and Technology
+                </Text>
+              </View>
+              <View style={styles.relative_one_two}>
+                <Text style={styles.relative_text}>
+                  TV Movies and Stream...
+                </Text>
+              </View>
+              <View style={styles.relative_one_three}>
+                <Text style={styles.relative_text}>
+                  Programming and Deve...
+                </Text>
+              </View>
+              <View style={styles.relative_one_four}>
+                <Text style={styles.relative_text}>
+                  Video Games Consoles...
+                </Text>
+              </View>
+              <View style={styles.relative_one_five}>
+                <Text style={styles.relative_text}>Adult</Text>
+              </View>
+
+              <View style={styles.other_web}>
+                <Text style={styles.other_main_head}>
+                  Other Visited Websites
+                </Text>
+                <View style={styles.other_bg}>
+                  {data.domain.audience.other_visited_websites.map((i) => (
+                    <Text style={styles.other_text}>
+                      <Link
+                        style={styles.link_text}
+                        href={i}
+                        src={`https://www.${i}`}
+                      >
+                        <Text>{i}</Text>
+                      </Link>
+                    </Text>
+                  ))}
                 </View>
               </View>
-              <Text style={styles.border_color}></Text>
-              <View style={styles.market_flex_text}>
-                <Text style={styles.market_main_text_one}>direct</Text>
-                <Text style={styles.market_main_text_two}>seacrh_organic</Text>
-                <Text style={styles.market_main_text}>seacrh_ad</Text>
-                <Text style={styles.market_main_text}>referring</Text>
-                <Text style={styles.market_main_text}>social</Text>
-                <Text style={styles.market_main_text}>display_ad</Text>
-                <Text style={styles.market_main_text}>mail</Text>
+              <Text style={styles.other_second_text}>Top Topics</Text>
+              <View style={styles.bubble_relative_two}></View>
+              <View style={styles.relative_two_one}>
+                <Text style={styles.relative_text}>news</Text>
+              </View>
+              <View style={styles.relative_two_two}>
+                <Text style={styles.relative_text}>online</Text>
+              </View>
+              <View style={styles.relative_two_three}>
+                <Text style={styles.relative_text}>games</Text>
+              </View>
+              <View style={styles.relative_two_four}>
+                <Text style={styles.relative_text_four}>software</Text>
+              </View>
+              <View style={styles.relative_two_five}>
+                <Text style={styles.relative_text_five}>shopping</Text>
+              </View>
+            </View>
+          </View>
+          <View style={styles.channel}>
+            <Text>nordvpn.com Top Marketing Channels</Text>
+            <View style={styles.channel_bg}>
+              <View style={styles.channel_flex}>
+                <View style={styles.channel_block}>
+                  <Text style={styles.channel_Text_one}>
+                    {data.domain.traffic.sources.direct.percent}%
+                  </Text>
+                  <View
+                    style={{
+                      backgroundColor: "#2563eb",
+                      width: "100%",
+                      height: range(data.domain.traffic.sources.direct.percent),
+                    }}
+                  ></View>
+                </View>
+                <View style={styles.channel_block}>
+                  <Text style={styles.channel_Text_two}>
+                    {data.domain.traffic.sources.search_organic.percent}%
+                  </Text>
+                  <View
+                    style={{
+                      backgroundColor: "#f97316",
+                      width: "100%",
+                      height: range(
+                        data.domain.traffic.sources.search_organic.percent
+                      ),
+                    }}
+                  ></View>
+                </View>
+                <View style={styles.channel_block}>
+                  <Text style={styles.channel_Text_three}>
+                    {data.domain.traffic.sources.search_ad.percent}%
+                  </Text>
+                  <View
+                    style={{
+                      backgroundColor: "#16a34a",
+                      width: "100%",
+                      height: range(
+                        data.domain.traffic.sources.search_ad.percent
+                      ),
+                    }}
+                  ></View>
+                </View>
+                <View style={styles.channel_block}>
+                  <Text style={styles.channel_Text_four}>
+                    {data.domain.traffic.sources.referring.percent}%
+                  </Text>
+                  <View
+                    style={{
+                      backgroundColor: "#1d4ed8",
+                      width: "100%",
+                      height: range(
+                        data.domain.traffic.sources.referring.percent
+                      ),
+                    }}
+                  ></View>
+                </View>
+                <View style={styles.channel_block}>
+                  <Text style={styles.channel_Text_five}>
+                    {data.domain.traffic.sources.social.percent}%
+                  </Text>
+                  <View
+                    style={{
+                      backgroundColor: "#f97316",
+                      width: "100%",
+                      height: range(data.domain.traffic.sources.social.percent),
+                    }}
+                  ></View>
+                </View>
+                <View style={styles.channel_block}>
+                  <Text style={styles.channel_Text_six}>
+                    {data.domain.traffic.sources.display_ad.percent}%
+                  </Text>
+                  <View
+                    style={{
+                      backgroundColor: "black",
+                      width: "100%",
+                      height: range(
+                        data.domain.traffic.sources.display_ad.percent
+                      ),
+                    }}
+                  ></View>
+                </View>
+                <View style={styles.channel_block}>
+                  <Text style={styles.channel_Text_seven}>
+                    {data.domain.traffic.sources.mail.percent}%
+                  </Text>
+                  <View
+                    style={{
+                      backgroundColor: "black",
+                      width: "100%",
+                      height: range(data.domain.traffic.sources.mail.percent),
+                    }}
+                  ></View>
+                </View>
+              </View>
+              <Text style={styles.channel_border}></Text>
+              <View style={styles.channel_flex_text}>
+                <Text style={styles.channel_last_text}>direct</Text>
+                <Text style={styles.channel_last_text}>search_organic</Text>
+                <Text style={styles.channel_last_text}>search_ad</Text>
+                <Text style={styles.channel_last_text}>referring</Text>
+                <Text style={styles.channel_last_text}>social</Text>
+                <Text style={styles.channel_last_text}>display_ad</Text>
+                <Text style={styles.channel_last_text}>mail</Text>
               </View>
             </View>
           </View>
@@ -857,7 +1356,13 @@ export default function MyDocument({ code }) {
                   (to) => (
                     <View style={styles.network_text_flex}>
                       <Text style={styles.network_text_small}>
-                        {to.site ? to.site : "none"}
+                        <Link
+                          style={styles.link_text}
+                          href={to.site}
+                          src={`https://www.${to.site}`}
+                        >
+                          <Text>{to.site ? to.site : "none"}</Text>
+                        </Link>
                       </Text>
                       <Text style={styles.network_text_small}>
                         {to.percent}%
@@ -874,7 +1379,13 @@ export default function MyDocument({ code }) {
                   (to) => (
                     <View style={styles.network_text_flex_two}>
                       <Text style={styles.network_text_small}>
-                        {to.site ? to.site : "none"}
+                        <Link
+                          style={styles.link_text}
+                          href={to.site}
+                          src={`https://www.${to.site}`}
+                        >
+                          <Text>{to.site ? to.site : "none"}</Text>
+                        </Link>
                       </Text>
                       <Text style={styles.network_text_small}>
                         {to.percent}%
@@ -885,12 +1396,12 @@ export default function MyDocument({ code }) {
               </View>
             </View>
           </View>
-          <View style={styles.network_one}>
+          <View style={styles.network_one_last}>
             <Text>Top Keywords (5.7M)</Text>
-            <View style={styles.network_bg_color}>
+            <View style={styles.network_bg_color_last}>
               {data.domain.traffic.sources.search_organic.top_keywords.map(
                 (to) => (
-                  <View style={styles.network_text_flex_two}>
+                  <View style={styles.network_text_flex_last}>
                     <Text style={styles.network_text_small}>
                       {to.keyword ? to.keyword : "none"}
                     </Text>
@@ -904,26 +1415,20 @@ export default function MyDocument({ code }) {
             <Text>Top Socials (552.8K)</Text>
             <View style={styles.social}>
               <View style={styles.social_flex}>
-                <View style={styles.social_block}>
-                  <Text style={styles.social_color_one_text}>87.82%</Text>
-                  <View style={styles.social_color_one}></View>
-                </View>
-                <View style={styles.social_block}>
-                  <Text style={styles.social_color_one_text}>5.38%</Text>
-                  <View style={styles.social_color_two}></View>
-                </View>
-                <View style={styles.social_block}>
-                  <Text style={styles.social_color_one_text}>2.68%</Text>
-                  <View style={styles.social_color_three}></View>
-                </View>
-                <View style={styles.social_block}>
-                  <Text style={styles.social_color_one_text}>1.87%</Text>
-                  <View style={styles.social_color_four}></View>
-                </View>
-                <View style={styles.social_block}>
-                  <Text style={styles.social_color_one_text}>0.7%</Text>
-                  <View style={styles.social_color_five}></View>
-                </View>
+                {data.domain.traffic.sources.social.top_socials.map((i) => (
+                  <View style={styles.social_block}>
+                    <Text style={styles.social_color_one_text}>
+                      {i.percent} %
+                    </Text>
+                    <View
+                      style={{
+                        backgroundColor: "#2563eb",
+                        width: "100%",
+                        height: `${lastRange(i.percent)}`,
+                      }}
+                    ></View>
+                  </View>
+                ))}
               </View>
               <Text style={styles.social_border_color}></Text>
               <View style={styles.social_last}>
@@ -944,18 +1449,23 @@ export default function MyDocument({ code }) {
                   High Bid - Low Bid
                 </Text>
               </View>
-              {data.keywords.map((sh) => (
-                <View>
+              {data.keywords.map((to) => (
+                <View key={to._id}>
                   <View style={styles.border_bottom}></View>
                   <View style={styles.keyword_link}>
-                    <Text style={styles.keyword_link_text_one}>Keyword</Text>
+                    <Text style={styles.keyword_link_text_one}>
+                      {to.keyword}
+                    </Text>
                     <Text style={styles.keyword_link_text_two}>
-                      Competetion
+                      <Text>{to.competition} - </Text>
+                      <Text> {to.competition_index}</Text>
                     </Text>
                     <Text style={styles.keyword_link_text_three}>
-                      High Bid - Low Bid
+                      <Text>${to.high_top_of_page_bid} - </Text>
+                      <Text> ${to.low_top_of_page_bid}</Text>
                     </Text>
                   </View>
+                  <View style={styles.border_bottom}></View>
                 </View>
               ))}
             </View>

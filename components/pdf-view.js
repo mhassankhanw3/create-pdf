@@ -7,20 +7,33 @@ import {
   Text,
   Image,
   PDFViewer,
+  PDFDownloadLink,
   StyleSheet,
   Font,
 } from "@react-pdf/renderer";
 
 export default function PDFViewerComp() {
   const [client, setClient] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     setClient(true);
   }, []);
 
   return (
-    <PDFViewer style={{ width: 1600, height: 1200 }}>
-      <MyDocument />
-    </PDFViewer>
+    <>
+      <PDFViewer style={{ width: 1350, height: 1200 }}>
+        <MyDocument />
+      </PDFViewer>
+      <PDFDownloadLink document={<MyDocument />} fileName="document">
+        {({ loading }) =>
+          loading ? (
+            <button>loading..</button>
+          ) : (
+            <button>Download Report</button>
+          )
+        }
+      </PDFDownloadLink>
+    </>
   );
 }
