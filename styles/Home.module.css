@@ -1,4 +1,4 @@
-.card{
+.card {
   margin: 10px 10px;
   border: 2px solid black;
   border-radius: 10px;
@@ -8,13 +8,13 @@
   background-color: rgb(35, 35, 35);
   color: aliceblue;
 }
-.card h1{
+.card h1 {
   color: blue;
-  font-size: 3.0rem;
+  font-size: 3rem;
 }
-.card h3{
+.card h3 {
   color: rgb(255, 98, 0);
 }
-.card h4{
+.card h4 {
   font-size: 19px;
 }

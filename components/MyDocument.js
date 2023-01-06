@@ -1,7 +1,4 @@
 import data from "../data.json";
-import { useState, useEffect } from "react";
-import CountriesData from "../country";
-import { Button, Space } from "antd";
 import {
   Page,
   Text,
@@ -13,6 +10,16 @@ import {
   Image,
   usePDF,
 } from "@react-pdf/renderer";
+import { useState, useEffect } from "react";
+import CountriesData from "../country";
+import GeneratorTwo from "./GeneratorTwo";
+import { Button, Space, Progress } from "antd";
+import CardTwo from "./CardTwo";
+import Ranks from "./Ranks";
+import EngagementCards from "./EngagementCards";
+import Nord from "./Nord";
+import OtherWeb from "./OtherWeb";
+import Compeitors from "./Compeitors";
 export default function MyDocument({ code }) {
   const [jsonData, setJsonData] = useState([]);
   const [isloading, setIsLoading] = useState(false);
@@ -44,28 +51,45 @@ export default function MyDocument({ code }) {
   };
   const styles = StyleSheet.create({
     page: {
-      backgroundColor: "#e5e7eb",
-      padding: 8,
+      // backgroundColor: "#e5e7eb",
+      padding: 12,
+      backgroundColor: "#F4F4F4",
     },
     page_keyword: {
       backgroundColor: "#e5e7eb",
       padding: 8,
     },
+    domain_text_flex: {
+      display: "flex",
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "space-between",
+      // border: '1px'
+    },
+    domain_text_flex_text: {
+      display: "flex",
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "center",
+    },
     flex_cards: {
-      marginTop: 10,
+      marginTop: 13,
       display: "flex",
       flexDirection: "row",
       flexWrap: "wrap",
       alignItems: "center",
+      justifyContent: "space-between",
+      // border: '1px',
       width: "100%",
     },
     card: {
       backgroundColor: "white",
-      padding: 22,
-      width: "20%",
-      maxWidth: "26%",
+      // padding: 10,
+      // width: "20%",
+      // maxWidth: "26%",
       marginRight: 4,
       marginTop: 4,
+      // border: '1px',
     },
     text: {
       fontWeight: 900,
@@ -77,29 +101,42 @@ export default function MyDocument({ code }) {
       marginTop: 7,
     },
     info: {
-      marginTop: 20,
+      fontSize: 14,
+      marginBottom: 14,
+      // marginTop: 20,
     },
     flex_info: {
       display: "flex",
       flexDirection: "row",
-      alignItems: "center",
-      marginTop: 7,
-      marginBottom: 7,
+      width: "445px",
+      alignItems: "flex-start",
+      marginTop: 5,
+      marginBottom: 5,
     },
     main_info: {
+      marginBottom: 6,
       marginTop: 6,
       backgroundColor: "white",
-      padding: 10,
+      padding: 20,
+      border: "1px",
+      borderColor: "#E8E8E8",
+      borderRadius: "15px",
     },
     info_text: {
-      fontSize: 17,
+      fontSize: 11,
+      color: "#565656",
     },
     info_text_two: {
-      fontSize: 12,
+      fontSize: 11,
       marginLeft: 8,
     },
+    info_text_two_text: {
+      fontSize: 11,
+      marginLeft: 28,
+    },
     info_text_empl: {
-      fontSize: 13,
+      fontSize: 11,
+      marginLeft: 1,
     },
     rank: {
       marginBottom: 4,
@@ -220,7 +257,7 @@ export default function MyDocument({ code }) {
     nord_one_bg_white: {
       backgroundColor: "white",
       padding: 14,
-      width: "100%",
+      width: "48%",
       marginTop: 8,
     },
     nord_one_flex_Text: {
@@ -268,6 +305,9 @@ export default function MyDocument({ code }) {
     },
     nord_two_bgwhite: {
       marginTop: 8,
+      border: "1px",
+      borderColor: "#E8E8E8",
+      borderRadius: "15px",
       backgroundColor: "white",
       padding: 14,
     },
@@ -284,9 +324,7 @@ export default function MyDocument({ code }) {
     nord_no_text: {
       fontSize: 14,
     },
-    nord_link_text: {
-      fontSize: 12,
-    },
+
     nord_link_view: {
       display: "flex",
       flexDirection: "row",
@@ -295,8 +333,8 @@ export default function MyDocument({ code }) {
       borderRadius: 4,
       marginTop: 6,
       marginBottom: 2,
-      padding: 24,
-      border: "0.7px",
+      padding: "14px 24px",
+      // border: "0.7px",
       borderColor: "#a1a1aa",
     },
     nordvpn_button: {
@@ -709,27 +747,13 @@ export default function MyDocument({ code }) {
       padding: 8,
       marginTop: 60,
     },
-    other_main_head: {
-      fontSize: 14,
-    },
+
     other_main_head_one: {
       fontSize: 14,
     },
-    other_bg: {
-      marginTop: 10,
-      backgroundColor: "white",
-      padding: 20,
-    },
-    other_text: {
-      fontSize: 11,
-      color: "black",
-      marginTop: 14,
-    },
+
     other_web: {
       width: "38%",
-      marginTop: -22,
-      marginLeft: 80,
-      marginRight: 10,
     },
     bubble_relative_one: {
       backgroundColor: "#f3f4f6",
@@ -920,8 +944,17 @@ export default function MyDocument({ code }) {
       marginTop: -205,
       marginLeft: 20,
     },
+    nord_link_text: {
+      fontSize: "13px",
+    },
     link_text: {
       textDecoration: "none",
+    },
+    newborder: {
+      height: "1px",
+      width: "100%",
+      margin: "auto",
+      backgroundColor: "#E8E8E8",
     },
   });
   let result =
@@ -939,51 +972,66 @@ export default function MyDocument({ code }) {
             "Loading"
           ) : (
             <View>
-              <View style={styles.flex_cards}>
-                <View style={styles.card}>
-                  <Text style={styles.text}>Total Ads</Text>
-                  <Text style={styles.text_two}>{result}</Text>
+              <View style={styles.main_info}>
+                <View style={styles.domain_text_flex}>
+                  <View style={styles.domain_text_flex_text}>
+                    <Text style={{ fontSize: "14px" }}>Domain:</Text>
+                    <Text style={{ marginLeft: "7px", fontSize: "16px" }}>
+                      {data.domain.site_url}
+                    </Text>
+                  </View>
+                  <View style={styles.domain_text_flex_text}>
+                    <Text style={{ fontSize: "14px" }}>Country:</Text>
+                    <Text style={{ marginLeft: "7px", fontSize: "16px" }}>
+                      {data.domain.headquarters.country}
+                    </Text>
+                  </View>
                 </View>
-                <View style={styles.card}>
-                  <Text style={styles.text}>Android Ads</Text>
-                  <Text style={styles.text_two}>
-                    {data.domain_index.ads_android}
-                  </Text>
-                </View>
-                <View style={styles.card}>
-                  <Text style={styles.text}>MacOS Ads</Text>
-                  <Text style={styles.text_two}>
-                    {data.domain_index.ads_macos}
-                  </Text>
-                </View>
-                <View style={styles.card}>
-                  <Text style={styles.text}>IOS Ads</Text>
-                  <Text style={styles.text_two}>
-                    {data.domain_index.ads_ios}
-                  </Text>
-                </View>
-                <View style={styles.card}>
-                  <Text style={styles.text}>Window Ads</Text>
-                  <Text style={styles.text_two}>
-                    {data.domain_index.ads_windows}
-                  </Text>
-                </View>
-                <View style={styles.card}>
-                  <Text style={styles.text}>Desktop Ads</Text>
-                  <Text style={styles.text_two}>
-                    {data.domain_index.ads_desktop}
-                  </Text>
-                </View>
-                <View style={styles.card}>
-                  <Text style={styles.text}>Mobile Ads</Text>
-                  <Text style={styles.text_two}>
-                    {data.domain_index.ads_mobile}
-                  </Text>
+                <View style={styles.flex_cards}>
+                  <View style={styles.card}>
+                    <Text style={styles.text}>Total Ads</Text>
+                    <Text style={styles.text_two}>{result}</Text>
+                  </View>
+                  <View style={styles.card}>
+                    <Text style={styles.text}>Android Ads</Text>
+                    <Text style={styles.text_two}>
+                      {data.domain_index.ads_android}
+                    </Text>
+                  </View>
+                  <View style={styles.card}>
+                    <Text style={styles.text}>MacOS Ads</Text>
+                    <Text style={styles.text_two}>
+                      {data.domain_index.ads_macos}
+                    </Text>
+                  </View>
+                  <View style={styles.card}>
+                    <Text style={styles.text}>IOS Ads</Text>
+                    <Text style={styles.text_two}>
+                      {data.domain_index.ads_ios}
+                    </Text>
+                  </View>
+                  <View style={styles.card}>
+                    <Text style={styles.text}>Window Ads</Text>
+                    <Text style={styles.text_two}>
+                      {data.domain_index.ads_windows}
+                    </Text>
+                  </View>
+                  <View style={styles.card}>
+                    <Text style={styles.text}>Desktop Ads</Text>
+                    <Text style={styles.text_two}>
+                      {data.domain_index.ads_desktop}
+                    </Text>
+                  </View>
+                  <View style={styles.card}>
+                    <Text style={styles.text}>Mobile Ads</Text>
+                    <Text style={styles.text_two}>
+                      {data.domain_index.ads_mobile}
+                    </Text>
+                  </View>
                 </View>
               </View>
-
-              <Text style={styles.info}>Company Info:</Text>
               <View style={styles.main_info}>
+                <Text style={styles.info}>Company Info</Text>
                 <View style={styles.flex_info}>
                   <Text style={styles.info_text}>Company Name:</Text>
                   <Text style={styles.info_text_two}>
@@ -991,50 +1039,75 @@ export default function MyDocument({ code }) {
                   </Text>
                 </View>
                 <View style={styles.flex_info}>
-                  <Text style={styles.info_text}>Company:</Text>
-                  <Text style={styles.info_text_two}>
+                  <Text style={styles.info_text}>Company Description:</Text>
+                  <Text style={styles.info_text_two_text}>
                     {data.domain.site_description}
                   </Text>
                 </View>
-                <View style={styles.flex_info}>
+                {/* <View style={styles.flex_info}>
                   <Text style={styles.info_text}>Description:</Text>
                   <Text style={styles.info_text_two}>
                     {data.domain.location_company}
                   </Text>
-                </View>
-                <View style={styles.flex_info}>
-                  <Text style={styles.info_text}>Country:</Text>
-                  <Text style={styles.info_text_two}>
-                    {data.domain.headquarters.country}
-                  </Text>
-                </View>
-                <View style={styles.flex_info}>
-                  <Text style={styles.info_text}>City:</Text>
-                  <Text style={styles.info_text_two}>
-                    {data.domain.headquarters.city}
-                  </Text>
-                </View>
-                <View style={styles.flex_info}>
-                  <Text style={styles.info_text}>Employees:</Text>
-                  <Text style={styles.info_text_two}>
-                    {data.domain.employees.employees_min}-
-                  </Text>
-                  <Text style={styles.info_text_empl}>
-                    {data.domain.employees.employees_max}
-                  </Text>
-                </View>
-                <View style={styles.flex_info}>
-                  <Text style={styles.info_text}>Category Rank:</Text>
-                  <Text style={styles.info_text_two}>
-                    {data.domain.category_rank.rank}
-                  </Text>
-                </View>
-                <View style={styles.flex_info}>
-                  <Text style={styles.info_text}>Annual Revenue:</Text>
-                  <Text style={styles.info_text_two}>15M-25M</Text>
+                </View> */}
+
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    alignItems: "flex-start",
+                    justifyContent: "space-between",
+                  }}
+                >
+                  <View>
+                    <View style={styles.flex_info}>
+                      <Text style={styles.info_text}>Country:</Text>
+                      <Text style={styles.info_text_two}>
+                        {data.domain.headquarters.country}
+                      </Text>
+                    </View>
+                    <View style={styles.flex_info}>
+                      <Text style={styles.info_text}>Employees:</Text>
+                      <Text style={styles.info_text_two}>
+                        {data.domain.employees.employees_min} -
+                      </Text>
+                      <Text style={styles.info_text_empl}>
+                        {data.domain.employees.employees_max}
+                      </Text>
+                    </View>
+                  </View>
+                  <View>
+                    <View style={styles.flex_info}>
+                      <Text style={styles.info_text}>City:</Text>
+                      <Text style={styles.info_text_two}>
+                        {data.domain.headquarters.city}
+                      </Text>
+                    </View>
+                    <View style={styles.flex_info}>
+                      <Text style={styles.info_text}>Annual Revenue:</Text>
+                      <Text style={styles.info_text_two}>15M - 25M</Text>
+                    </View>
+                  </View>
                 </View>
               </View>
-              <View style={styles.rank_flex}>
+              <CardTwo />
+              <Ranks />
+              <EngagementCards />
+              <View
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "flex-end",
+                  justifyContent: "space-between",
+                  width: "100%",
+                  margin: "auto",
+                }}
+              >
+                <Nord />
+                <OtherWeb />
+              </View>
+
+              {/* <View style={styles.rank_flex}>
                 <View style={styles.rank_flex_one}>
                   <Text style={styles.rank}>Ranks:</Text>
                   <View style={styles.rank_bg_white}>
@@ -1110,39 +1183,13 @@ export default function MyDocument({ code }) {
                     <Text style={styles.traffic_text_meters}>57.07%</Text>
                   </View>
                 </View>
-              </View>
+              </View> */}
             </View>
           )}
         </Page>
-        <Page style={styles.page}>
-          <View style={styles.nord}>
-            <View style={styles.nord_two}>
-              <Text>nordvpn.com Competitors</Text>
-              <View style={styles.nord_two_bgwhite}>
-                <View style={styles.site_text_flex}>
-                  <Text style={styles.vpn_text}>Site</Text>
-                  <Text style={styles.vpn_text}>Category rank</Text>
-                </View>
-                {data.domain.sites.similar_sites.map((y) => (
-                  <View style={styles.nord_link_view}>
-                    <Text style={styles.nord_link_text}>
-                      <Link
-                        style={styles.link_text}
-                        href={y.site}
-                        src={`https://www.${y.site}`}
-                      >
-                        <Text>{y.site}</Text>
-                      </Link>{" "}
-                    </Text>
-                    <Text style={styles.nord_no_text}># {y.rank}</Text>
-                  </View>
-                ))}
-              </View>
-            </View>
-          </View>
-        </Page>
+        <Compeitors />
         <Page style={styles.page_keyword}>
-          <View style={styles.nord_one}>
+          {/* <View style={styles.nord_one}>
             <Text>Top Countries</Text>
             <View style={styles.nord_one_bg_white}>
               <View>
@@ -1173,8 +1220,8 @@ export default function MyDocument({ code }) {
                 })}
               </View>
             </View>
-          </View>
-          <View style={styles.other_main}>
+          </View> */}
+          {/* <View style={styles.other_main}>
             <Text style={styles.other_main_head_one}>Top Categories</Text>
             <View style={styles.other_flex}>
               <View style={styles.bubble_relative_one}></View>
@@ -1238,8 +1285,8 @@ export default function MyDocument({ code }) {
                 <Text style={styles.relative_text_five}>shopping</Text>
               </View>
             </View>
-          </View>
-          <View style={styles.channel}>
+          </View> */}
+          {/* <View style={styles.channel}>
             <Text>nordvpn.com Top Marketing Channels</Text>
             <View style={styles.channel_bg}>
               <View style={styles.channel_flex}>
@@ -1347,8 +1394,8 @@ export default function MyDocument({ code }) {
                 <Text style={styles.channel_last_text}>mail</Text>
               </View>
             </View>
-          </View>
-          <View style={styles.network}>
+          </View> */}
+          {/* <View style={styles.network}>
             <View style={styles.network_one}>
               <Text>Top Ad Networks (1.7M)</Text>
               <View style={styles.network_bg_color}>
@@ -1395,8 +1442,24 @@ export default function MyDocument({ code }) {
                 )}
               </View>
             </View>
-          </View>
-          <View style={styles.network_one_last}>
+          </View> */}
+          {/* <View style={styles.other_web}>
+            <Text style={styles.other_main_head}>Other Visited Websites</Text>
+            <View style={styles.other_bg}>
+              {data.domain.audience.other_visited_websites.map((i) => (
+                <Text style={styles.other_text}>
+                  <Link
+                    style={styles.link_text}
+                    href={i}
+                    src={`https://www.${i}`}
+                  >
+                    <Text>{i}</Text>
+                  </Link>
+                </Text>
+              ))}
+            </View>
+          </View> */}
+          {/* <View style={styles.network_one_last}>
             <Text>Top Keywords (5.7M)</Text>
             <View style={styles.network_bg_color_last}>
               {data.domain.traffic.sources.search_organic.top_keywords.map(
@@ -1410,8 +1473,8 @@ export default function MyDocument({ code }) {
                 )
               )}
             </View>
-          </View>
-          <View style={styles.social_head_text}>
+          </View> */}
+          {/* <View style={styles.social_head_text}>
             <Text>Top Socials (552.8K)</Text>
             <View style={styles.social}>
               <View style={styles.social_flex}>
@@ -1439,8 +1502,8 @@ export default function MyDocument({ code }) {
                 <Text style={styles.social_last_text}>WhatsApp Webapp</Text>
               </View>
             </View>
-          </View>
-          <View style={styles.keyword}>
+          </View> */}
+          {/* <View style={styles.keyword}>
             <View style={styles.keyword_main}>
               <View style={styles.keyword_head}>
                 <Text style={styles.keyword_head_text_one}>Keyword</Text>
@@ -1469,7 +1532,7 @@ export default function MyDocument({ code }) {
                 </View>
               ))}
             </View>
-          </View>
+          </View> */}
         </Page>
       </Document>
     </>
