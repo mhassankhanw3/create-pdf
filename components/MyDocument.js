@@ -755,15 +755,15 @@ export default function MyDocument({ code }) {
     other_web: {
       width: "38%",
     },
+    // #f3f4f6
     bubble_relative_one: {
-      backgroundColor: "#f3f4f6",
+      backgroundColor: "red",
       width: "22%",
       maxWidth: "100%",
       height: 110,
       borderRadius: 100,
       position: "relative",
-      top: -10,
-      left: 40,
+      top: 400,
     },
     relative_text: {
       fontSize: 9,
@@ -941,8 +941,8 @@ export default function MyDocument({ code }) {
     },
     other_second_text: {
       fontSize: 13,
-      marginTop: -205,
-      marginLeft: 20,
+      marginTop: -150,
+      marginLeft: 280,
     },
     nord_link_text: {
       fontSize: "13px",
@@ -1107,6 +1107,54 @@ export default function MyDocument({ code }) {
                 <OtherWeb />
               </View>
 
+
+              <View style={styles.other_main}>
+                <Text style={styles.other_main_head_one}>Top Categories</Text>
+                <View style={styles.other_flex}>
+                  <View style={styles.bubble_relative_one}></View>
+                  <View style={styles.relative_one_one}>
+                    <Text style={styles.relative_text}>
+                      Other Computers Electronics and Technology
+                    </Text>
+                  </View>
+                  <View style={styles.relative_one_two}>
+                    <Text style={styles.relative_text}>
+                      TV Movies and Stream...
+                    </Text>
+                  </View>
+                  <View style={styles.relative_one_three}>
+                    <Text style={styles.relative_text}>
+                      Programming and Deve...
+                    </Text>
+                  </View>
+                  <View style={styles.relative_one_four}>
+                    <Text style={styles.relative_text}>
+                      Video Games Consoles...
+                    </Text>
+                  </View>
+                  <View style={styles.relative_one_five}>
+                    <Text style={styles.relative_text}>Adult</Text>
+                  </View>
+
+                  <Text style={styles.other_second_text}>Top Topics</Text>
+                  <View style={styles.bubble_relative_two}></View>
+                  <View style={styles.relative_two_one}>
+                    <Text style={styles.relative_text}>news</Text>
+                  </View>
+                  <View style={styles.relative_two_two}>
+                    <Text style={styles.relative_text}>online</Text>
+                  </View>
+                  <View style={styles.relative_two_three}>
+                    <Text style={styles.relative_text}>games</Text>
+                  </View>
+                  <View style={styles.relative_two_four}>
+                    <Text style={styles.relative_text_four}>software</Text>
+                  </View>
+                  <View style={styles.relative_two_five}>
+                    <Text style={styles.relative_text_five}>shopping</Text>
+                  </View>
+                </View>
+              </View>
               {/* <View style={styles.rank_flex}>
                 <View style={styles.rank_flex_one}>
                   <Text style={styles.rank}>Ranks:</Text>
@@ -1221,71 +1269,7 @@ export default function MyDocument({ code }) {
               </View>
             </View>
           </View> */}
-          {/* <View style={styles.other_main}>
-            <Text style={styles.other_main_head_one}>Top Categories</Text>
-            <View style={styles.other_flex}>
-              <View style={styles.bubble_relative_one}></View>
-              <View style={styles.relative_one_one}>
-                <Text style={styles.relative_text}>
-                  Other Computers Electronics and Technology
-                </Text>
-              </View>
-              <View style={styles.relative_one_two}>
-                <Text style={styles.relative_text}>
-                  TV Movies and Stream...
-                </Text>
-              </View>
-              <View style={styles.relative_one_three}>
-                <Text style={styles.relative_text}>
-                  Programming and Deve...
-                </Text>
-              </View>
-              <View style={styles.relative_one_four}>
-                <Text style={styles.relative_text}>
-                  Video Games Consoles...
-                </Text>
-              </View>
-              <View style={styles.relative_one_five}>
-                <Text style={styles.relative_text}>Adult</Text>
-              </View>
 
-              <View style={styles.other_web}>
-                <Text style={styles.other_main_head}>
-                  Other Visited Websites
-                </Text>
-                <View style={styles.other_bg}>
-                  {data.domain.audience.other_visited_websites.map((i) => (
-                    <Text style={styles.other_text}>
-                      <Link
-                        style={styles.link_text}
-                        href={i}
-                        src={`https://www.${i}`}
-                      >
-                        <Text>{i}</Text>
-                      </Link>
-                    </Text>
-                  ))}
-                </View>
-              </View>
-              <Text style={styles.other_second_text}>Top Topics</Text>
-              <View style={styles.bubble_relative_two}></View>
-              <View style={styles.relative_two_one}>
-                <Text style={styles.relative_text}>news</Text>
-              </View>
-              <View style={styles.relative_two_two}>
-                <Text style={styles.relative_text}>online</Text>
-              </View>
-              <View style={styles.relative_two_three}>
-                <Text style={styles.relative_text}>games</Text>
-              </View>
-              <View style={styles.relative_two_four}>
-                <Text style={styles.relative_text_four}>software</Text>
-              </View>
-              <View style={styles.relative_two_five}>
-                <Text style={styles.relative_text_five}>shopping</Text>
-              </View>
-            </View>
-          </View> */}
           {/* <View style={styles.channel}>
             <Text>nordvpn.com Top Marketing Channels</Text>
             <View style={styles.channel_bg}>
