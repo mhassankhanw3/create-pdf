@@ -82,6 +82,12 @@ export default function TopSocial() {
       flexDirection: "row",
       alignItems: "center",
     },
+    border: {
+      width: "100%",
+      margin: "auto",
+      height: "1px",
+      backgroundColor: "#E8E8E8",
+    },
   });
   return (
     <View style={styles.network_one_last}>

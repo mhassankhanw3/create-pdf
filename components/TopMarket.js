@@ -57,12 +57,12 @@ export default function TopMarket() {
       fontSize: "14px",
     },
     flex_channel: {
-      margin: "0px auto",
+      margin: "4px auto",
       display: "flex",
       flexDirection: "row",
       width: "100%",
       //   border: "1px",
-      padding: "18px 24px",
+      // padding: "4px 24px",
       alignItems: "center",
       justifyContent: "space-between",
     },
@@ -82,26 +82,40 @@ export default function TopMarket() {
       flexDirection: "row",
       alignItems: "center",
     },
+    border: {
+      width: "100%",
+      margin: "auto",
+      height: "1px",
+      backgroundColor: "#E8E8E8",
+    },
   });
   return (
     <View style={styles.network_one_last}>
       <View style={styles.network_bg_color_last}>
         <View style={styles.network_flex_text}>
-          <Text style={styles.network_text}>Top Socials</Text>
-          <Text style={styles.bg_btn}>
-            {abbreviateNumber(data.domain.traffic.sources.social.value)}
+          <Text style={styles.network_text}>
+            nordvpn.com Top Marketing Channels
           </Text>
         </View>
 
         <View style={styles.border}></View>
-        <View style={styles.flex_channel}>
-          <Text style={styles.channel_color}></Text>
-          <View style={styles.txt_flex}>
-            <Text style={{ fontSize: "12px", marginLeft: "4px" }}>
-              Youtube{" "}
-            </Text>
-            <Text style={{ fontSize: "12px" }}> - 82%</Text>
-          </View>
+        <View style={{ marginTop: "10px", padding: "18px 24px" }}>
+          {data.domain.traffic.sources.social.top_socials.map((i) => {
+            return (
+              <View style={styles.flex_channel}>
+                <Text style={styles.channel_color}></Text>
+                <View style={styles.txt_flex}>
+                  <Text style={{ fontSize: "12px", marginLeft: "4px" }}>
+                    {i.site}
+                  </Text>
+                  <Text style={{margin: '0px 2px'}}>-</Text>
+                  <Text style={{ fontSize: "12px" }}>
+                    {abbreviateNumber(i.percent)}%
+                  </Text>
+                </View>
+              </View>
+            );
+          })}
         </View>
       </View>
     </View>

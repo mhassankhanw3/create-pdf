@@ -1095,7 +1095,7 @@ export default function MyDocument({ code }) {
                   </View>
                 </View>
               </View>
-              <CardTwo />
+              {/* <CardTwo />
               <Ranks />
               <EngagementCards />
               <View
@@ -1126,7 +1126,7 @@ export default function MyDocument({ code }) {
                 <TopKeyword />
               </View>
               <Bubbles />
-              <Compeitors />
+              <Compeitors /> */}
               <View
                 style={{
                   display: "flex",
