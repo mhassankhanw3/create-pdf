@@ -22,7 +22,7 @@ export default function PDFViewerComp() {
 
   return (
     <>
-      <PDFViewer style={{ width: 1550, height: 1200 }}>
+      <PDFViewer style={{ width: 2000, height: 1200 }}>
         <MyDocument />
       </PDFViewer>
       <PDFDownloadLink document={<MyDocument />} fileName="document">

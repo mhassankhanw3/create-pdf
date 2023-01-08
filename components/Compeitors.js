@@ -88,39 +88,39 @@ export default function Compeitors() {
   });
   return (
     <>
-      <Page style={styles.page}>
-        <View style={styles.nord}>
-          <View style={styles.nord_two}>
-            <View style={styles.nord_two_bgwhite}>
-              <Text style={{ fontSize: "16px", padding: "14px 24px" }}>
-                privateinternetaccess.com Competitors
-              </Text>
-              <View style={styles.site_text_flex}>
-                <Text style={styles.vpn_text}>Site</Text>
-                <Text style={styles.vpn_text}>Category rank</Text>
-              </View>
-              <View style={styles.newborder}></View>
-              {data.domain.sites.similar_sites.map((y) => (
-                <View>
-                  <View style={styles.nord_link_view}>
-                    <Text style={styles.nord_link_text}>
-                      <Link
-                        style={styles.link_text}
-                        href={y.site}
-                        src={`https://www.${y.site}`}
-                      >
-                        <Text>{y.site}</Text>
-                      </Link>{" "}
-                    </Text>
-                    <Text style={styles.nord_no_text}># {y.rank}</Text>
-                  </View>
-                  <View style={styles.newborder}></View>
-                </View>
-              ))}
+      {/* <Page style={styles.page}> */}
+      <View style={styles.nord}>
+        <View style={styles.nord_two}>
+          <View style={styles.nord_two_bgwhite}>
+            <Text style={{ fontSize: "16px", padding: "14px 24px" }}>
+              privateinternetaccess.com Competitors
+            </Text>
+            <View style={styles.site_text_flex}>
+              <Text style={styles.vpn_text}>Site</Text>
+              <Text style={styles.vpn_text}>Category rank</Text>
             </View>
+            <View style={styles.newborder}></View>
+            {data.domain.sites.similar_sites.map((y) => (
+              <View>
+                <View style={styles.nord_link_view}>
+                  <Text style={styles.nord_link_text}>
+                    <Link
+                      style={styles.link_text}
+                      href={y.site}
+                      src={`https://www.${y.site}`}
+                    >
+                      <Text>{y.site}</Text>
+                    </Link>{" "}
+                  </Text>
+                  <Text style={styles.nord_no_text}># {y.rank}</Text>
+                </View>
+                <View style={styles.newborder}></View>
+              </View>
+            ))}
           </View>
         </View>
-      </Page>
+      </View>
+      {/* </Page> */}
     </>
   );
 }

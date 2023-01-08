@@ -15,7 +15,7 @@ export default function CardTwo({ title, percentage, color }) {
             padding: "20px",
             border: "1px",
             borderColor: "#E8E8E8",
-            backgroundColor: 'white',
+            backgroundColor: "white",
             width: "100%",
             margin: "8px auto",
             // border: '1px',
@@ -98,7 +98,7 @@ export default function CardTwo({ title, percentage, color }) {
               justifyContent: "space-between",
             }}
           >
-            <View style={{ marginTop: "16px", width: "240px" }}>
+            {/* <View style={{ marginTop: "16px", width: "240px" }}>
               <View
                 style={{
                   display: "flex",
@@ -178,12 +178,12 @@ export default function CardTwo({ title, percentage, color }) {
               <View style={{ marginTop: "14px" }}>
                 <GeneratorTwo percentage={80} title="MacOs" color="#00A361" />
               </View>
-            </View>
+            </View> */}
 
             <View style={{ marginTop: "16px", width: "240px" }}>
               {" "}
               {/* ============================= lenght ============================ */}
-              <View
+              {/* <View
                 style={{
                   display: "flex",
                   flexDirection: "row",
@@ -256,13 +256,13 @@ export default function CardTwo({ title, percentage, color }) {
                     {i.percentage_total}%
                   </Text>
                 </View>
-              </View>
-              <View style={{ marginTop: "14px" }}>
+              </View> */}
+              {/* <View style={{ marginTop: "14px" }}>
                 <GeneratorTwo percentage={90} title="MacOs" color="#F3882E" />
               </View>
               <View style={{ marginTop: "14px" }}>
                 <GeneratorTwo percentage={20} title="MacOs" color="#F3882E" />
-              </View>
+              </View> */}
             </View>
           </View>
         </View>

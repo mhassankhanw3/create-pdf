@@ -20,6 +20,11 @@ import EngagementCards from "./EngagementCards";
 import Nord from "./Nord";
 import OtherWeb from "./OtherWeb";
 import Compeitors from "./Compeitors";
+import Bubbles from "./Bubbles";
+import TopKeyword from "./TopKeyword";
+import TopNetworks from "./TopNetworks";
+import TopReffel from "./TopReffel";
+import TopSocial from "./TopSocial";
 export default function MyDocument({ code }) {
   const [jsonData, setJsonData] = useState([]);
   const [isloading, setIsLoading] = useState(false);
@@ -324,7 +329,6 @@ export default function MyDocument({ code }) {
     nord_no_text: {
       fontSize: 14,
     },
-
     nord_link_view: {
       display: "flex",
       flexDirection: "row",
@@ -579,12 +583,13 @@ export default function MyDocument({ code }) {
       color: "#374151",
     },
     keyword_main: {
-      borderRadius: 4,
-      marginTop: 16,
-      backgroundColor: "#f3f4f6",
+      borderRadius: "15px",
+      marginTop: "16px",
+      // backgroundColor: "#f3f4f6",
+      backgroundColor: "white",
     },
     keyword_head: {
-      padding: 12,
+      padding: "24px 24px",
       display: "flex",
       flexDirection: "row",
       alignItems: "center",
@@ -603,17 +608,19 @@ export default function MyDocument({ code }) {
     },
     keyword_link: {
       backgroundColor: "white",
-      padding: 12,
+      padding: "15px 24px",
       display: "flex",
+      // borderRadius: "15px",
       flexDirection: "row",
       alignItems: "center",
     },
     keyword_link_text_one: {
-      fontSize: 14,
+      fontSize: "12px",
       width: "60%",
+      color: "blue",
     },
     keyword_link_text_two: {
-      fontSize: 11,
+      fontSize: "12px",
       width: "20%",
     },
     keyword_link_text_three: {
@@ -747,15 +754,12 @@ export default function MyDocument({ code }) {
       padding: 8,
       marginTop: 60,
     },
-
     other_main_head_one: {
       fontSize: 14,
     },
-
     other_web: {
       width: "38%",
     },
-    // #f3f4f6
     bubble_relative_one: {
       backgroundColor: "red",
       width: "22%",
@@ -1090,7 +1094,7 @@ export default function MyDocument({ code }) {
                   </View>
                 </View>
               </View>
-              <CardTwo />
+              {/* <CardTwo />
               <Ranks />
               <EngagementCards />
               <View
@@ -1106,138 +1110,115 @@ export default function MyDocument({ code }) {
                 <Nord />
                 <OtherWeb />
               </View>
-
-
-              <View style={styles.other_main}>
-                <Text style={styles.other_main_head_one}>Top Categories</Text>
-                <View style={styles.other_flex}>
-                  <View style={styles.bubble_relative_one}></View>
-                  <View style={styles.relative_one_one}>
-                    <Text style={styles.relative_text}>
-                      Other Computers Electronics and Technology
-                    </Text>
-                  </View>
-                  <View style={styles.relative_one_two}>
-                    <Text style={styles.relative_text}>
-                      TV Movies and Stream...
-                    </Text>
-                  </View>
-                  <View style={styles.relative_one_three}>
-                    <Text style={styles.relative_text}>
-                      Programming and Deve...
-                    </Text>
-                  </View>
-                  <View style={styles.relative_one_four}>
-                    <Text style={styles.relative_text}>
-                      Video Games Consoles...
-                    </Text>
-                  </View>
-                  <View style={styles.relative_one_five}>
-                    <Text style={styles.relative_text}>Adult</Text>
-                  </View>
-
-                  <Text style={styles.other_second_text}>Top Topics</Text>
-                  <View style={styles.bubble_relative_two}></View>
-                  <View style={styles.relative_two_one}>
-                    <Text style={styles.relative_text}>news</Text>
-                  </View>
-                  <View style={styles.relative_two_two}>
-                    <Text style={styles.relative_text}>online</Text>
-                  </View>
-                  <View style={styles.relative_two_three}>
-                    <Text style={styles.relative_text}>games</Text>
-                  </View>
-                  <View style={styles.relative_two_four}>
-                    <Text style={styles.relative_text_four}>software</Text>
-                  </View>
-                  <View style={styles.relative_two_five}>
-                    <Text style={styles.relative_text_five}>shopping</Text>
-                  </View>
-                </View>
+              <TopReffel />
+              <View
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
+                  width: "100%",
+                  justifyContent: "space-between",
+                  margin: "auto",
+                }}
+              >
+                <TopNetworks />
+                <TopKeyword />
               </View>
-              {/* <View style={styles.rank_flex}>
-                <View style={styles.rank_flex_one}>
-                  <Text style={styles.rank}>Ranks:</Text>
-                  <View style={styles.rank_bg_white}>
-                    <View style={styles.flex_info}>
-                      <Text style={styles.info_text}>Global Rank:</Text>
-                      <Text style={styles.info_text_two}>
-                        #{data.domain.global_rank.rank}
-                      </Text>
-                    </View>
-                    <View style={styles.flex_info}>
-                      <Text style={styles.info_text}>Country Rank:</Text>
-                      <Text style={styles.info_text_two}>
-                        #{data.domain.country_rank.rank}
-                      </Text>
-                    </View>
-                    <View style={styles.flex_info}>
-                      <Text style={styles.info_text}>Category Rank:</Text>
-                      <Text style={styles.info_text_two}>
-                        #{data.domain.category_rank.rank}
-                      </Text>
-                    </View>
-                  </View>
-                </View>
-                <View style={styles.rank_flex_one}>
-                  <Text>Total Visits Last 3 Months:</Text>
-                  <View style={styles.rank_bg_white}>
-                    <View style={styles.flex_colors}>
-                      <View style={styles.block_colors}>
-                        <Text style={styles.colors_text}>13.5M</Text>
-                        <Text style={styles.color_one}></Text>
-                      </View>
-                      <View style={styles.block_colors}>
-                        <Text style={styles.colors_text}>14.1M</Text>
-                        <Text style={styles.color_two}></Text>
-                      </View>
-                      <View style={styles.block_colors}>
-                        <Text style={styles.colors_text}>14.9M</Text>
-                        <Text style={styles.color_three}></Text>
-                      </View>
-                    </View>
-                    <Text style={styles.border}></Text>
-                    <View style={styles.text_flex}>
-                      <Text style={styles.text_flex_text}>July</Text>
-                      <Text style={styles.text_flex_text_two}>August</Text>
-                      <Text style={styles.text_flex_text}>September</Text>
-                    </View>
-                  </View>
-                </View>
+              <Bubbles />
+              <Compeitors /> */}
+              <View
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  width: "100%",
+                  margin: "auto",
+                }}
+              >
+                <TopSocial />
               </View>
-              <View style={styles.traffic}>
-                <Text style={styles.traffic_heading_text}>
-                  Traffic & Engagement Last Month
-                </Text>
-                <View style={styles.traffic_flex}>
-                  <View style={styles.traffic_flex_one}>
-                    <Text style={styles.traffic_text_light}>Total Visits</Text>
-                    <Text style={styles.traffic_text_meters}>14.9M</Text>
-                  </View>
-                  <View style={styles.traffic_flex_one}>
-                    <Text style={styles.traffic_text_light}>
-                      Page Views Avg.
-                    </Text>
-                    <Text style={styles.traffic_text_meters}>2.06</Text>
-                  </View>
-                  <View style={styles.traffic_flex_one}>
-                    <Text style={styles.traffic_text_light}>
-                      Time On Site Avg.
-                    </Text>
-                    <Text style={styles.traffic_text_meters}>00:01:46</Text>
-                  </View>
-                  <View style={styles.traffic_flex_one}>
-                    <Text style={styles.traffic_text_light}>Bounce Rate</Text>
-                    <Text style={styles.traffic_text_meters}>57.07%</Text>
-                  </View>
-                </View>
-              </View> */}
             </View>
+            //  <View style={styles.other_main}>
+            //     <Text style={styles.other_main_head_one}>Top Categories</Text>
+            //     <View style={styles.other_flex}>
+            //       <View style={styles.bubble_relative_one}></View>
+            //       <View style={styles.relative_one_one}>
+            //         <Text style={styles.relative_text}>
+            //           Other Computers Electronics and Technology
+            //         </Text>
+            //       </View>
+            //       <View style={styles.relative_one_two}>
+            //         <Text style={styles.relative_text}>
+            //           TV Movies and Stream...
+            //         </Text>
+            //       </View>
+            //       <View style={styles.relative_one_three}>
+            //         <Text style={styles.relative_text}>
+            //           Programming and Deve...
+            //         </Text>
+            //       </View>
+            //       <View style={styles.relative_one_four}>
+            //         <Text style={styles.relative_text}>
+            //           Video Games Consoles...
+            //         </Text>
+            //       </View>
+            //       <View style={styles.relative_one_five}>
+            //         <Text style={styles.relative_text}>Adult</Text>
+            //       </View>
+
+            //   <Text style={styles.other_second_text}>Top Topics</Text>
+            //   <View style={styles.bubble_relative_two}></View>
+            //   <View style={styles.relative_two_one}>
+            //     <Text style={styles.relative_text}>news</Text>
+            //   </View>
+            //   <View style={styles.relative_two_two}>
+            //     <Text style={styles.relative_text}>online</Text>
+            //   </View>
+            //   <View style={styles.relative_two_three}>
+            //     <Text style={styles.relative_text}>games</Text>
+            //   </View>
+            //   <View style={styles.relative_two_four}>
+            //     <Text style={styles.relative_text_four}>software</Text>
+            //   </View>
+            //   <View style={styles.relative_two_five}>
+            //     <Text style={styles.relative_text_five}>shopping</Text>
+            //   </View>
+            // </View>
+            // </View>
           )}
+          {/* <View style={styles.keyword}>
+            <View style={styles.keyword_main}>
+              <View style={styles.keyword_head}>
+                <Text style={styles.keyword_head_text_one}>Keyword</Text>
+                <Text style={styles.keyword_head_text_two}>Competetion</Text>
+                <Text style={styles.keyword_head_text_three}>Bid Range</Text>
+              </View>
+              {data.keywords.map((to) => (
+                <View key={to._id}>
+                  <View style={styles.border_bottom}></View>
+                  <View style={styles.keyword_link}>
+                    <Text style={styles.keyword_link_text_one}>
+                      {to.keyword}
+                    </Text>
+                    <Text style={styles.keyword_link_text_two}>
+                      <Text>{to.competition} - </Text>
+                      <Text> {to.competition_index}</Text>
+                    </Text>
+                    <Text style={styles.keyword_link_text_three}>
+                      <Text>${to.high_top_of_page_bid} - </Text>
+                      <Text> ${to.low_top_of_page_bid}</Text>
+                    </Text>
+                  </View>
+                  <View style={styles.border_bottom}></View>
+                </View>
+              ))}
+            </View>
+          </View> */}
         </Page>
-        <Compeitors />
-        <Page style={styles.page_keyword}>
-          {/* <View style={styles.nord_one}>
+
+        {/* <Page style={styles.page_keyword}> */}
+        {/* <View style={styles.nord_one}>
             <Text>Top Countries</Text>
             <View style={styles.nord_one_bg_white}>
               <View>
@@ -1270,7 +1251,7 @@ export default function MyDocument({ code }) {
             </View>
           </View> */}
 
-          {/* <View style={styles.channel}>
+        {/*   <View style={styles.channel}>
             <Text>nordvpn.com Top Marketing Channels</Text>
             <View style={styles.channel_bg}>
               <View style={styles.channel_flex}>
@@ -1379,8 +1360,8 @@ export default function MyDocument({ code }) {
               </View>
             </View>
           </View> */}
-          {/* <View style={styles.network}>
-            <View style={styles.network_one}>
+        {/* <View style={styles.network}> */}
+        {/* <View style={styles.network_one}>
               <Text>Top Ad Networks (1.7M)</Text>
               <View style={styles.network_bg_color}>
                 {data.domain.traffic.sources.display_ad.top_ad_networks.map(
@@ -1402,8 +1383,8 @@ export default function MyDocument({ code }) {
                   )
                 )}
               </View>
-            </View>
-            <View style={styles.network_one}>
+            </View> */}
+        {/* <View style={styles.network_one}>
               <Text>Top Referral Traffic (479.4K)</Text>
               <View style={styles.network_bg_color}>
                 {data.domain.traffic.sources.referring.top_referring.map(
@@ -1425,9 +1406,9 @@ export default function MyDocument({ code }) {
                   )
                 )}
               </View>
-            </View>
-          </View> */}
-          {/* <View style={styles.other_web}>
+            </View> */}
+        {/* </View> */}
+        {/* <View style={styles.other_web}>
             <Text style={styles.other_main_head}>Other Visited Websites</Text>
             <View style={styles.other_bg}>
               {data.domain.audience.other_visited_websites.map((i) => (
@@ -1443,7 +1424,7 @@ export default function MyDocument({ code }) {
               ))}
             </View>
           </View> */}
-          {/* <View style={styles.network_one_last}>
+        {/* <View style={styles.network_one_last}>
             <Text>Top Keywords (5.7M)</Text>
             <View style={styles.network_bg_color_last}>
               {data.domain.traffic.sources.search_organic.top_keywords.map(
@@ -1458,7 +1439,7 @@ export default function MyDocument({ code }) {
               )}
             </View>
           </View> */}
-          {/* <View style={styles.social_head_text}>
+        {/* <View style={styles.social_head_text}>
             <Text>Top Socials (552.8K)</Text>
             <View style={styles.social}>
               <View style={styles.social_flex}>
@@ -1487,37 +1468,8 @@ export default function MyDocument({ code }) {
               </View>
             </View>
           </View> */}
-          {/* <View style={styles.keyword}>
-            <View style={styles.keyword_main}>
-              <View style={styles.keyword_head}>
-                <Text style={styles.keyword_head_text_one}>Keyword</Text>
-                <Text style={styles.keyword_head_text_two}>Competetion</Text>
-                <Text style={styles.keyword_head_text_three}>
-                  High Bid - Low Bid
-                </Text>
-              </View>
-              {data.keywords.map((to) => (
-                <View key={to._id}>
-                  <View style={styles.border_bottom}></View>
-                  <View style={styles.keyword_link}>
-                    <Text style={styles.keyword_link_text_one}>
-                      {to.keyword}
-                    </Text>
-                    <Text style={styles.keyword_link_text_two}>
-                      <Text>{to.competition} - </Text>
-                      <Text> {to.competition_index}</Text>
-                    </Text>
-                    <Text style={styles.keyword_link_text_three}>
-                      <Text>${to.high_top_of_page_bid} - </Text>
-                      <Text> ${to.low_top_of_page_bid}</Text>
-                    </Text>
-                  </View>
-                  <View style={styles.border_bottom}></View>
-                </View>
-              ))}
-            </View>
-          </View> */}
-        </Page>
+
+        {/* </Page> */}
       </Document>
     </>
   );

@@ -91,7 +91,13 @@ export default function Ranks() {
       marginTop: "6px",
     },
     visit_flex: {
-      marginTop: "120px",
+      // border: "1px",
+      // marginTop: "120px",
+      position: "absolute",
+      bottom: "0px",
+      left: "25px",
+      right: "0px",
+      margin: "auto",
       display: "flex",
       flexDirection: "row",
       alignItems: "flex-end",
@@ -173,7 +179,8 @@ export default function Ranks() {
                 <View
                   style={{
                     backgroundColor: "#F3882E",
-                    height: lastRange(i.value),
+                    height: "24px",
+                    // height: lastRange(i.value),
                     width: "100%",
                     borderRadius: "3px",
                     margin: "7px 0px",
