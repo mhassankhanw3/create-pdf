@@ -25,6 +25,7 @@ import TopKeyword from "./TopKeyword";
 import TopNetworks from "./TopNetworks";
 import TopReffel from "./TopReffel";
 import TopSocial from "./TopSocial";
+import TopMarket from "./TopMarket";
 export default function MyDocument({ code }) {
   const [jsonData, setJsonData] = useState([]);
   const [isloading, setIsLoading] = useState(false);
@@ -1094,7 +1095,7 @@ export default function MyDocument({ code }) {
                   </View>
                 </View>
               </View>
-              {/* <CardTwo />
+              <CardTwo />
               <Ranks />
               <EngagementCards />
               <View
@@ -1125,7 +1126,7 @@ export default function MyDocument({ code }) {
                 <TopKeyword />
               </View>
               <Bubbles />
-              <Compeitors /> */}
+              <Compeitors />
               <View
                 style={{
                   display: "flex",
@@ -1137,6 +1138,7 @@ export default function MyDocument({ code }) {
                 }}
               >
                 <TopSocial />
+                <TopMarket />
               </View>
             </View>
             //  <View style={styles.other_main}>
