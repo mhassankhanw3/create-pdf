@@ -16,10 +16,19 @@ import {
 } from "../src/functions/Sanitizer";
 
 export default function TopMarket() {
+  const colors = [
+    "#FF222F",
+    "#00A361",
+    "#FFB331",
+    "#502FCF",
+    "#D766FF",
+    "#F3882E",
+    "#0184FF",
+  ];
   const styles = StyleSheet.create({
     network_one_last: {
       //   marginTop: '56px',
-      width: "49%",
+      width: "49.5%",
       margin: "8px auto",
       //   border: "1px",
     },
@@ -54,15 +63,13 @@ export default function TopMarket() {
       fontSize: "14px",
     },
     network_text: {
-      fontSize: "14px",
+      fontSize: "13px",
     },
     flex_channel: {
-      margin: "4px auto",
+      margin: "6px auto",
       display: "flex",
       flexDirection: "row",
       width: "100%",
-      //   border: "1px",
-      // padding: "4px 24px",
       alignItems: "center",
       justifyContent: "space-between",
     },
@@ -89,6 +96,7 @@ export default function TopMarket() {
       backgroundColor: "#E8E8E8",
     },
   });
+
   return (
     <View style={styles.network_one_last}>
       <View style={styles.network_bg_color_last}>
@@ -100,22 +108,163 @@ export default function TopMarket() {
 
         <View style={styles.border}></View>
         <View style={{ marginTop: "10px", padding: "18px 24px" }}>
-          {data.domain.traffic.sources.social.top_socials.map((i) => {
-            return (
-              <View style={styles.flex_channel}>
-                <Text style={styles.channel_color}></Text>
-                <View style={styles.txt_flex}>
-                  <Text style={{ fontSize: "12px", marginLeft: "4px" }}>
-                    {i.site}
-                  </Text>
-                  <Text style={{margin: '0px 2px'}}>-</Text>
-                  <Text style={{ fontSize: "12px" }}>
-                    {abbreviateNumber(i.percent)}%
-                  </Text>
-                </View>
-              </View>
-            );
-          })}
+          <View style={styles.flex_channel}>
+            <View style={styles.txt_flex}>
+              <Text
+                style={{
+                  height: "9px",
+                  width: "9px",
+                  borderRadius: "50px",
+                  backgroundColor: "#FF222F",
+                }}
+              ></Text>
+              <Text style={{ fontSize: "11px", marginLeft: "4px" }}>
+                direct
+              </Text>
+            </View>
+
+            <View style={styles.txt_flex}>
+              <Text style={{ fontSize: "11px" }}>
+                {abbreviateNumber(data.domain.traffic.sources.direct.percent)}%
+              </Text>
+            </View>
+          </View>
+          <View style={styles.flex_channel}>
+            <View style={styles.txt_flex}>
+              <Text
+                style={{
+                  height: "9px",
+                  width: "9px",
+                  borderRadius: "50px",
+                  backgroundColor: "#00A361",
+                }}
+              ></Text>
+              <Text style={{ fontSize: "11px", marginLeft: "4px" }}>
+                search_organic
+              </Text>
+            </View>
+
+            <View style={styles.txt_flex}>
+              <Text style={{ fontSize: "11px" }}>
+                {abbreviateNumber(
+                  data.domain.traffic.sources.search_organic.percent
+                )}
+                %
+              </Text>
+            </View>
+          </View>
+          <View style={styles.flex_channel}>
+            <View style={styles.txt_flex}>
+              <Text
+                style={{
+                  height: "9px",
+                  width: "9px",
+                  borderRadius: "50px",
+                  backgroundColor: "#FFB331",
+                }}
+              ></Text>
+              <Text style={{ fontSize: "11px", marginLeft: "4px" }}>
+                search_ad
+              </Text>
+            </View>
+
+            <View style={styles.txt_flex}>
+              <Text style={{ fontSize: "11px" }}>
+                {abbreviateNumber(
+                  data.domain.traffic.sources.search_ad.percent
+                )}
+                %
+              </Text>
+            </View>
+          </View>
+          <View style={styles.flex_channel}>
+            <View style={styles.txt_flex}>
+              <Text
+                style={{
+                  height: "9px",
+                  width: "9px",
+                  borderRadius: "50px",
+                  backgroundColor: "#502FCF",
+                }}
+              ></Text>
+              <Text style={{ fontSize: "11px", marginLeft: "4px" }}>
+                referring
+              </Text>
+            </View>
+
+            <View style={styles.txt_flex}>
+              <Text style={{ fontSize: "11px" }}>
+                {abbreviateNumber(
+                  data.domain.traffic.sources.referring.percent
+                )}
+                %
+              </Text>
+            </View>
+          </View>
+          <View style={styles.flex_channel}>
+            <View style={styles.txt_flex}>
+              <Text
+                style={{
+                  height: "9px",
+                  width: "9px",
+                  borderRadius: "50px",
+                  backgroundColor: "#D766FF",
+                }}
+              ></Text>
+              <Text style={{ fontSize: "11px", marginLeft: "4px" }}>
+                social
+              </Text>
+            </View>
+
+            <View style={styles.txt_flex}>
+              <Text style={{ fontSize: "11px" }}>
+                {abbreviateNumber(data.domain.traffic.sources.social.percent)}%
+              </Text>
+            </View>
+          </View>
+          <View style={styles.flex_channel}>
+            <View style={styles.txt_flex}>
+              <Text
+                style={{
+                  height: "9px",
+                  width: "9px",
+                  borderRadius: "50px",
+                  backgroundColor: "#F3882E",
+                }}
+              ></Text>
+              <Text style={{ fontSize: "11px", marginLeft: "4px" }}>
+                display_ad
+              </Text>
+            </View>
+
+            <View style={styles.txt_flex}>
+              <Text style={{ fontSize: "11px" }}>
+                {abbreviateNumber(
+                  data.domain.traffic.sources.display_ad.percent
+                )}
+                %
+              </Text>
+            </View>
+          </View>
+          <View style={styles.flex_channel}>
+            <View style={styles.txt_flex}>
+              <Text
+                style={{
+                  height: "9px",
+                  width: "9px",
+                  borderRadius: "50px",
+                  backgroundColor: "#0184FF",
+                }}
+              ></Text>
+              <Text style={{ fontSize: "11px", marginLeft: "4px" }}>mail</Text>
+            </View>
+
+            <View style={styles.txt_flex}>
+              <Text style={{ fontSize: "11px" }}>
+                {abbreviateNumber(data.domain.traffic.sources.mail.percent)}%
+              </Text>
+            </View>
+          </View>
         </View>
       </View>
     </View>

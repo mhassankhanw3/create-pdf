@@ -11,6 +11,11 @@ import {
 } from "@react-pdf/renderer";
 import data from "../data.json";
 import Arrow from "./arrow";
+import {
+  abbreviateNumber,
+  abbreviateNumberNew,
+} from "../src/functions/Sanitizer";
+import Head from "next/head";
 
 export default function EngagementCards() {
   const styles = StyleSheet.create({
@@ -19,6 +24,8 @@ export default function EngagementCards() {
       backgroundColor: "white",
       padding: "18px 24px",
       borderRadius: "15px",
+      border: "1px",
+      borderColor: "#E8E8E8",
       width: "100%",
     },
     traffic_flex: {
@@ -56,8 +63,8 @@ export default function EngagementCards() {
       fontSize: "14px",
     },
     card_rank_text: {
-      fontSize: "16px",
-      marginTop: "6px",
+      fontSize: "14px",
+      marginTop: "8px",
     },
     card_two: {
       margin: "10px 10px",
@@ -132,7 +139,9 @@ export default function EngagementCards() {
             </View>
             <View style={{ marginTop: "22px" }}>
               <Text style={styles.card_text}>Total Visits</Text>
-              <Text style={styles.card_rank_text}>14.9M</Text>
+              <Text style={styles.card_rank_text}>
+                {abbreviateNumber(data.domain.audience.visits)}
+              </Text>
             </View>
           </View>
           <View style={styles.card_two}>
@@ -144,7 +153,9 @@ export default function EngagementCards() {
             </View>
             <View style={{ marginTop: "22px" }}>
               <Text style={styles.card_text}>Page Views Avg.</Text>
-              <Text style={styles.card_rank_text}>Page Views Avg.</Text>
+              <Text style={styles.card_rank_text}>
+                {abbreviateNumber(data.domain.audience.page_views_avg)}
+              </Text>
             </View>
           </View>
           <View style={styles.card_three}>
@@ -156,19 +167,21 @@ export default function EngagementCards() {
             </View>
             <View style={{ marginTop: "22px" }}>
               <Text style={styles.card_text}>Time On Site Avg.</Text>
-              <Text style={styles.card_rank_text}>00:01:46</Text>
+              <Text style={styles.card_rank_text}>
+                {data.domain.audience.time_on_site_avg}
+              </Text>
             </View>
           </View>
           <View style={styles.card_four}>
             <View style={styles.img_bg_four}>
               {/* <Arrow /> */}
-              <Image
-                src="http://localhost:3000/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FcompeArrow.6c09ad13.png&w=48&q=75"
-              />
+              <Image src="http://localhost:3000/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FcompeArrow.6c09ad13.png&w=48&q=75" />
             </View>
             <View style={{ marginTop: "22px" }}>
               <Text style={styles.card_text}>Bounce Rate</Text>
-              <Text style={styles.card_rank_text}>57.07%</Text>
+              <Text style={styles.card_rank_text}>
+                {data.domain.audience.bounce_rate}%
+              </Text>
             </View>
           </View>
         </View>

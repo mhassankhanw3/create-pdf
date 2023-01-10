@@ -25,11 +25,12 @@ export default function Ranks() {
     let percentageRange = lRange;
     let value = abbreviateNumberNew(percentageRange);
     console.log(typeof value, "value");
-    let result = `${value}%`;
+    let result = value + "%";
     console.log(typeof result, "result");
     return result;
   };
-  //   const colorArr = ["#F3882E", "#00A361", "#502FCF"];
+  const colorArr = ["#F3882E", "#00A361", "#502FCF"];
+  const month = ["July", "August", "September"];
   //   console.log();
   const styles = StyleSheet.create({
     flex_compo: {
@@ -43,8 +44,10 @@ export default function Ranks() {
       margin: "8px 0px",
       backgroundColor: "white",
       padding: "18px 24px",
+      border: "1px",
+      borderColor: "#E8E8E8",
       borderRadius: "15px",
-      width: "280px",
+      width: "49%",
     },
     rank_flex: {
       display: "flex",
@@ -84,20 +87,17 @@ export default function Ranks() {
     },
     rank_text: {
       color: "#565656",
-      fontSize: "14px",
+      fontSize: "12px",
     },
     rank_text_rank: {
-      fontSize: "14px",
+      fontSize: "12px",
       marginTop: "6px",
     },
     visit_flex: {
       // border: "1px",
       // marginTop: "120px",
-      position: "absolute",
-      bottom: "0px",
-      left: "25px",
-      right: "0px",
-      margin: "auto",
+      paddingTop: "100px",
+      margin: "50px auto 0px auto",
       display: "flex",
       flexDirection: "row",
       alignItems: "flex-end",
@@ -126,7 +126,7 @@ export default function Ranks() {
                     alt="ranks"
                   />
                 </View>
-                <View style={{ marginLeft: "6px" }}>
+                <View style={{ marginLeft: "8px" }}>
                   <Text style={styles.rank_text}>Global Rank</Text>
                   <Text style={styles.rank_text_rank}>
                     # {data.domain.global_rank.rank}
@@ -171,22 +171,24 @@ export default function Ranks() {
             <Text style={{ fontSize: "16px" }}>Total Visits Last 3 Months</Text>
           </View>
           <View style={styles.visit_flex}>
-            {data.domain.traffic.estimated.map((i) => (
+            {data.domain.traffic.estimated.map((i, col) => (
               <View style={styles.main_color}>
                 <Text style={{ fontSize: "14px" }}>
                   {abbreviateNumber(i.value)}
                 </Text>
                 <View
                   style={{
-                    backgroundColor: "#F3882E",
-                    height: "24px",
-                    // height: lastRange(i.value),
+                    backgroundColor: colorArr[col % colorArr.length],
+                    // height: "24px",
+                    height: lastRange(i.value),
                     width: "100%",
                     borderRadius: "3px",
                     margin: "7px 0px",
                   }}
                 ></View>
-                <Text style={{ fontSize: "14px", color: "#565656" }}>Aug</Text>
+                <Text style={{ fontSize: "11px", color: "#565656" }}>
+                  {month[col % month.length]}
+                </Text>
               </View>
             ))}
 

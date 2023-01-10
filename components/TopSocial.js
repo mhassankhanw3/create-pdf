@@ -14,12 +14,22 @@ import {
   abbreviateNumber,
   abbreviateNumberNew,
 } from "../src/functions/Sanitizer";
+import { useState } from "react";
 
 export default function TopSocial() {
+  const colors = [
+    "#FF222F",
+    "#00A361",
+    "#FFB331",
+    "#502FCF",
+    "#D766FF",
+    "#F3882E",
+    "#0184FF",
+  ];
   const styles = StyleSheet.create({
     network_one_last: {
       //   marginTop: '56px',
-      width: "49%",
+      width: "49.5%",
       margin: "8px auto",
       //   border: "1px",
     },
@@ -57,12 +67,12 @@ export default function TopSocial() {
       fontSize: "14px",
     },
     flex_channel: {
-      margin: "0px auto",
+      margin: "10.5px auto",
       display: "flex",
       flexDirection: "row",
       width: "100%",
-    //   border: "1px",
-      padding: "18px 24px",
+      //   border: "1px",
+      // padding: "4px 24px",
       alignItems: "center",
       justifyContent: "space-between",
     },
@@ -100,7 +110,34 @@ export default function TopSocial() {
         </View>
 
         <View style={styles.border}></View>
-        <View style={styles.flex_channel}>
+        <View style={{ marginTop: "10px", padding: "18px 24px" }}>
+          {data.domain.traffic.sources.social.top_socials.map((i, col) => {
+            return (
+              <View style={styles.flex_channel}>
+                <View style={styles.txt_flex}>
+                  <Text
+                    style={{
+                      height: "9px",
+                      width: "9px",
+                      borderRadius: "50px",
+                      backgroundColor: colors[col % colors.length],
+                    }}
+                  ></Text>
+                  <Text style={{ fontSize: "11px", marginLeft: "4px" }}>
+                    {i.site}
+                  </Text>
+                </View>
+
+                <View style={styles.txt_flex}>
+                  <Text style={{ fontSize: "11px" }}>
+                    {abbreviateNumber(i.percent)}%
+                  </Text>
+                </View>
+              </View>
+            );
+          })}
+        </View>
+        {/* <View style={styles.flex_channel}>
           <Text style={styles.channel_color}></Text>
           <View style={styles.txt_flex}>
             <Text style={{ fontSize: "12px", marginLeft: "4px" }}>
@@ -108,7 +145,7 @@ export default function TopSocial() {
             </Text>
             <Text style={{ fontSize: "12px" }}> - 82%</Text>
           </View>
-        </View>
+        </View> */}
       </View>
     </View>
   );

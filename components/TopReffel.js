@@ -10,6 +10,7 @@ import {
   Image,
   usePDF,
 } from "@react-pdf/renderer";
+import { abbreviateNumber } from "../src/functions/Sanitizer";
 
 export default function TopReffel() {
   const styles = StyleSheet.create({
@@ -89,7 +90,9 @@ export default function TopReffel() {
         <View style={styles.network_bg_color_last}>
           <View style={styles.network_flex_text}>
             <Text style={styles.network_text}>Top Referral Traffic</Text>
-            <Text style={styles.bg_btn}>479.4k</Text>
+            <Text style={styles.bg_btn}>
+              {abbreviateNumber(data.domain.traffic.sources.referring.value)}
+            </Text>
           </View>
           <View style={styles.main_network_flex}>
             <Text style={styles.main_network_text}>Site</Text>

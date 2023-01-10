@@ -38,6 +38,10 @@ export default function MyDocument({ code }) {
     setJsonData(data);
     setIsLoading(false);
   };
+  // const getccode = (country) => {
+  //   let ccode = CountriesData.find((e) => e.location_name === country);
+  //   return ccode;
+  // };
   const getccode = (country) => {
     let ccode = CountriesData.find((e) => e.location_name === country);
     return ccode;
@@ -57,7 +61,6 @@ export default function MyDocument({ code }) {
   };
   const styles = StyleSheet.create({
     page: {
-      // backgroundColor: "#e5e7eb",
       padding: 12,
       backgroundColor: "#F4F4F4",
     },
@@ -585,7 +588,9 @@ export default function MyDocument({ code }) {
     },
     keyword_main: {
       borderRadius: "15px",
-      marginTop: "16px",
+      margin: "8px auto",
+      border: "1px",
+      borderColor: "#E8E8E8",
       // backgroundColor: "#f3f4f6",
       backgroundColor: "white",
     },
@@ -981,14 +986,22 @@ export default function MyDocument({ code }) {
                 <View style={styles.domain_text_flex}>
                   <View style={styles.domain_text_flex_text}>
                     <Text style={{ fontSize: "14px" }}>Domain:</Text>
-                    <Text style={{ marginLeft: "7px", fontSize: "16px" }}>
+                    <Text style={{ marginLeft: "7px", fontSize: "14px" }}>
                       {data.domain.site_url}
                     </Text>
                   </View>
                   <View style={styles.domain_text_flex_text}>
                     <Text style={{ fontSize: "14px" }}>Country:</Text>
-                    <Text style={{ marginLeft: "7px", fontSize: "16px" }}>
+                    <Text style={{ marginLeft: "7px", fontSize: "14px" }}>
                       {data.domain.headquarters.country}
+                      {/* {getccode(x.country)?.country_iso_code && (
+                        <Image
+                          style={{ width: "15px" }}
+                          src={`https://flagcdn.com/w20/${getccode(
+                            x.country
+                          )?.country_iso_code.toLowerCase()}.png`}
+                        />
+                      )} */}
                     </Text>
                   </View>
                 </View>
@@ -1095,7 +1108,7 @@ export default function MyDocument({ code }) {
                   </View>
                 </View>
               </View>
-              {/* <CardTwo />
+              <CardTwo />
               <Ranks />
               <EngagementCards />
               <View
@@ -1126,7 +1139,7 @@ export default function MyDocument({ code }) {
                 <TopKeyword />
               </View>
               <Bubbles />
-              <Compeitors /> */}
+              <Compeitors />
               <View
                 style={{
                   display: "flex",
@@ -1141,55 +1154,8 @@ export default function MyDocument({ code }) {
                 <TopMarket />
               </View>
             </View>
-            //  <View style={styles.other_main}>
-            //     <Text style={styles.other_main_head_one}>Top Categories</Text>
-            //     <View style={styles.other_flex}>
-            //       <View style={styles.bubble_relative_one}></View>
-            //       <View style={styles.relative_one_one}>
-            //         <Text style={styles.relative_text}>
-            //           Other Computers Electronics and Technology
-            //         </Text>
-            //       </View>
-            //       <View style={styles.relative_one_two}>
-            //         <Text style={styles.relative_text}>
-            //           TV Movies and Stream...
-            //         </Text>
-            //       </View>
-            //       <View style={styles.relative_one_three}>
-            //         <Text style={styles.relative_text}>
-            //           Programming and Deve...
-            //         </Text>
-            //       </View>
-            //       <View style={styles.relative_one_four}>
-            //         <Text style={styles.relative_text}>
-            //           Video Games Consoles...
-            //         </Text>
-            //       </View>
-            //       <View style={styles.relative_one_five}>
-            //         <Text style={styles.relative_text}>Adult</Text>
-            //       </View>
-
-            //   <Text style={styles.other_second_text}>Top Topics</Text>
-            //   <View style={styles.bubble_relative_two}></View>
-            //   <View style={styles.relative_two_one}>
-            //     <Text style={styles.relative_text}>news</Text>
-            //   </View>
-            //   <View style={styles.relative_two_two}>
-            //     <Text style={styles.relative_text}>online</Text>
-            //   </View>
-            //   <View style={styles.relative_two_three}>
-            //     <Text style={styles.relative_text}>games</Text>
-            //   </View>
-            //   <View style={styles.relative_two_four}>
-            //     <Text style={styles.relative_text_four}>software</Text>
-            //   </View>
-            //   <View style={styles.relative_two_five}>
-            //     <Text style={styles.relative_text_five}>shopping</Text>
-            //   </View>
-            // </View>
-            // </View>
           )}
-          {/* <View style={styles.keyword}>
+          <View style={styles.keyword}>
             <View style={styles.keyword_main}>
               <View style={styles.keyword_head}>
                 <Text style={styles.keyword_head_text_one}>Keyword</Text>
@@ -1216,9 +1182,55 @@ export default function MyDocument({ code }) {
                 </View>
               ))}
             </View>
-          </View> */}
+          </View>
         </Page>
 
+        {/* <View style={styles.other_main}>
+                 <Text style={styles.other_main_head_one}>Top Categories</Text>
+                 <View style={styles.other_flex}>
+                   <View style={styles.bubble_relative_one}></View>
+                   <View style={styles.relative_one_one}>
+                     <Text style={styles.relative_text}>
+                       Other Computers Electronics and Technology
+                     </Text>
+                   </View>
+                   <View style={styles.relative_one_two}>
+                     <Text style={styles.relative_text}>
+                       TV Movies and Stream...
+                     </Text>
+                   </View>
+                   <View style={styles.relative_one_three}>
+                     <Text style={styles.relative_text}>
+                       Programming and Deve...
+                     </Text>
+                   </View>
+                   <View style={styles.relative_one_four}>
+                     <Text style={styles.relative_text}>
+                       Video Games Consoles...
+                     </Text>
+                   </View>
+                   <View style={styles.relative_one_five}>
+                     <Text style={styles.relative_text}>Adult</Text>
+                   </View>
+               <Text style={styles.other_second_text}>Top Topics</Text>
+               <View style={styles.bubble_relative_two}></View>
+               <View style={styles.relative_two_one}>
+                 <Text style={styles.relative_text}>news</Text>
+               </View>
+               <View style={styles.relative_two_two}>
+                 <Text style={styles.relative_text}>online</Text>
+               </View>
+               <View style={styles.relative_two_three}>
+                 <Text style={styles.relative_text}>games</Text>
+               </View>
+               <View style={styles.relative_two_four}>
+                 <Text style={styles.relative_text_four}>software</Text>
+               </View>
+               <View style={styles.relative_two_five}>
+                 <Text style={styles.relative_text_five}>shopping</Text>
+               </View>
+             </View>
+          </View> */}
         {/* <Page style={styles.page_keyword}> */}
         {/* <View style={styles.nord_one}>
             <Text>Top Countries</Text>
@@ -1252,8 +1264,7 @@ export default function MyDocument({ code }) {
               </View>
             </View>
           </View> */}
-
-        {/*   <View style={styles.channel}>
+        {/* <View style={styles.channel}>
             <Text>nordvpn.com Top Marketing Channels</Text>
             <View style={styles.channel_bg}>
               <View style={styles.channel_flex}>
@@ -1385,7 +1396,7 @@ export default function MyDocument({ code }) {
                   )
                 )}
               </View>
-            </View> */}
+           </View> */}
         {/* <View style={styles.network_one}>
               <Text>Top Referral Traffic (479.4K)</Text>
               <View style={styles.network_bg_color}>
@@ -1408,7 +1419,7 @@ export default function MyDocument({ code }) {
                   )
                 )}
               </View>
-            </View> */}
+           </View> */}
         {/* </View> */}
         {/* <View style={styles.other_web}>
             <Text style={styles.other_main_head}>Other Visited Websites</Text>
