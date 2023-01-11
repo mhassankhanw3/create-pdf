@@ -18,7 +18,7 @@ export default function Bubbles() {
       display: "flex",
       flexDirection: "row",
       alignItems: "center",
-      margin: "8px auto",
+      margin: "60px auto 8px auto",
       width: "100%",
       justifyContent: "space-between",
     },

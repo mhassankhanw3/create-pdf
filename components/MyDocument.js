@@ -26,6 +26,9 @@ import TopNetworks from "./TopNetworks";
 import TopReffel from "./TopReffel";
 import TopSocial from "./TopSocial";
 import TopMarket from "./TopMarket";
+import FvcardTwo from "./FvcardTwo";
+import KeywordCard from "./keywordCard";
+import Allkeyword from "./Allkeyword";
 export default function MyDocument({ code }) {
   const [jsonData, setJsonData] = useState([]);
   const [isloading, setIsLoading] = useState(false);
@@ -43,7 +46,8 @@ export default function MyDocument({ code }) {
   //   return ccode;
   // };
   const getccode = (country) => {
-    let ccode = CountriesData.find((e) => e.location_name === country);
+    let ccode = CountriesData.find((e) => e.location_name === "United Kingdom");
+    console.log(ccode, "country flag");
     return ccode;
   };
 
@@ -73,7 +77,6 @@ export default function MyDocument({ code }) {
       flexDirection: "row",
       alignItems: "center",
       justifyContent: "space-between",
-      // border: '1px'
     },
     domain_text_flex_text: {
       display: "flex",
@@ -82,7 +85,7 @@ export default function MyDocument({ code }) {
       justifyContent: "center",
     },
     flex_cards: {
-      marginTop: 13,
+      marginTop: "16px",
       display: "flex",
       flexDirection: "row",
       flexWrap: "wrap",
@@ -982,7 +985,9 @@ export default function MyDocument({ code }) {
             "Loading"
           ) : (
             <View>
-              <View style={styles.main_info}>
+              <KeywordCard />
+              <FvcardTwo />
+              {/* <View style={styles.main_info}>
                 <View style={styles.domain_text_flex}>
                   <View style={styles.domain_text_flex_text}>
                     <Text style={{ fontSize: "14px" }}>Domain:</Text>
@@ -992,17 +997,10 @@ export default function MyDocument({ code }) {
                   </View>
                   <View style={styles.domain_text_flex_text}>
                     <Text style={{ fontSize: "14px" }}>Country:</Text>
-                    <Text style={{ marginLeft: "7px", fontSize: "14px" }}>
-                      {data.domain.headquarters.country}
-                      {/* {getccode(x.country)?.country_iso_code && (
-                        <Image
-                          style={{ width: "15px" }}
-                          src={`https://flagcdn.com/w20/${getccode(
-                            x.country
-                          )?.country_iso_code.toLowerCase()}.png`}
-                        />
-                      )} */}
-                    </Text>
+                    <Image
+                      style={{ width: "16px", marginLeft: "4px" }}
+                      src="https://flagcdn.com/w20/gb.png"
+                    />
                   </View>
                 </View>
                 <View style={styles.flex_cards}>
@@ -1047,8 +1045,8 @@ export default function MyDocument({ code }) {
                     </Text>
                   </View>
                 </View>
-              </View>
-              <View style={styles.main_info}>
+              </View> */}
+              {/* <View style={styles.main_info}>
                 <Text style={styles.info}>Company Info</Text>
                 <View style={styles.flex_info}>
                   <Text style={styles.info_text}>Company Name:</Text>
@@ -1062,13 +1060,6 @@ export default function MyDocument({ code }) {
                     {data.domain.site_description}
                   </Text>
                 </View>
-                {/* <View style={styles.flex_info}>
-                  <Text style={styles.info_text}>Description:</Text>
-                  <Text style={styles.info_text_two}>
-                    {data.domain.location_company}
-                  </Text>
-                </View> */}
-
                 <View
                   style={{
                     display: "flex",
@@ -1107,10 +1098,11 @@ export default function MyDocument({ code }) {
                     </View>
                   </View>
                 </View>
-              </View>
-              <CardTwo />
+              </View>  */}
+              {/* <EngagementCards />
               <Ranks />
-              <EngagementCards />
+              <TopReffel />
+              <CardTwo />
               <View
                 style={{
                   display: "flex",
@@ -1124,68 +1116,45 @@ export default function MyDocument({ code }) {
                 <Nord />
                 <OtherWeb />
               </View>
-              <TopReffel />
-              <View
-                style={{
-                  display: "flex",
-                  flexDirection: "row",
-                  alignItems: "center",
-                  width: "100%",
-                  justifyContent: "space-between",
-                  margin: "auto",
-                }}
-              >
-                <TopNetworks />
-                <TopKeyword />
-              </View>
-              <Bubbles />
               <Compeitors />
               <View
                 style={{
                   display: "flex",
                   flexDirection: "row",
                   alignItems: "center",
+                  width: "100%",
+                  justifyContent: "space-between",
+                  margin: "50px auto 0px auto",
+                }}
+              >
+                <TopNetworks />
+                <TopKeyword />
+              </View>
+              <View
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
                   justifyContent: "space-between",
                   width: "100%",
-                  margin: "auto",
+                  margin: "40px auto",
                 }}
               >
                 <TopSocial />
                 <TopMarket />
               </View>
+              <Bubbles /> */}
             </View>
           )}
-          <View style={styles.keyword}>
-            <View style={styles.keyword_main}>
-              <View style={styles.keyword_head}>
-                <Text style={styles.keyword_head_text_one}>Keyword</Text>
-                <Text style={styles.keyword_head_text_two}>Competetion</Text>
-                <Text style={styles.keyword_head_text_three}>Bid Range</Text>
-              </View>
-              {data.keywords.map((to) => (
-                <View key={to._id}>
-                  <View style={styles.border_bottom}></View>
-                  <View style={styles.keyword_link}>
-                    <Text style={styles.keyword_link_text_one}>
-                      {to.keyword}
-                    </Text>
-                    <Text style={styles.keyword_link_text_two}>
-                      <Text>{to.competition} - </Text>
-                      <Text> {to.competition_index}</Text>
-                    </Text>
-                    <Text style={styles.keyword_link_text_three}>
-                      <Text>${to.high_top_of_page_bid} - </Text>
-                      <Text> ${to.low_top_of_page_bid}</Text>
-                    </Text>
-                  </View>
-                  <View style={styles.border_bottom}></View>
-                </View>
-              ))}
-            </View>
-          </View>
+          <Allkeyword />
         </Page>
+      </Document>
+    </>
+  );
+}
 
-        {/* <View style={styles.other_main}>
+{
+  /* <View style={styles.other_main}>
                  <Text style={styles.other_main_head_one}>Top Categories</Text>
                  <View style={styles.other_flex}>
                    <View style={styles.bubble_relative_one}></View>
@@ -1230,9 +1199,13 @@ export default function MyDocument({ code }) {
                  <Text style={styles.relative_text_five}>shopping</Text>
                </View>
              </View>
-          </View> */}
-        {/* <Page style={styles.page_keyword}> */}
-        {/* <View style={styles.nord_one}>
+          </View> */
+}
+{
+  /* <Page style={styles.page_keyword}> */
+}
+{
+  /* <View style={styles.nord_one}>
             <Text>Top Countries</Text>
             <View style={styles.nord_one_bg_white}>
               <View>
@@ -1263,8 +1236,10 @@ export default function MyDocument({ code }) {
                 })}
               </View>
             </View>
-          </View> */}
-        {/* <View style={styles.channel}>
+          </View> */
+}
+{
+  /* <View style={styles.channel}>
             <Text>nordvpn.com Top Marketing Channels</Text>
             <View style={styles.channel_bg}>
               <View style={styles.channel_flex}>
@@ -1372,9 +1347,13 @@ export default function MyDocument({ code }) {
                 <Text style={styles.channel_last_text}>mail</Text>
               </View>
             </View>
-          </View> */}
-        {/* <View style={styles.network}> */}
-        {/* <View style={styles.network_one}>
+          </View> */
+}
+{
+  /* <View style={styles.network}> */
+}
+{
+  /* <View style={styles.network_one}>
               <Text>Top Ad Networks (1.7M)</Text>
               <View style={styles.network_bg_color}>
                 {data.domain.traffic.sources.display_ad.top_ad_networks.map(
@@ -1396,8 +1375,10 @@ export default function MyDocument({ code }) {
                   )
                 )}
               </View>
-           </View> */}
-        {/* <View style={styles.network_one}>
+           </View> */
+}
+{
+  /* <View style={styles.network_one}>
               <Text>Top Referral Traffic (479.4K)</Text>
               <View style={styles.network_bg_color}>
                 {data.domain.traffic.sources.referring.top_referring.map(
@@ -1419,9 +1400,13 @@ export default function MyDocument({ code }) {
                   )
                 )}
               </View>
-           </View> */}
-        {/* </View> */}
-        {/* <View style={styles.other_web}>
+           </View> */
+}
+{
+  /* </View> */
+}
+{
+  /* <View style={styles.other_web}>
             <Text style={styles.other_main_head}>Other Visited Websites</Text>
             <View style={styles.other_bg}>
               {data.domain.audience.other_visited_websites.map((i) => (
@@ -1436,8 +1421,10 @@ export default function MyDocument({ code }) {
                 </Text>
               ))}
             </View>
-          </View> */}
-        {/* <View style={styles.network_one_last}>
+          </View> */
+}
+{
+  /* <View style={styles.network_one_last}>
             <Text>Top Keywords (5.7M)</Text>
             <View style={styles.network_bg_color_last}>
               {data.domain.traffic.sources.search_organic.top_keywords.map(
@@ -1451,8 +1438,10 @@ export default function MyDocument({ code }) {
                 )
               )}
             </View>
-          </View> */}
-        {/* <View style={styles.social_head_text}>
+          </View> */
+}
+{
+  /* <View style={styles.social_head_text}>
             <Text>Top Socials (552.8K)</Text>
             <View style={styles.social}>
               <View style={styles.social_flex}>
@@ -1480,14 +1469,11 @@ export default function MyDocument({ code }) {
                 <Text style={styles.social_last_text}>WhatsApp Webapp</Text>
               </View>
             </View>
-          </View> */}
-
-        {/* </Page> */}
-      </Document>
-    </>
-  );
+          </View> */
 }
-
+{
+  /* </Page> */
+}
 {
   /* <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="mr-2" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001"></path></svg> */
 }

@@ -25,7 +25,7 @@ export default function Compeitors() {
     },
     nord: {
       width: "100%",
-      marginTop: 10,
+      margin: "62px auto 0px auto",
     },
     nord_two: {
       width: "100%",
@@ -63,7 +63,7 @@ export default function Compeitors() {
       borderRadius: 4,
       marginTop: 6,
       marginBottom: 2,
-      padding: "14px 24px",
+      padding: "18px 24px",
       // border: "0.7px",
       borderColor: "#a1a1aa",
     },

@@ -34,6 +34,7 @@ export default function Ranks() {
   //   console.log();
   const styles = StyleSheet.create({
     flex_compo: {
+      marginTop: "56px",
       display: "flex",
       flexDirection: "row",
       alignItems: "center",
@@ -41,7 +42,7 @@ export default function Ranks() {
     },
     main_rank: {
       height: "230px",
-      margin: "8px 0px",
+      margin: "24px 0px 8px auto",
       backgroundColor: "white",
       padding: "18px 24px",
       border: "1px",

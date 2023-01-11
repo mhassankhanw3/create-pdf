@@ -7,7 +7,7 @@ export default function CardTwo({ title, percentage, color }) {
     return bgColor;
   };
   return (
-    <>
+    <View style={{marginTop: '50px'}}>
       {ads.ads.map((i) => (
         <View
           style={{
@@ -17,7 +17,7 @@ export default function CardTwo({ title, percentage, color }) {
             borderColor: "#E8E8E8",
             backgroundColor: "white",
             width: "100%",
-            margin: "8px auto",
+            margin: "14px auto",
             // border: '1px',
           }}
         >
@@ -267,6 +267,6 @@ export default function CardTwo({ title, percentage, color }) {
           </View>
         </View>
       ))}
-    </>
+    </View>
   );
 }

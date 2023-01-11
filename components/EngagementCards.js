@@ -20,7 +20,7 @@ import Head from "next/head";
 export default function EngagementCards() {
   const styles = StyleSheet.create({
     main_rank: {
-      margin: "10px 0px 10px 0px",
+      margin: "30px 0px 10px 0px",
       backgroundColor: "white",
       padding: "18px 24px",
       borderRadius: "15px",

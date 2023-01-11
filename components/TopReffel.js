@@ -17,7 +17,7 @@ export default function TopReffel() {
     network_one_last: {
       //   marginTop: '56px',
       width: "100%",
-      margin: "8px auto",
+      margin: "54px auto 8px auto",
       //   border: "1px",
     },
     network_bg_color_last: {
