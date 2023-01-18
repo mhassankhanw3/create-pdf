@@ -122,8 +122,8 @@ export default function Ranks() {
               <View style={styles.rank_flex}>
                 <View style={styles.bg_img}>
                   <Image
-                    style={{ width: "17px", height: "auto" }}
-                    src="http://localhost:3000/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FnewRank.7214d91d.png&w=32&q=75"
+                    style={{ width: "27px", height: "auto" }}
+                    src="https://d21b0h47110qhi.cloudfront.net/pdf/globalrank-zRuF9a9XDxgtGl0.png"
                     alt="ranks"
                   />
                 </View>
@@ -137,8 +137,8 @@ export default function Ranks() {
               <View style={styles.rank_flex}>
                 <View style={styles.bg_img_two}>
                   <Image
-                    style={{ width: "17px", height: "auto" }}
-                    src="http://localhost:3000/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FnewFlag.d26b4294.png&w=32&q=75"
+                    style={{ width: "27px", height: "auto" }}
+                    src="https://d21b0h47110qhi.cloudfront.net/pdf/countryrank-EPENuhKd0ive4KG.png"
                     alt="flags"
                   />
                 </View>
@@ -152,8 +152,8 @@ export default function Ranks() {
               <View style={styles.rank_flex}>
                 <View style={styles.bg_img_three}>
                   <Image
-                    style={{ width: "17px", height: "auto" }}
-                    src="http://localhost:3000/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fglass.f28ec19f.png&w=32&q=75"
+                    style={{ width: "27px", height: "auto" }}
+                    src="https://d21b0h47110qhi.cloudfront.net/pdf/ctgrank-eNKlyQkOFotNfSp.png"
                     alt="flags"
                   />
                 </View>

@@ -13,14 +13,14 @@ import {
   usePDF,
 } from "@react-pdf/renderer";
 
-export default function FvcardTwo() {
+export default function KeywordAds() {
   const rangeColor = (data) => {
     let bgColor = data;
     return bgColor;
   };
   return (
     <>
-      <View style={{ marginTop: "0px" }}>
+      <View style={{ marginTop: "40px" }}>
         {ads.ads.slice(0, 2).map((i) => (
           <View
             style={{
@@ -30,7 +30,7 @@ export default function FvcardTwo() {
               borderColor: "#E8E8E8",
               backgroundColor: "white",
               width: "100%",
-              margin: "20px auto",
+              margin: "10px auto",
               // border: '1px',
             }}
           >
@@ -141,8 +141,8 @@ export default function FvcardTwo() {
                       }}
                     >
                       <Image
-                        style={{ width: "23px", height: "auto" }}
-                        src="http://localhost:3000/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FVector.172662ca.png&w=32&q=75"
+                        style={{ width: "27px", height: "auto" }}
+                        src="https://d21b0h47110qhi.cloudfront.net/PDF/desktop-nd1vzu30xdonkjh.png"
                         alt=""
                       />
                     </View>
@@ -152,10 +152,11 @@ export default function FvcardTwo() {
                       </Text>
                       <Text
                         style={{
+                          marginTop: "2px",
                           display: "flex",
                           flexDirection: "row",
                           alignItems: "center",
-                          fontSize: "13px",
+                          fontSize: "12px",
                         }}
                       >
                         Top of Page:{" "}
@@ -206,7 +207,7 @@ export default function FvcardTwo() {
                     flexDirection: "row",
                     alignItems: "flex-end",
                     justifyContent: "space-between",
-                    //   border: '1px',
+                    // border: '1px',
                   }}
                 >
                   <View
@@ -230,8 +231,8 @@ export default function FvcardTwo() {
                       }}
                     >
                       <Image
-                        style={{ width: "13.5px", height: "auto" }}
-                        src="http://localhost:3000/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmobile.dd136887.png&w=16&q=75"
+                        style={{ width: "27.5px", height: "auto" }}
+                        src="https://d21b0h47110qhi.cloudfront.net/PDF/mobile-AK9Fof1Opt9HA5H.png"
                         alt=""
                       />
                     </View>
@@ -241,6 +242,7 @@ export default function FvcardTwo() {
                       </Text>
                       <Text
                         style={{
+                          marginTop: "2px",
                           display: "flex",
                           flexDirection: "row",
                           alignItems: "center",
@@ -285,7 +287,7 @@ export default function FvcardTwo() {
           </View>
         ))}
       </View>
-      <View style={{ marginTop: "70px" }}>
+      <View style={{ marginTop: "130px" }}>
         {ads.ads.slice(2, 4).map((i) => (
           <View
             style={{
@@ -295,13 +297,11 @@ export default function FvcardTwo() {
               borderColor: "#E8E8E8",
               backgroundColor: "white",
               width: "100%",
-              margin: "20px auto",
-              // border: '1px',
+              margin: "10px auto",
             }}
           >
             <View
               style={{
-                // border: '1px',
                 display: "flex",
                 flexDirection: "row",
                 alignItems: "center",
@@ -410,8 +410,8 @@ export default function FvcardTwo() {
                       }}
                     >
                       <Image
-                        style={{ width: "23px", height: "auto" }}
-                        src="http://localhost:3000/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FVector.172662ca.png&w=32&q=75"
+                        style={{ width: "27px", height: "auto" }}
+                        src="https://d21b0h47110qhi.cloudfront.net/PDF/desktop-nd1vzu30xdonkjh.png"
                         alt=""
                       />
                     </View>
@@ -421,10 +421,11 @@ export default function FvcardTwo() {
                       </Text>
                       <Text
                         style={{
+                          marginTop: "2px",
                           display: "flex",
                           flexDirection: "row",
                           alignItems: "center",
-                          fontSize: "13px",
+                          fontSize: "12px",
                         }}
                       >
                         Top of Page:{" "}
@@ -468,14 +469,12 @@ export default function FvcardTwo() {
 
               <View style={{ marginTop: "16px", width: "240px" }}>
                 {" "}
-                {/* ============================= lenght ============================ */}
                 <View
                   style={{
                     display: "flex",
                     flexDirection: "row",
                     alignItems: "flex-end",
                     justifyContent: "space-between",
-                    //   border: '1px',
                   }}
                 >
                   <View
@@ -499,8 +498,8 @@ export default function FvcardTwo() {
                       }}
                     >
                       <Image
-                        style={{ width: "13.5px", height: "auto" }}
-                        src="http://localhost:3000/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmobile.dd136887.png&w=16&q=75"
+                        style={{ width: "27.5px", height: "auto" }}
+                        src="https://d21b0h47110qhi.cloudfront.net/PDF/mobile-AK9Fof1Opt9HA5H.png"
                         alt=""
                       />
                     </View>
@@ -510,6 +509,7 @@ export default function FvcardTwo() {
                       </Text>
                       <Text
                         style={{
+                          marginTop: "2px",
                           display: "flex",
                           flexDirection: "row",
                           alignItems: "center",
@@ -554,7 +554,7 @@ export default function FvcardTwo() {
           </View>
         ))}
       </View>
-      <View style={{ marginTop: "140px" }}>
+      <View style={{ marginTop: "130px" }}>
         {ads.ads.slice(4, 6).map((i) => (
           <View
             style={{
@@ -564,13 +564,11 @@ export default function FvcardTwo() {
               borderColor: "#E8E8E8",
               backgroundColor: "white",
               width: "100%",
-              margin: "20px auto",
-              // border: '1px',
+              margin: "10px auto",
             }}
           >
             <View
               style={{
-                // border: '1px',
                 display: "flex",
                 flexDirection: "row",
                 alignItems: "center",
@@ -679,8 +677,8 @@ export default function FvcardTwo() {
                       }}
                     >
                       <Image
-                        style={{ width: "23px", height: "auto" }}
-                        src="http://localhost:3000/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FVector.172662ca.png&w=32&q=75"
+                        style={{ width: "27px", height: "auto" }}
+                        src="https://d21b0h47110qhi.cloudfront.net/PDF/desktop-nd1vzu30xdonkjh.png"
                         alt=""
                       />
                     </View>
@@ -690,10 +688,11 @@ export default function FvcardTwo() {
                       </Text>
                       <Text
                         style={{
+                          marginTop: "2px",
                           display: "flex",
                           flexDirection: "row",
                           alignItems: "center",
-                          fontSize: "13px",
+                          fontSize: "12px",
                         }}
                       >
                         Top of Page:{" "}
@@ -737,14 +736,12 @@ export default function FvcardTwo() {
 
               <View style={{ marginTop: "16px", width: "240px" }}>
                 {" "}
-                {/* ============================= lenght ============================ */}
                 <View
                   style={{
                     display: "flex",
                     flexDirection: "row",
                     alignItems: "flex-end",
                     justifyContent: "space-between",
-                    //   border: '1px',
                   }}
                 >
                   <View
@@ -768,8 +765,8 @@ export default function FvcardTwo() {
                       }}
                     >
                       <Image
-                        style={{ width: "13.5px", height: "auto" }}
-                        src="http://localhost:3000/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmobile.dd136887.png&w=16&q=75"
+                        style={{ width: "27.5px", height: "auto" }}
+                        src="https://d21b0h47110qhi.cloudfront.net/PDF/mobile-AK9Fof1Opt9HA5H.png"
                         alt=""
                       />
                     </View>
@@ -779,6 +776,7 @@ export default function FvcardTwo() {
                       </Text>
                       <Text
                         style={{
+                          marginTop: "2px",
                           display: "flex",
                           flexDirection: "row",
                           alignItems: "center",
@@ -823,7 +821,7 @@ export default function FvcardTwo() {
           </View>
         ))}
       </View>
-      <View style={{ marginTop: "100px" }}>
+      <View style={{ marginTop: "130px" }}>
         {ads.ads.slice(6, 8).map((i) => (
           <View
             style={{
@@ -833,13 +831,11 @@ export default function FvcardTwo() {
               borderColor: "#E8E8E8",
               backgroundColor: "white",
               width: "100%",
-              margin: "20px auto",
-              // border: '1px',
+              margin: "10px auto",
             }}
           >
             <View
               style={{
-                // border: '1px',
                 display: "flex",
                 flexDirection: "row",
                 alignItems: "center",
@@ -948,8 +944,8 @@ export default function FvcardTwo() {
                       }}
                     >
                       <Image
-                        style={{ width: "23px", height: "auto" }}
-                        src="http://localhost:3000/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FVector.172662ca.png&w=32&q=75"
+                        style={{ width: "27px", height: "auto" }}
+                        src="https://d21b0h47110qhi.cloudfront.net/PDF/desktop-nd1vzu30xdonkjh.png"
                         alt=""
                       />
                     </View>
@@ -959,10 +955,11 @@ export default function FvcardTwo() {
                       </Text>
                       <Text
                         style={{
+                          marginTop: "2px",
                           display: "flex",
                           flexDirection: "row",
                           alignItems: "center",
-                          fontSize: "13px",
+                          fontSize: "12px",
                         }}
                       >
                         Top of Page:{" "}
@@ -1006,14 +1003,12 @@ export default function FvcardTwo() {
 
               <View style={{ marginTop: "16px", width: "240px" }}>
                 {" "}
-                {/* ============================= lenght ============================ */}
                 <View
                   style={{
                     display: "flex",
                     flexDirection: "row",
                     alignItems: "flex-end",
                     justifyContent: "space-between",
-                    //   border: '1px',
                   }}
                 >
                   <View
@@ -1037,8 +1032,8 @@ export default function FvcardTwo() {
                       }}
                     >
                       <Image
-                        style={{ width: "13.5px", height: "auto" }}
-                        src="http://localhost:3000/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmobile.dd136887.png&w=16&q=75"
+                        style={{ width: "27.5px", height: "auto" }}
+                        src="https://d21b0h47110qhi.cloudfront.net/PDF/mobile-AK9Fof1Opt9HA5H.png"
                         alt=""
                       />
                     </View>
@@ -1048,6 +1043,7 @@ export default function FvcardTwo() {
                       </Text>
                       <Text
                         style={{
+                          marginTip: "2px",
                           display: "flex",
                           flexDirection: "row",
                           alignItems: "center",

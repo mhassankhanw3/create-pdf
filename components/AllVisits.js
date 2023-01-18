@@ -15,9 +15,9 @@ import {
   abbreviateNumber,
   abbreviateNumberNew,
 } from "../src/functions/Sanitizer";
+import totalvisitsImgcar from "../public/images/totalvisitsImgcar.png";
 import Head from "next/head";
-
-export default function EngagementCards() {
+export default function AllVisits() {
   const styles = StyleSheet.create({
     main_rank: {
       margin: "30px 0px 10px 0px",
@@ -52,11 +52,13 @@ export default function EngagementCards() {
       width: "35px",
       height: "35px",
       borderRadius: "50px",
+      border: "1px",
+      borderColor: "#E4F2FF",
       backgroundColor: "#E4F2FF",
-      display: "flex",
-      flexDirection: "row",
-      alignItems: "center",
-      justifyContent: "center",
+      // display: "flex",
+      // flexDirection: "row",
+      // alignItems: "center",
+      // justifyContent: "center",
     },
     card_text: {
       color: "#949494",
@@ -100,27 +102,27 @@ export default function EngagementCards() {
       width: "35px",
       height: "35px",
       borderRadius: "50px",
-      backgroundColor: "#FFF2E9",
-      display: "flex",
-      flexDirection: "row",
-      alignItems: "center",
-      justifyContent: "center",
+      // backgroundColor: "#FFF2E9",
+      // display: "flex",
+      // flexDirection: "row",
+      // alignItems: "center",
+      // justifyContent: "center",
     },
     img_bg_three: {
       width: "35px",
       height: "35px",
       borderRadius: "50px",
-      backgroundColor: "#EDE9FF",
-      display: "flex",
-      flexDirection: "row",
-      alignItems: "center",
-      justifyContent: "center",
+      // backgroundColor: "#EDE9FF",
+      // display: "flex",
+      // flexDirection: "row",
+      // alignItems: "center",
+      // justifyContent: "center",
     },
     img_bg_four: {
       width: "35px",
       height: "35px",
       borderRadius: "50px",
-      backgroundColor: "#EDFFF8",
+      // backgroundColor: "#EDFFF8",
     },
   });
   return (
@@ -132,10 +134,7 @@ export default function EngagementCards() {
         <View style={styles.traffic_flex}>
           <View style={styles.card_one}>
             <View style={styles.img_bg}>
-              <Image
-                style={{ width: "19px", height: "15px" }}
-                src="http://localhost:3000/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FcarOne.7694a379.png&w=32&q=75"
-              />
+              <Image src="https://d21b0h47110qhi.cloudfront.net/pdf/totalvisitsimgcar-gZWnTX3lF0iW4nY.png" />
             </View>
             <View style={{ marginTop: "22px" }}>
               <Text style={styles.card_text}>Total Visits</Text>
@@ -147,8 +146,8 @@ export default function EngagementCards() {
           <View style={styles.card_two}>
             <View style={styles.img_bg_two}>
               <Image
-                style={{ width: "21px", height: "16px" }}
-                src="http://localhost:3000/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Feye.39b234ac.png&w=32&q=75"
+                // style={{ width: "21px", height: "16px" }}
+                src="https://d21b0h47110qhi.cloudfront.net/pdf/pagesviewsimgeye-95iwTmxEG6C3mGa.png"
               />
             </View>
             <View style={{ marginTop: "22px" }}>
@@ -161,8 +160,8 @@ export default function EngagementCards() {
           <View style={styles.card_three}>
             <View style={styles.img_bg_three}>
               <Image
-                style={{ width: "20px", height: "21px" }}
-                src="http://localhost:3000/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclock.066c6111.png&w=32&q=75"
+                // style={{ width: "20px", height: "21px" }}
+                src="https://d21b0h47110qhi.cloudfront.net/pdf/timeavgimgclock-85S2nCSN3zzn8wC.png"
               />
             </View>
             <View style={{ marginTop: "22px" }}>
@@ -174,8 +173,7 @@ export default function EngagementCards() {
           </View>
           <View style={styles.card_four}>
             <View style={styles.img_bg_four}>
-              {/* <Arrow /> */}
-              <Image src="http://localhost:3000/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FcompeArrow.6c09ad13.png&w=48&q=75" />
+              <Image src="https://d21b0h47110qhi.cloudfront.net/pdf/bouncerateimgarrow-QxlCwUzJKS4NZ68.png" />
             </View>
             <View style={{ marginTop: "22px" }}>
               <Text style={styles.card_text}>Bounce Rate</Text>

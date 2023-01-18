@@ -14,9 +14,9 @@ import { useState, useEffect } from "react";
 import CountriesData from "../country";
 import GeneratorTwo from "./GeneratorTwo";
 import { Button, Space, Progress } from "antd";
-import CardTwo from "./CardTwo";
+import Ads from "./Ads";
 import Ranks from "./Ranks";
-import EngagementCards from "./EngagementCards";
+import AllVisits from "./AllVisits";
 import Nord from "./Nord";
 import OtherWeb from "./OtherWeb";
 import Compeitors from "./Compeitors";
@@ -26,7 +26,7 @@ import TopNetworks from "./TopNetworks";
 import TopReffel from "./TopReffel";
 import TopSocial from "./TopSocial";
 import TopMarket from "./TopMarket";
-import FvcardTwo from "./FvcardTwo";
+import KeywordAds from "./KeywordAds";
 import KeywordCard from "./keywordCard";
 import Allkeyword from "./Allkeyword";
 export default function MyDocument({ code }) {
@@ -41,10 +41,6 @@ export default function MyDocument({ code }) {
     setJsonData(data);
     setIsLoading(false);
   };
-  // const getccode = (country) => {
-  //   let ccode = CountriesData.find((e) => e.location_name === country);
-  //   return ccode;
-  // };
   const getccode = (country) => {
     let ccode = CountriesData.find((e) => e.location_name === "United Kingdom");
     console.log(ccode, "country flag");
@@ -986,7 +982,7 @@ export default function MyDocument({ code }) {
           ) : (
             <View>
               <KeywordCard />
-              <FvcardTwo />
+              <KeywordAds />
               {/* <View style={styles.main_info}>
                 <View style={styles.domain_text_flex}>
                   <View style={styles.domain_text_flex_text}>
@@ -1099,10 +1095,10 @@ export default function MyDocument({ code }) {
                   </View>
                 </View>
               </View>  */}
-              {/* <EngagementCards />
+              {/* <AllVisits />
               <Ranks />
               <TopReffel />
-              <CardTwo />
+              <Ads />
               <View
                 style={{
                   display: "flex",

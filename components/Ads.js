@@ -1,13 +1,13 @@
 import { View, Text, Image } from "@react-pdf/renderer";
 import ads from "../ads.json";
 import GeneratorTwo from "./GeneratorTwo";
-export default function CardTwo({ title, percentage, color }) {
+export default function Ads({ title, percentage, color }) {
   const rangeColor = (data) => {
     let bgColor = data;
     return bgColor;
   };
   return (
-    <View style={{marginTop: '50px'}}>
+    <View style={{ marginTop: "50px" }}>
       {ads.ads.map((i) => (
         <View
           style={{

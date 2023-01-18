@@ -65,7 +65,7 @@ export default function Allkeyword() {
   });
   return (
     <>
-      <View style={{ marginTop: "100px" }}>
+      <View>
         <View style={styles.keyword_main}>
           <View style={styles.keyword_head}>
             <Text style={styles.keyword_head_text_one}>Keyword</Text>

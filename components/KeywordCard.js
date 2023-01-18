@@ -66,10 +66,10 @@ export default function KeywordCard() {
     },
     yellowBtn: {
       backgroundColor: "yellow",
-      padding: "6px 8px",
+      padding: "4px 5px",
       color: "black",
-      fontSize: "12px",
-      marginLeft: "4px",
+      fontSize: "9px",
+      marginLeft: "6px",
     },
     text_flex: {
       display: "flex",

@@ -10,6 +10,10 @@ import {
   Image,
   usePDF,
 } from "@react-pdf/renderer";
+import {
+  abbreviateNumber,
+  abbreviateNumberNew,
+} from "../src/functions/Sanitizer";
 
 export default function TopKeyword() {
   const styles = StyleSheet.create({
@@ -89,7 +93,11 @@ export default function TopKeyword() {
         <View style={styles.network_bg_color_last}>
           <View style={styles.network_flex_text}>
             <Text style={styles.network_text}>Top Keywords</Text>
-            <Text style={styles.bg_btn}>5.7M</Text>
+            <Text style={styles.bg_btn}>
+              {abbreviateNumber(
+                data.domain.traffic.sources.search_organic.value
+              )}
+            </Text>
           </View>
           <View style={styles.main_network_flex}>
             <Text style={styles.main_network_text}>Keyword</Text>

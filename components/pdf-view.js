@@ -13,12 +13,12 @@ import {
 } from "@react-pdf/renderer";
 
 export default function PDFViewerComp() {
-  const [client, setClient] = useState(false);
+  // const [client, setClient] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  useEffect(() => {
-    setClient(true);
-  }, []);
+  // useEffect(() => {
+  //   setClient(true);
+  // }, []);
 
   return (
     <>
